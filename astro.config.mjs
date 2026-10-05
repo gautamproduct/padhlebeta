@@ -41,10 +41,11 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
-      filter: (page) => !page.includes('/404'),
+      filter: (page) => !page.includes('/404') && !page.includes('/download-ncert'),
       serialize(item) {
         const path = new URL(item.url).pathname.replace(BASE_PREFIX, '') || '/';
         if (path === '/') item.priority = 1.0;
+        else if (/^\/ncert-pdf\/(class-\d+\/([^/]+\/)?)?$/.test(path)) item.priority = 0.9;
         else if (path.startsWith('/tools/') || path.startsWith('/print/')) item.priority = 0.9;
         else if (path.startsWith('/blog/')) item.priority = 0.6;
         return item;

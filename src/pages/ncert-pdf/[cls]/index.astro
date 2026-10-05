@@ -1,0 +1,134 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
+import FAQ from '~/components/FAQ.astro';
+import ChapterList from '~/components/ncert/ChapterList.astro';
+import { url, absUrl } from '~/lib/url';
+import { ncertClasses, subjectMeta, ncertPath, subjectTotals, formatKb, SESSION, type NcertClass } from '~/data/ncert';
+
+export function getStaticPaths() {
+  return ncertClasses.map((c) => ({ params: { cls: `class-${c.cls}` }, props: { c } }));
+}
+const { c } = Astro.props as { c: NcertClass };
+const count = c.subjects.reduce((a, s) => a + s.chapters.length, 0);
+const names = c.subjects.map((s) => s.name);
+const nameList = names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names.at(-1)}` : names[0];
+
+const faq = [
+  { q: `How do I download NCERT Class ${c.cls} books PDF?`, a: `Pick a subject below — ${nameList} — and tap PDF next to any chapter. It downloads instantly, free, with no login. To get a whole book as one file, open the subject and tap "Download full book".` },
+  { q: `Which NCERT Class ${c.cls} subjects are available?`, a: `${c.subjects.map((s) => `${s.name} (${s.chapters.length} chapters)`).join(', ')} — ${count} chapters in total, from the ${SESSION} NCERT textbooks.` },
+  { q: `Is the NCERT Class ${c.cls} syllabus the latest ${SESSION} one?`, a: `Yes. These are the current rationalised NCERT books that CBSE prescribes for ${SESSION}; deleted chapters are not included and chapter numbers match your printed textbook.` },
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `NCERT Class ${c.cls} Books PDF (${SESSION})`,
+  url: absUrl(ncertPath.cls(c.cls)),
+  isAccessibleForFree: true,
+  educationalLevel: `Class ${c.cls}`,
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: c.subjects.map((s, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `NCERT Class ${c.cls} ${s.name} PDF`,
+      url: absUrl(ncertPath.subject(c.cls, s.slug)),
+    })),
+  },
+};
+---
+
+<BaseLayout
+  title={`NCERT Class ${c.cls} Books PDF Download ${SESSION} – All Subjects`}
+  rawTitle
+  description={`Free NCERT Class ${c.cls} books PDF, chapter-wise: ${nameList}. ${count} chapters, latest ${SESSION} edition. Read online or download — no login.`}
+  jsonLd={jsonLd}
+>
+  <section class="section page-hero">
+    <div class="container">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'NCERT PDF', href: ncertPath.hub() }, { label: `Class ${c.cls}` }]} />
+      <header class="chead">
+        <span class="eyebrow">NCERT Class {c.cls} · {SESSION}</span>
+        <h1>NCERT Class {c.cls} books, <span class="hl">chapter-wise PDF</span></h1>
+        <p>{count} chapters across {c.subjects.length} subjects. Tap a subject, then Read or PDF.</p>
+      </header>
+
+      <ul class="subs" role="list">
+        {c.subjects.map((s) => {
+          const t = subjectTotals(s);
+          const m = subjectMeta[s.slug];
+          return (
+            <li>
+              <a href={url(ncertPath.subject(c.cls, s.slug))} style={`--hue:${m?.hue ?? '#64748B'}`}>
+                <span class="subs__name">{s.name}</span>
+                <span class="subs__blurb">{m?.blurb}</span>
+                <span class="subs__meta">{s.chapters.length} chapters · {t.pages} pages · {formatKb(t.kb)}</span>
+                <span class="subs__exams">{m?.exams}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+
+      {c.subjects.map((s) => (
+        <section class="block" id={s.slug} aria-labelledby={`h-${s.slug}`}>
+          <div class="block__head">
+            <h2 id={`h-${s.slug}`}>NCERT Class {c.cls} {s.name}</h2>
+            <a href={url(ncertPath.subject(c.cls, s.slug))}>Full book & details →</a>
+          </div>
+          <ChapterList cls={c.cls} subject={s} />
+        </section>
+      ))}
+
+      <nav class="others" aria-label="Other classes">
+        {ncertClasses.filter((x) => x.cls !== c.cls).map((x) => (
+          <a href={url(ncertPath.cls(x.cls))} class="btn btn--ghost">NCERT Class {x.cls} PDF</a>
+        ))}
+      </nav>
+    </div>
+  </section>
+
+  <FAQ items={faq} id="class-faq" />
+</BaseLayout>
+
+<style>
+  .chead { max-width: 760px; margin: 0 auto var(--space-8); text-align: center; }
+  .chead h1 { font-size: var(--text-4xl); line-height: 1.05; letter-spacing: -0.03em; }
+  .hl { color: var(--accent); }
+  .chead p { font-size: 1.125rem; color: var(--fg-muted); margin-top: var(--space-4); }
+
+  .subs { list-style: none; padding: 0; margin: 0 0 var(--space-9); display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-4); }
+  .subs a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: var(--space-5);
+    border-radius: var(--radius-xl);
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    color: inherit;
+    position: relative;
+    overflow: hidden;
+    transition: all 220ms var(--ease-out);
+  }
+  .subs a::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+    background: var(--hue);
+  }
+  .subs a:hover { text-decoration: none; transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--hue); }
+  .subs__name { font-size: 1.375rem; font-weight: 800; letter-spacing: -0.02em; color: var(--hue); }
+  .subs__blurb { font-size: 0.9rem; color: var(--fg-muted); margin-top: 4px; line-height: 1.45; }
+  .subs__meta { font-size: 0.8125rem; color: var(--fg-subtle); margin-top: var(--space-4); }
+  .subs__exams { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; margin-top: 4px; }
+
+  .block { margin-top: var(--space-8); scroll-margin-top: 90px; }
+  .block__head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-4); margin-bottom: var(--space-4); flex-wrap: wrap; }
+  .block__head h2 { font-size: var(--text-xl); letter-spacing: -0.02em; }
+  .block__head a { font-weight: 700; font-size: 0.9rem; }
+
+  .others { display: flex; flex-wrap: wrap; gap: var(--space-3); justify-content: center; margin-top: var(--space-9); }
+</style>

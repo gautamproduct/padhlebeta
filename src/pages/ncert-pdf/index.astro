@@ -1,0 +1,359 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
+import FAQ from '~/components/FAQ.astro';
+import { url, absUrl } from '~/lib/url';
+import { ncertClasses, allChapters, totalChapters, subjectMeta, ncertPath, downloadName, SESSION } from '~/data/ncert';
+
+const index = allChapters.map(({ cls, subject, chapter }) => ({
+  t: chapter.title,
+  c: cls,
+  s: subject.name,
+  n: chapter.n,
+  b: chapter.book?.split(' – ')[0] ?? '',
+  p: chapter.pages,
+  u: url(ncertPath.chapter(cls, subject.slug, chapter.slug)),
+  f: url(chapter.file),
+  d: downloadName(cls, subject, chapter),
+}));
+
+const popular = [
+  [12, 'physics'], [12, 'chemistry'], [12, 'biology'], [12, 'maths'],
+  [11, 'physics'], [11, 'biology'], [10, 'science'], [10, 'maths'],
+] as const;
+
+const faq = [
+  { q: 'Where can I download NCERT PDFs for free?', a: `Padhle Beta has every chapter of the NCERT textbooks for Class 9, 10, 11 and 12 as free PDFs — ${totalChapters} chapters across Physics, Chemistry, Maths, Biology, Science, Social Science and English. No login, no signup, no download limit. Pick your class, pick your subject, tap PDF.` },
+  { q: `Are these the latest ${SESSION} NCERT books?`, a: `Yes. These are the current rationalised NCERT textbooks used for the ${SESSION} session, including the new Class 9 Science and Maths books. Chapter numbering matches the printed textbook.` },
+  { q: 'Can I read NCERT books online without downloading?', a: 'Yes. Every chapter has its own page with a built-in reader — tap Read and the chapter opens right in your browser, on phone or laptop. Download only if you want it offline.' },
+  { q: 'How do I download a complete NCERT book as one PDF?', a: 'Open the subject page (for example Class 12 Physics) and tap "Download full book". All chapters are joined into a single PDF on your device, in textbook order.' },
+  { q: 'Are NCERT books enough for JEE and NEET?', a: 'For NEET, NCERT Biology is the single most important source — most questions come straight from its lines and diagrams. For JEE Main, NCERT Chemistry is essential and NCERT Physics and Maths build the base you then extend with practice problems.' },
+  { q: 'Which boards use NCERT textbooks?', a: 'CBSE follows NCERT textbooks for Classes 9–12, and many state boards (including UP, MP, Bihar, Gujarat, Uttarakhand and others) have adopted the same books.' },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `NCERT Books PDF Download (${SESSION}) — Class 9 to 12`,
+    description: `Free NCERT textbook PDFs for Class 9, 10, 11 and 12, chapter-wise. ${totalChapters} chapters, read online or download.`,
+    url: absUrl(ncertPath.hub()),
+    inLanguage: 'en-IN',
+    isAccessibleForFree: true,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: ncertClasses.map((c, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: `NCERT Class ${c.cls} PDF`,
+        url: absUrl(ncertPath.cls(c.cls)),
+      })),
+    },
+  },
+];
+---
+
+<BaseLayout
+  title={`NCERT Books PDF Download ${SESSION} – Class 9, 10, 11, 12 (Free)`}
+  rawTitle
+  description={`Download NCERT books PDF for Class 9, 10, 11 & 12 — all ${totalChapters} chapters, latest ${SESSION} edition. Read online or download free, no login. Physics, Chemistry, Maths, Biology & more.`}
+  jsonLd={jsonLd}
+>
+  <section class="section page-hero ncert-hero">
+    <div class="container">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'NCERT PDF' }]} />
+      <header class="hub-head">
+        <span class="eyebrow">NCERT · {SESSION} edition</span>
+        <h1>Every NCERT chapter.<br /><span class="hl">Free PDF, one tap.</span></h1>
+        <p>Class 9 to 12, chapter-wise. Read online or download — no login, no ads in your way, no limits.</p>
+      </header>
+
+      <div class="search" role="search">
+        <label for="ncert-q" class="sr-only">Search NCERT chapters</label>
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="m21 21-4.3-4.3M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"/></svg>
+        <input id="ncert-q" type="search" placeholder="Search a chapter — e.g. electrostatics, class 12 biology, trigonometry" autocomplete="off" />
+        <kbd>/</kbd>
+      </div>
+      <div class="results" id="ncert-results" hidden aria-live="polite"></div>
+
+      <ul class="stats" role="list">
+        <li><b>{totalChapters}</b> chapters</li>
+        <li><b>4</b> classes</li>
+        <li><b>0</b> logins</li>
+        <li><b>₹0</b> forever</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--tight classes-sec">
+    <div class="container">
+      <h2 class="sec-title">Pick your class</h2>
+      <div class="classes">
+        {ncertClasses.map((c) => (
+          <article class="ccard">
+            <a href={url(ncertPath.cls(c.cls))} class="ccard__head">
+              <span class="ccard__num">{c.cls}</span>
+              <span>
+                <span class="ccard__title">Class {c.cls}</span>
+                <span class="ccard__sub">{c.subjects.reduce((a, s) => a + s.chapters.length, 0)} chapters · {c.subjects.length} subjects</span>
+              </span>
+              <svg class="ccard__arrow" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+            </a>
+            <ul class="chips" role="list">
+              {c.subjects.map((s) => (
+                <li>
+                  <a href={url(ncertPath.subject(c.cls, s.slug))} style={`--hue:${subjectMeta[s.slug]?.hue ?? '#64748B'}`}>
+                    <i aria-hidden="true"></i>{s.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+
+      <h2 class="sec-title">Most downloaded</h2>
+      <ul class="popular" role="list">
+        {popular.map(([cls, slug]) => {
+          const s = ncertClasses.find((c) => c.cls === cls)!.subjects.find((x) => x.slug === slug)!;
+          return (
+            <li>
+              <a href={url(ncertPath.subject(cls, slug))} style={`--hue:${subjectMeta[slug].hue}`}>
+                <span class="pop__cls">Class {cls}</span>
+                <span class="pop__name">{s.name}</span>
+                <span class="pop__meta">{s.chapters.length} chapters</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+
+      <ul class="perks" role="list">
+        <li><b>Read in the browser</b><span>Every chapter opens in a fast built-in reader. Works on any phone.</span></li>
+        <li><b>Full book in one PDF</b><span>Join all chapters of a subject into one file, in textbook order.</span></li>
+        <li><b>Clean file names</b><span>“NCERT Class 12 Physics Ch 12 - Atoms.pdf” — not “leph112.pdf”.</span></li>
+        <li><b>Print cheaper</b><span>Fit 2 or 4 pages on a sheet with our free pages-per-sheet tool.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container prose seo-copy">
+      <h2>NCERT books PDF for Class 9 to 12 — chapter-wise</h2>
+      <p>
+        NCERT (National Council of Educational Research and Training) textbooks are the base syllabus for CBSE board exams
+        and most state boards, and the starting point for JEE and NEET. This page lists every chapter of the current
+        {SESSION} NCERT books for Classes 9, 10, 11 and 12 as a separate PDF, so you can grab exactly the chapter you are
+        studying instead of a 300-page book.
+      </p>
+      <ul>
+        {ncertClasses.map((c) => (
+          <li>
+            <a href={url(ncertPath.cls(c.cls))}>NCERT Class {c.cls} PDF</a> —{' '}
+            {c.subjects.map((s, i) => (
+              <>{i > 0 && ', '}<a href={url(ncertPath.subject(c.cls, s.slug))}>{s.name}</a></>
+            ))}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <FAQ items={faq} id="ncert-faq" />
+
+  <script type="application/json" id="ncert-index" set:html={JSON.stringify(index)} />
+</BaseLayout>
+
+<script>
+  type Row = { t: string; c: number; s: string; n: number; b: string; p: number; u: string; f: string; d: string };
+  const rows: Row[] = JSON.parse(document.getElementById('ncert-index')!.textContent!);
+  const input = document.getElementById('ncert-q') as HTMLInputElement;
+  const out = document.getElementById('ncert-results')!;
+  const hay = rows.map((r) => `${r.t} class ${r.c} ${r.c}th ${r.s} ${r.b} chapter ${r.n} ch ${r.n}`.toLowerCase());
+
+  const esc = (s: string) => s.replace(/[&<>"]/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[m]!);
+
+  function render() {
+    const terms = input.value.toLowerCase().replace(/\bmath\b/g, 'maths').split(/\s+/).filter(Boolean);
+    if (!terms.length) { out.hidden = true; out.innerHTML = ''; return; }
+    const hits = rows.filter((_, i) => terms.every((t) => hay[i].includes(t))).slice(0, 12);
+    out.hidden = false;
+    out.innerHTML = hits.length
+      ? hits.map((r) => `
+        <div class="res">
+          <a class="res__main" href="${r.u}">
+            <span class="res__title">${esc(r.t)}</span>
+            <span class="res__meta">Class ${r.c} · ${esc(r.s)}${r.b ? ' · ' + esc(r.b) : ''} · Ch ${r.n} · ${r.p} pages</span>
+          </a>
+          <a class="res__btn" href="${r.u}">Read</a>
+          <a class="res__btn res__btn--solid" href="${r.f}" download="${esc(r.d)}">PDF</a>
+        </div>`).join('')
+      : `<p class="res__none">No chapter matches “${esc(input.value)}”. Try a shorter word, like “optics” or “cell”.</p>`;
+  }
+  input.addEventListener('input', render);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== input && !(e.target instanceof HTMLInputElement)) {
+      e.preventDefault();
+      input.focus();
+    }
+  });
+</script>
+
+<style>
+  .ncert-hero { padding-bottom: var(--space-6); }
+  .hub-head { max-width: 760px; margin: 0 auto var(--space-7); text-align: center; }
+  .hub-head h1 { font-size: var(--text-4xl); line-height: 1.05; letter-spacing: -0.03em; }
+  .hl { color: var(--accent); }
+  .hub-head p { font-size: 1.1875rem; color: var(--fg-muted); margin-top: var(--space-4); }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  .search {
+    max-width: 680px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: 0 var(--space-4) 0 var(--space-5);
+    background: var(--bg-elev);
+    border: 1.5px solid var(--border-strong);
+    border-radius: 999px;
+    box-shadow: var(--shadow);
+    color: var(--fg-subtle);
+    transition: border-color 160ms, box-shadow 160ms;
+  }
+  .search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft), var(--shadow); }
+  .search input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    background: transparent;
+    font: 600 1rem var(--font-ui);
+    color: var(--fg);
+    padding: 1.05rem 0;
+    outline: none;
+  }
+  .search kbd {
+    font: 700 0.75rem var(--font-ui);
+    border: 1px solid var(--border-strong);
+    border-radius: 6px;
+    padding: 2px 8px;
+  }
+  @media (max-width: 560px) { .search kbd { display: none; } }
+
+  .results {
+    max-width: 680px;
+    margin: var(--space-3) auto 0;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+  }
+  .results :global(.res) { display: flex; align-items: center; gap: var(--space-2); padding: var(--space-3) var(--space-4); }
+  .results :global(.res + .res) { border-top: 1px solid var(--border); }
+  .results :global(.res:hover) { background: var(--bg-soft); }
+  .results :global(.res__main) { flex: 1; min-width: 0; display: flex; flex-direction: column; color: inherit; }
+  .results :global(.res__main:hover) { text-decoration: none; }
+  .results :global(.res__title) { font-weight: 700; }
+  .results :global(.res__meta) { font-size: 0.8125rem; color: var(--fg-subtle); }
+  .results :global(.res__btn) {
+    font: 700 0.8125rem var(--font-ui);
+    padding: 0.45rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid var(--border-strong);
+    color: var(--fg);
+  }
+  .results :global(.res__btn:hover) { text-decoration: none; }
+  .results :global(.res__btn--solid) { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+  .results :global(.res__none) { padding: var(--space-5); color: var(--fg-muted); text-align: center; margin: 0; }
+
+  .stats {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-7) auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-6);
+    color: var(--fg-muted);
+    font-size: 0.9375rem;
+  }
+  .stats b { color: var(--fg); font-size: 1.125rem; margin-right: 4px; }
+
+  .sec-title { font-size: var(--text-2xl); letter-spacing: -0.02em; margin-bottom: var(--space-5); }
+  .classes-sec .sec-title:not(:first-child) { margin-top: var(--space-9); }
+
+  .classes { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-5); }
+  @media (max-width: 760px) { .classes { grid-template-columns: 1fr; } }
+  .ccard {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-5);
+    transition: all 240ms var(--ease-out);
+  }
+  .ccard:hover { border-color: var(--border-strong); box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+  .ccard__head { display: flex; align-items: center; gap: var(--space-4); color: inherit; }
+  .ccard__head:hover { text-decoration: none; }
+  .ccard__head:hover .ccard__arrow { transform: translateX(4px); color: var(--accent); }
+  .ccard__num {
+    width: 64px;
+    height: 64px;
+    flex: none;
+    display: grid;
+    place-items: center;
+    border-radius: 18px;
+    background: var(--ink-900);
+    color: var(--paper-100);
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+  }
+  html[data-theme='dark'] .ccard__num { background: var(--accent); color: var(--accent-fg); }
+  .ccard__title { display: block; font-size: 1.375rem; font-weight: 800; letter-spacing: -0.02em; }
+  .ccard__sub { display: block; font-size: 0.875rem; color: var(--fg-subtle); margin-top: 2px; }
+  .ccard__arrow { margin-left: auto; color: var(--fg-subtle); transition: all 200ms var(--ease-out); }
+
+  .chips { list-style: none; padding: 0; margin: var(--space-5) 0 0; display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .chips a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font: 700 0.875rem var(--font-ui);
+    padding: 0.5rem 0.95rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--fg);
+    transition: all 160ms var(--ease-out);
+  }
+  .chips a:hover { text-decoration: none; border-color: var(--hue); color: var(--hue); }
+  .chips i { width: 8px; height: 8px; border-radius: 50%; background: var(--hue); }
+
+  .popular { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-3); }
+  @media (max-width: 860px) { .popular { grid-template-columns: repeat(2, 1fr); } }
+  .popular a {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-4) var(--space-5);
+    border-radius: var(--radius-lg);
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--hue);
+    color: inherit;
+    transition: all 200ms var(--ease-out);
+  }
+  .popular a:hover { text-decoration: none; transform: translateY(-2px); box-shadow: var(--shadow); }
+  .pop__cls { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--hue); }
+  .pop__name { font-size: 1.125rem; font-weight: 800; margin-top: 2px; }
+  .pop__meta { font-size: 0.8125rem; color: var(--fg-subtle); }
+
+  .perks { list-style: none; padding: 0; margin: var(--space-9) 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-5); }
+  @media (max-width: 860px) { .perks { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .perks { grid-template-columns: 1fr; } }
+  .perks li { display: flex; flex-direction: column; gap: 4px; padding-left: var(--space-4); border-left: 2px solid var(--accent); }
+  .perks b { font-size: 1rem; }
+  .perks span { font-size: 0.9rem; color: var(--fg-muted); line-height: 1.5; }
+
+  .seo-copy { max-width: var(--prose-max); margin: 0 auto; }
+</style>

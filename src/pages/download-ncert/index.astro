@@ -1,0 +1,19 @@
+---
+// Short, shareable alias for /ncert-pdf/ (padhlebeta.live/download-ncert).
+// GitHub Pages has no server redirects, so this is a canonical + instant meta refresh.
+import { url, absUrl } from '~/lib/url';
+const to = url('/ncert-pdf/');
+---
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    <title>NCERT PDF Download — Padhle Beta</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href={absUrl('/ncert-pdf/')} />
+    <meta http-equiv="refresh" content={`0; url=${to}`} />
+  </head>
+  <body>
+    <p>Moved to <a href={to}>NCERT PDFs</a>.</p>
+  </body>
+</html>

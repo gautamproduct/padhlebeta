@@ -21,6 +21,7 @@ export const site = {
 } as const;
 
 export const nav = [
+  { label: 'NCERT PDFs', href: '/ncert-pdf/' },
   { label: 'Tools', href: '/tools/' },
   { label: 'Print guides', href: '/print/' },
   { label: 'Focus timer', href: '/focus-timer/' },

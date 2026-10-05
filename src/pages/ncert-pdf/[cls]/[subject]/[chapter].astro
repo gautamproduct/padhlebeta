@@ -1,0 +1,353 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
+import FAQ from '~/components/FAQ.astro';
+import { url, absUrl } from '~/lib/url';
+import { ncertClasses, subjectMeta, ncertPath, downloadName, formatKb, chapterLabel, SESSION, type NcertSubject, type NcertChapter } from '~/data/ncert';
+
+export function getStaticPaths() {
+  return ncertClasses.flatMap((c) =>
+    c.subjects.flatMap((s) =>
+      s.chapters.map((ch, i) => ({
+        params: { cls: `class-${c.cls}`, subject: s.slug, chapter: ch.slug },
+        props: { cls: c.cls, s, ch, prev: s.chapters[i - 1], next: s.chapters[i + 1] },
+      })),
+    ),
+  );
+}
+const { cls, s, ch, prev, next } = Astro.props as {
+  cls: number; s: NcertSubject; ch: NcertChapter; prev?: NcertChapter; next?: NcertChapter;
+};
+const m = subjectMeta[s.slug];
+const bookShort = ch.book?.split(' – ')[0];
+const where = `NCERT Class ${cls} ${s.name}${bookShort ? ` (${bookShort})` : ''}`;
+const fullName = `${where} Chapter ${ch.n}: ${ch.title}`;
+const fileUrl = url(ch.file);
+const dlName = downloadName(cls, s, ch);
+
+const faq = [
+  { q: `How do I download ${where} Chapter ${ch.n} PDF?`, a: `Tap "Download PDF" on this page. "${ch.title}" (${ch.pages} pages, ${formatKb(ch.kb)}) saves to your device instantly — free, no login.` },
+  { q: `How many pages is NCERT Class ${cls} ${s.name} Chapter ${ch.n} "${ch.title}"?`, a: `${ch.pages} pages in the ${SESSION} NCERT textbook.` },
+  { q: `Can I read "${ch.title}" online without downloading?`, a: `Yes — the full chapter is shown in the reader on this page. Scroll to read; it works on phones without any app.` },
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': ['LearningResource', 'DigitalDocument'],
+  name: fullName,
+  url: absUrl(ncertPath.chapter(cls, s.slug, ch.slug)),
+  encodingFormat: 'application/pdf',
+  contentUrl: absUrl(ch.file),
+  learningResourceType: 'Textbook chapter',
+  educationalLevel: `Class ${cls}`,
+  about: s.name,
+  numberOfPages: ch.pages,
+  inLanguage: 'en',
+  isAccessibleForFree: true,
+  author: { '@type': 'Organization', name: 'NCERT' },
+  isPartOf: { '@type': 'Book', name: `NCERT Class ${cls} ${s.name}${ch.book ? ` – ${ch.book}` : ''}`, url: absUrl(ncertPath.subject(cls, s.slug)) },
+  ...(ch.excerpt ? { abstract: ch.excerpt } : {}),
+};
+---
+
+<BaseLayout
+  title={`${where} Chapter ${ch.n} ${ch.title} PDF (${SESSION})`}
+  rawTitle
+  description={`Read or download ${fullName} PDF free — ${ch.pages} pages, latest ${SESSION} edition. Opens right in your browser; no login.`}
+  jsonLd={jsonLd}
+>
+  <section class="section page-hero chapter" style={`--hue:${m?.hue ?? '#64748B'}`}>
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'NCERT PDF', href: ncertPath.hub() },
+        { label: `Class ${cls}`, href: ncertPath.cls(cls) },
+        { label: s.name, href: ncertPath.subject(cls, s.slug) },
+        { label: chapterLabel(ch) },
+      ]} />
+
+      <div class="layout">
+        <div class="main">
+          <header class="head">
+            <span class="badge">Class {cls} · {s.name}{bookShort ? ` · ${bookShort}` : ''} · Chapter {ch.n}</span>
+            <h1>{ch.title}</h1>
+            <p class="answer">
+              {where} Chapter {ch.n}, <b>{ch.title}</b> — {ch.pages} pages, {formatKb(ch.kb)}. Read it below or download the PDF.
+            </p>
+            <div class="actions">
+              <a class="btn btn--primary btn--lg" href={fileUrl} download={dlName}>
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+                Download PDF
+              </a>
+              <a class="btn btn--ghost btn--lg" href={fileUrl} target="_blank" rel="noopener">Open full screen</a>
+            </div>
+          </header>
+
+          <div class="viewer" id="viewer" data-src={fileUrl} data-pages={ch.pages} aria-label={`${ch.title} — PDF reader`}>
+            <div class="viewer__bar">
+              <span><b data-cur>1</b> / {ch.pages}</span>
+              <span class="viewer__zoom">
+                <button type="button" data-zoom="-1" aria-label="Zoom out">−</button>
+                <button type="button" data-zoom="1" aria-label="Zoom in">+</button>
+              </span>
+            </div>
+            <div class="viewer__pages" data-pages-host>
+              <p class="viewer__loading" data-loading>Loading chapter…</p>
+              <noscript><p class="viewer__loading"><a href={fileUrl}>Open the PDF</a></p></noscript>
+            </div>
+          </div>
+
+          {ch.excerpt && (
+            <section class="excerpt">
+              <h2>What “{ch.title}” begins with</h2>
+              <blockquote>{ch.excerpt}</blockquote>
+            </section>
+          )}
+
+          <nav class="pn" aria-label="Chapter navigation">
+            {prev ? (
+              <a href={url(ncertPath.chapter(cls, s.slug, prev.slug))} class="pn__a">
+                <span>← Previous</span><b>{prev.title}</b>
+              </a>
+            ) : <span></span>}
+            {next && (
+              <a href={url(ncertPath.chapter(cls, s.slug, next.slug))} class="pn__a pn__a--next">
+                <span>Next →</span><b>{next.title}</b>
+              </a>
+            )}
+          </nav>
+        </div>
+
+        <aside class="side">
+          <dl class="facts">
+            <div><dt>Class</dt><dd><a href={url(ncertPath.cls(cls))}>{cls}</a></dd></div>
+            <div><dt>Subject</dt><dd><a href={url(ncertPath.subject(cls, s.slug))}>{s.name}</a></dd></div>
+            {ch.book && <div><dt>Book</dt><dd>{ch.book}</dd></div>}
+            <div><dt>Chapter</dt><dd>{ch.n}</dd></div>
+            <div><dt>Pages</dt><dd>{ch.pages}</dd></div>
+            <div><dt>Size</dt><dd>{formatKb(ch.kb)}</dd></div>
+            <div><dt>Edition</dt><dd>{SESSION}</dd></div>
+          </dl>
+          <h2 class="side__h">All {s.name} chapters</h2>
+          <ol class="toc" role="list">
+            {s.chapters.map((x) => (
+              <li>
+                <a href={url(ncertPath.chapter(cls, s.slug, x.slug))} aria-current={x.slug === ch.slug ? 'page' : undefined}>
+                  <span>{x.n}</span>{x.title}
+                </a>
+              </li>
+            ))}
+          </ol>
+          <p class="side__tip">Printing? Put 2 pages on one sheet with the free <a href={url('/tools/pages-per-sheet/')}>pages-per-sheet tool</a>.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <FAQ items={faq} id="chapter-faq" />
+</BaseLayout>
+
+<script>
+  import { getPdfJs } from '~/lib/pdf-runtime';
+
+  const root = document.getElementById('viewer');
+  if (root) {
+    const host = root.querySelector<HTMLElement>('[data-pages-host]')!;
+    const cur = root.querySelector<HTMLElement>('[data-cur]')!;
+    let zoom = 1;
+
+    (async () => {
+      try {
+        const pdfjs = await getPdfJs();
+        const doc = await pdfjs.getDocument({ url: root.dataset.src!, disableAutoFetch: true }).promise;
+        const first = await doc.getPage(1);
+        const vp1 = first.getViewport({ scale: 1 });
+        root.querySelector('[data-loading]')?.remove();
+
+        const slots: HTMLDivElement[] = [];
+        for (let i = 1; i <= doc.numPages; i++) {
+          const slot = document.createElement('div');
+          slot.className = 'vpage';
+          slot.dataset.n = String(i);
+          slot.style.aspectRatio = `${vp1.width} / ${vp1.height}`;
+          host.appendChild(slot);
+          slots.push(slot);
+        }
+
+        const rendered = new Map<number, number>(); // page → zoom it was rendered at
+        async function draw(slot: HTMLDivElement) {
+          const n = Number(slot.dataset.n);
+          if (rendered.get(n) === zoom) return;
+          rendered.set(n, zoom);
+          const page = await doc.getPage(n);
+          const base = page.getViewport({ scale: 1 });
+          slot.style.aspectRatio = `${base.width} / ${base.height}`;
+          const cssWidth = slot.clientWidth || host.clientWidth;
+          const ratio = Math.min(window.devicePixelRatio || 1, 2.5);
+          const vp = page.getViewport({ scale: (cssWidth / base.width) * ratio });
+          const canvas = document.createElement('canvas');
+          canvas.width = Math.floor(vp.width);
+          canvas.height = Math.floor(vp.height);
+          await page.render({ canvasContext: canvas.getContext('2d')!, viewport: vp }).promise;
+          slot.replaceChildren(canvas);
+        }
+
+        const io = new IntersectionObserver((entries) => {
+          for (const e of entries) if (e.isIntersecting) draw(e.target as HTMLDivElement);
+        }, { rootMargin: '800px 0px' });
+        slots.forEach((s) => io.observe(s));
+
+        const seen = new IntersectionObserver((entries) => {
+          for (const e of entries) if (e.isIntersecting) cur.textContent = (e.target as HTMLElement).dataset.n!;
+        }, { rootMargin: '-50% 0px -50% 0px' });
+        slots.forEach((s) => seen.observe(s));
+
+        root.querySelectorAll<HTMLButtonElement>('[data-zoom]').forEach((b) =>
+          b.addEventListener('click', () => {
+            zoom = Math.min(2, Math.max(1, zoom + Number(b.dataset.zoom) * 0.25));
+            host.style.setProperty('--zoom', String(zoom));
+            slots.forEach((s) => {
+              const r = s.getBoundingClientRect();
+              if (r.bottom > -800 && r.top < innerHeight + 800) draw(s);
+            });
+          }),
+        );
+      } catch (err) {
+        console.error(err);
+        host.innerHTML = `<p class="viewer__loading">Couldn’t open the reader here. <a href="${root.dataset.src}">Open the PDF directly</a>.</p>`;
+      }
+    })();
+  }
+</script>
+
+<style>
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: var(--space-8); align-items: start; }
+  @media (max-width: 980px) { .layout { grid-template-columns: 1fr; } }
+
+  .badge {
+    display: inline-block;
+    font: 700 0.75rem var(--font-ui);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hue);
+    background: color-mix(in srgb, var(--hue) 12%, transparent);
+    padding: 5px 12px;
+    border-radius: 999px;
+    margin-bottom: var(--space-4);
+  }
+  .head h1 { font-size: var(--text-3xl); line-height: 1.1; letter-spacing: -0.03em; }
+  .answer { font-size: 1.0625rem; color: var(--fg-muted); margin-top: var(--space-3); line-height: 1.55; }
+  .answer b { color: var(--fg); }
+  .actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin: var(--space-5) 0 var(--space-6); }
+
+  .viewer {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    overflow: clip;
+  }
+  .viewer__bar {
+    position: sticky;
+    top: 72px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-2) var(--space-4);
+    background: var(--bg-glass);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.875rem;
+    color: var(--fg-muted);
+  }
+  .viewer__zoom { display: flex; gap: 6px; }
+  .viewer__zoom button {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    border: 1px solid var(--border-strong);
+    background: var(--bg-elev);
+    color: var(--fg);
+    font: 700 1.125rem/1 var(--font-ui);
+    cursor: pointer;
+  }
+  .viewer__pages {
+    --zoom: 1;
+    overflow-x: auto;
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    align-items: safe center;
+    gap: var(--space-4);
+  }
+  .viewer__pages :global(.vpage) {
+    width: calc(100% * var(--zoom));
+    max-width: calc(820px * var(--zoom));
+    flex: none;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .viewer__pages :global(.vpage canvas) { display: block; width: 100%; height: auto; }
+  .viewer__pages :global(.viewer__loading) { padding: var(--space-9) 0; color: var(--fg-muted); text-align: center; }
+  @media (max-width: 560px) { .viewer__pages { padding: var(--space-2); gap: var(--space-2); } }
+
+  .excerpt { margin-top: var(--space-7); }
+  .excerpt h2 { font-size: 1.125rem; margin-bottom: var(--space-3); }
+  .excerpt blockquote {
+    margin: 0;
+    padding: var(--space-4) var(--space-5);
+    border-left: 3px solid var(--hue);
+    background: var(--bg-elev);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    font-family: var(--font-body);
+    color: var(--fg-muted);
+    line-height: 1.65;
+  }
+
+  .pn { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); margin-top: var(--space-7); }
+  .pn__a {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-4) var(--space-5);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    background: var(--bg-elev);
+    color: inherit;
+    transition: all 180ms var(--ease-out);
+  }
+  .pn__a:hover { text-decoration: none; border-color: var(--accent); transform: translateY(-2px); }
+  .pn__a span { font-size: 0.8125rem; color: var(--fg-subtle); font-weight: 700; }
+  .pn__a--next { text-align: right; grid-column: 2; }
+
+  .side { position: sticky; top: 90px; }
+  @media (max-width: 980px) { .side { position: static; } }
+  .facts {
+    margin: 0;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2) var(--space-4);
+  }
+  .facts div { display: flex; justify-content: space-between; gap: var(--space-3); padding: var(--space-2) 0; font-size: 0.9rem; }
+  .facts div + div { border-top: 1px solid var(--border); }
+  .facts dt { color: var(--fg-subtle); }
+  .facts dd { margin: 0; font-weight: 700; text-align: right; }
+  .side__h { font-size: 1rem; margin: var(--space-6) 0 var(--space-3); }
+  .toc { list-style: none; margin: 0; padding: 0; max-height: 46vh; overflow: auto; }
+  .toc a {
+    display: flex;
+    gap: var(--space-3);
+    padding: 0.45rem var(--space-3);
+    border-radius: var(--radius);
+    color: var(--fg-muted);
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+  .toc a:hover { background: var(--bg-soft); text-decoration: none; color: var(--fg); }
+  .toc a[aria-current='page'] { background: var(--accent-soft); color: var(--fg); font-weight: 700; }
+  .toc span { flex: none; width: 1.5rem; color: var(--fg-subtle); font-variant-numeric: tabular-nums; }
+  .side__tip { font-size: 0.875rem; color: var(--fg-muted); margin-top: var(--space-5); }
+</style>

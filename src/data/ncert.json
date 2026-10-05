@@ -1,0 +1,1892 @@
+[
+ {
+  "cls": 9,
+  "subjects": [
+   {
+    "slug": "science",
+    "name": "Science",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Exploration: Entering the World of Secondary Science",
+      "slug": "chapter-1-exploration-entering-the-world-of-secondary-science",
+      "file": "/ncert/ncert-class-9-science-chapter-1-exploration-entering-the-world-of-secondary-science.pdf",
+      "pages": 7,
+      "kb": 3518,
+      "excerpt": "Exploration: Entering the World of Secondary Science 1 In the middle stage, science invited you to be curious and observe the world closely, to ask questions, and to find out how things work. In our journey, we discovered that science began with wonder and grew through careful experiments. We connected ideas across the world of the living and non-living."
+     },
+     {
+      "n": 2,
+      "title": "Cell: The Building Block of Life",
+      "slug": "chapter-2-cell-the-building-block-of-life",
+      "file": "/ncert/ncert-class-9-science-chapter-2-cell-the-building-block-of-life.pdf",
+      "pages": 20,
+      "kb": 10767,
+      "excerpt": "It is widely accepted amongst the scientific community that life originated in water. Some researchers believe that life may have originated in small water pools with changing environmental conditions rather than in the oceans. In India, the hot springs of Puga Valley in Ladakh maintain very high temperatures (nearly at the boiling point of water) even in a cold climate."
+     },
+     {
+      "n": 3,
+      "title": "Tissues in Action",
+      "slug": "chapter-3-tissues-in-action",
+      "file": "/ncert/ncert-class-9-science-chapter-3-tissues-in-action.pdf",
+      "pages": 20,
+      "kb": 13470,
+      "excerpt": "Tissues in Action Life begins when a single cell divides itself several times to give rise to a large number of cells. These cells gradually form the skin (protection), muscles (movement), bones (support), nerves (control and coordination), and all other organs. This process is so intricate that it is considered one of nature’s greatest engineering marvels."
+     },
+     {
+      "n": 4,
+      "title": "Describing Motion Around Us",
+      "slug": "chapter-4-describing-motion-around-us",
+      "file": "/ncert/ncert-class-9-science-chapter-4-describing-motion-around-us.pdf",
+      "pages": 24,
+      "kb": 7221,
+      "excerpt": "Describing Motion Around Us Chapter 4 Everything in nature is in motion, from massive astronomical objects to subatomic particles."
+     },
+     {
+      "n": 5,
+      "title": "Exploring Mixtures and their Separation",
+      "slug": "chapter-5-exploring-mixtures-and-their-separation",
+      "file": "/ncert/ncert-class-9-science-chapter-5-exploring-mixtures-and-their-separation.pdf",
+      "pages": 22,
+      "kb": 11463,
+      "excerpt": "Exploring Mixtures and their Separation Chapter 5 Have you ever wondered how sweet, white crystals of sugar are obtained from tall, green sugarcane plants? Or how do doctors detect diseases like malaria using just a few drops of blood? Many such everyday activities are made possible by techniques based on the fascinating science of separating mixtures."
+     },
+     {
+      "n": 6,
+      "title": "How Forces Affect Motion",
+      "slug": "chapter-6-how-forces-affect-motion",
+      "file": "/ncert/ncert-class-9-science-chapter-6-how-forces-affect-motion.pdf",
+      "pages": 22,
+      "kb": 7240,
+      "excerpt": "How Forces Affect Motion Chapter 6 In Chapter 4, you learnt to describe the motion of an object in terms of its position, velocity and acceleration. Is there an underlying cause for a change in position and velocity of an object? In this chapter, we will investigate what causes changes in the motion of objects. We will also discuss Newton’s three laws of motion and learn how to apply them."
+     },
+     {
+      "n": 7,
+      "title": "Work, Energy, and Simple Machines",
+      "slug": "chapter-7-work-energy-and-simple-machines",
+      "file": "/ncert/ncert-class-9-science-chapter-7-work-energy-and-simple-machines.pdf",
+      "pages": 24,
+      "kb": 7531,
+      "excerpt": "Work, Energy, and Simple Machines Chapter 7 In earlier Chapters 4 and 6, you have learnt how forces change the motion of objects, and how kinematic equations and Newton’s laws can be used to analyse motion. But when forces change with time or act in complicated ways, applying these laws directly can become difficult. Is there a simpler and more powerful way to understand such situations?"
+     },
+     {
+      "n": 8,
+      "title": "Journey Inside the Atom",
+      "slug": "chapter-8-journey-inside-the-atom",
+      "file": "/ncert/ncert-class-9-science-chapter-8-journey-inside-the-atom.pdf",
+      "pages": 22,
+      "kb": 5645,
+      "excerpt": "Journey Inside the Atom Chapter 8 Everything that you see or observe, or feel around is matter. You have learnt that matter consists of tiny particles called atoms. Do you notice that both living beings, like us, and non-living things, like a house, are ultimately composed of atoms? These atoms are so tiny that they cannot be seen with the naked eye."
+     },
+     {
+      "n": 9,
+      "title": "Atomic Foundations of Matter",
+      "slug": "chapter-9-atomic-foundations-of-matter",
+      "file": "/ncert/ncert-class-9-science-chapter-9-atomic-foundations-of-matter.pdf",
+      "pages": 22,
+      "kb": 6608,
+      "excerpt": "Atomic Foundations of Matter Chapter 9 In Chapter 8, Journey Inside the Atom, you explored the structure of the atom. You also studied subatomic particles, viz., electrons, protons and neutrons, in terms of their discoveries, properties and locations in the atom. You also learnt that atoms with an octet of electrons in their valence shell are stable."
+     },
+     {
+      "n": 10,
+      "title": "Sound Waves: Characteristics and Applications",
+      "slug": "chapter-10-sound-waves-characteristics-and-applications",
+      "file": "/ncert/ncert-class-9-science-chapter-10-sound-waves-characteristics-and-applications.pdf",
+      "pages": 24,
+      "kb": 13990,
+      "excerpt": "Sound Waves: Characteristics and Applications Chapter 10 Sound is an everyday sensory experience that helps us become aware of our surroundings. Every day, we hear a variety of sounds in our surroundings, such as human voices, birds chirping, waves crashing on the seashore, leaves rustling, mobile phones ringing, vehicles honking, music, and the claps of thunder."
+     },
+     {
+      "n": 11,
+      "title": "Reproduction: How Life Continues",
+      "slug": "chapter-11-reproduction-how-life-continues",
+      "file": "/ncert/ncert-class-9-science-chapter-11-reproduction-how-life-continues.pdf",
+      "pages": 20,
+      "kb": 10556,
+      "excerpt": "Reproduction: How Life Continues You have learnt that one of the important characteristics of living beings is that they reproduce. Every organism has a definite life span — it is born, grows, matures, reproduces and eventually dies. Reproduction is a biological process by which living beings produce new individuals of their own kind."
+     },
+     {
+      "n": 12,
+      "title": "Patterns in Life: Diversity and Classification",
+      "slug": "chapter-12-patterns-in-life-diversity-and-classification",
+      "file": "/ncert/ncert-class-9-science-chapter-12-patterns-in-life-diversity-and-classification.pdf",
+      "pages": 24,
+      "kb": 15133,
+      "excerpt": "Have you ever wondered why some plants can survive long droughts while others cannot? Or, how certain insects protect crops while others damage them? From microscopic organisms invisible to the naked eye to giant trees, from glowing jellyfish to soaring eagles, life exists in countless forms and habitats — from the snow-clad Himalayas to the coral reefs of the Andaman Sea."
+     },
+     {
+      "n": 13,
+      "title": "Earth as a System: Energy, Matter, and Life",
+      "slug": "chapter-13-earth-as-a-system-energy-matter-and-life",
+      "file": "/ncert/ncert-class-9-science-chapter-13-earth-as-a-system-energy-matter-and-life.pdf",
+      "pages": 21,
+      "kb": 14948,
+      "excerpt": "Earth as a System: Energy, Matter, and Life Think It Over y How does the warming of Arabian Sea water affect the southwest monsoon in India? y If a large forest is cleared, how can that affect the flow of a river in that area? y What might happen to coastal cities in India if glaciers and polar ice keep melting faster? y How would increasing carbon dioxide levels in the atmosphere affect the ocean plankton?"
+     }
+    ]
+   },
+   {
+    "slug": "maths",
+    "name": "Maths",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Orienting Yourself: The Use of Coordinates",
+      "slug": "chapter-1-orienting-yourself-the-use-of-coordinates",
+      "file": "/ncert/ncert-class-9-maths-chapter-1-orienting-yourself-the-use-of-coordinates.pdf",
+      "pages": 15,
+      "kb": 1463,
+      "excerpt": "Orienting Yourself: The Use of Coordinates 1.1 Introduction A system of coordinates is a structured framework (like the grid lines on a map or graph paper) that enables us to use numbers to describe the exact physical locations of points or objects. The idea of ‘grid-based thinking’ and the geometry required to define the locations of points in space—indeed has deep roots in Bhārat."
+     },
+     {
+      "n": 2,
+      "title": "Introduction to Linear Polynomials",
+      "slug": "chapter-2-introduction-to-linear-polynomials",
+      "file": "/ncert/ncert-class-9-maths-chapter-2-introduction-to-linear-polynomials.pdf",
+      "pages": 25,
+      "kb": 2808,
+      "excerpt": "Introduction to Linear Polynomials 2.1 Introduction We have learnt about algebraic expressions in earlier grades. In this chapter, we will learn about the special types of algebraic expressions called linear polynomials. Let us first consider a few examples of ­algebraic expressions. Example 1: Raju went to a shop where there were sealed boxes of different colours on sale."
+     },
+     {
+      "n": 3,
+      "title": "The World of Numbers",
+      "slug": "chapter-3-the-world-of-numbers",
+      "file": "/ncert/ncert-class-9-maths-chapter-3-the-world-of-numbers.pdf",
+      "pages": 27,
+      "kb": 2432,
+      "excerpt": "The Dawn of Mathematics: The Human Need to Count Long before humanity built cities, formulated laws, or studied the stars, there existed a fundamental, practical necessity: the need to keep count. Mathematics did not begin in a classroom with equations on a board; it began in the dirt, on the bark of trees, and on bones."
+     },
+     {
+      "n": 4,
+      "title": "Exploring Algebraic Identities",
+      "slug": "chapter-4-exploring-algebraic-identities",
+      "file": "/ncert/ncert-class-9-maths-chapter-4-exploring-algebraic-identities.pdf",
+      "pages": 24,
+      "kb": 2202,
+      "excerpt": "Exploring Algebraic Identities 4.1 Introduction In earlier chapters, you learnt about linear polynomials and how they can be used to represent and solve real-life problems. You also studied linear equations and discovered how they describe relationships between quantities. In this chapter, we will take the next step by exploring algebraic identities."
+     },
+     {
+      "n": 5,
+      "title": "I'm Up and Down, and Round and Round",
+      "slug": "chapter-5-i-m-up-and-down-and-round-and-round",
+      "file": "/ncert/ncert-class-9-maths-chapter-5-i-m-up-and-down-and-round-and-round.pdf",
+      "pages": 26,
+      "kb": 2141,
+      "excerpt": "I’m Up and Down, and Round and Round Humanity has always been fascinated by the shapes of the things around them. In some early cave paintings, the sun is depicted as a circle. In the cave paintings of Gudahandi in Odisha, one sees numerous geometric patterns including triangles, squares, circles, and ovals. These shapes were likely inspired by what humans saw in nature."
+     },
+     {
+      "n": 6,
+      "title": "Measuring Space: Perimeter and Area",
+      "slug": "chapter-6-measuring-space-perimeter-and-area",
+      "file": "/ncert/ncert-class-9-maths-chapter-6-measuring-space-perimeter-and-area.pdf",
+      "pages": 37,
+      "kb": 3248,
+      "excerpt": "The tracks are laid out, and the athletes are all set to go racing down the tracks. Do you notice that the athletes are not at the same starting line? Those in the outer lanes seem to be starting ahead of those in the inner lanes while the finish line is the same for all of them. The distance between the starting points of adjacent lanes is called the ‘stagger’."
+     },
+     {
+      "n": 7,
+      "title": "The Mathematics of Maybe: Introduction to Probability",
+      "slug": "chapter-7-the-mathematics-of-maybe-introduction-to-probability",
+      "file": "/ncert/ncert-class-9-maths-chapter-7-the-mathematics-of-maybe-introduction-to-probability.pdf",
+      "pages": 19,
+      "kb": 1758,
+      "excerpt": "The Mathematics of Maybe: Introduction to Probability 7.1 What is Probability? Probability is a type of measurement, similar to how we measure quantities like length, area, or volume. However, instead of measuring physical quantities, probability is used to measure the likelihood of events. Specifically, it helps us express how confident or certain we are that a particular event will occur."
+     },
+     {
+      "n": 8,
+      "title": "Predicting What Comes Next: Exploring Sequences",
+      "slug": "chapter-8-predicting-what-comes-next-exploring-sequences",
+      "file": "/ncert/ncert-class-9-maths-chapter-8-predicting-what-comes-next-exploring-sequences.pdf",
+      "pages": 27,
+      "kb": 2663,
+      "excerpt": "Predicting What Comes Next: Exploring Sequences and Progressions 8.1 Introduction to Sequences We see patterns around us everywhere, be it in nature, in art, in music, in finance and in many other contexts in everyday life. Patterns help us make sense of the world and predict what comes next. In mathematics, sequences are special kinds of patterns formed by numbers or other objects arranged in a particular order."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "cls": 10,
+  "subjects": [
+   {
+    "slug": "social-science",
+    "name": "Social Science",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Resources and Development",
+      "slug": "geography-chapter-1-resources-and-development",
+      "file": "/ncert/ncert-class-10-social-science-geography-chapter-1-resources-and-development.pdf",
+      "pages": 12,
+      "kb": 1758,
+      "book": "Geography – Contemporary India II",
+      "excerpt": "Everything available in our environment which can be used to satisfy our needs, provided, it is technologically accessible, economically feasible and culturally acceptable can be termed as ‘Resource’. The process of transformation of things available in our environment involves an interactive relationship between nature, technology and institutions."
+     },
+     {
+      "n": 2,
+      "title": "Forest and Wildlife Resources",
+      "slug": "geography-chapter-2-forest-and-wildlife-resources",
+      "file": "/ncert/ncert-class-10-social-science-geography-chapter-2-forest-and-wildlife-resources.pdf",
+      "pages": 6,
+      "kb": 955,
+      "book": "Geography – Contemporary India II",
+      "excerpt": "We share this planet with millions of other living beings, starting from micro-organisms and bacteria, lichens to banyan trees, elephants and blue whales. This entire habitat that we live in has immense biodiversity. We humans along with all living organisms form a complex web of ecological system in which we are only a part and very much dependent on this system for our own existence."
+     },
+     {
+      "n": 3,
+      "title": "Water Resources",
+      "slug": "geography-chapter-3-water-resources",
+      "file": "/ncert/ncert-class-10-social-science-geography-chapter-3-water-resources.pdf",
+      "pages": 11,
+      "kb": 1939,
+      "book": "Geography – Contemporary India II",
+      "excerpt": "You already know that three-fourth of the earth’s surface is covered with water, but only a small proportion of it accounts for freshwater that can be put to use. This freshwater is mainly obtained from surface run off and ground water that is continually being renewed and recharged through the hydrological cycle. All water moves within the hydrological cycle ensuring that water is a renewable resource."
+     },
+     {
+      "n": 4,
+      "title": "Agriculture",
+      "slug": "geography-chapter-4-agriculture",
+      "file": "/ncert/ncert-class-10-social-science-geography-chapter-4-agriculture.pdf",
+      "pages": 12,
+      "kb": 2199,
+      "book": "Geography – Contemporary India II",
+      "excerpt": "Two-thirds of its population is engaged in agricultural activities. Agriculture is a primary activity, which produces most of the food that we consume. Besides food grains, it also produces raw material for various industries. Can you name some industries based on agricultural raw material? Moreover, some agricultural products like tea, coffee, spices, etc."
+     },
+     {
+      "n": 5,
+      "title": "Minerals and Energy Resources",
+      "slug": "geography-chapter-5-minerals-and-energy-resources",
+      "file": "/ncert/ncert-class-10-social-science-geography-chapter-5-minerals-and-energy-resources.pdf",
+      "pages": 16,
+      "kb": 2637,
+      "book": "Geography – Contemporary India II",
+      "excerpt": "Can you list a number of items used in your house made of metals. You have studied that the earth’s crust is made up of different minerals embedded in the rocks. Various metals are extracted from these minerals after proper refinement. Almost everything we use, from a tiny pin to a towering building or a big ship, all are made from minerals."
+     },
+     {
+      "n": 6,
+      "title": "Manufacturing Industries",
+      "slug": "geography-chapter-6-manufacturing-industries",
+      "file": "/ncert/ncert-class-10-social-science-geography-chapter-6-manufacturing-industries.pdf",
+      "pages": 13,
+      "kb": 1606,
+      "book": "Geography – Contemporary India II",
+      "excerpt": "58 CONTEMPORARY INDIA – II Production of goods in large quantities after processing from raw materials to more valuable products is called manufacturing. Do you know that paper is manufactured from wood, sugar from sugarcane, iron and steel from iron ore and aluminium from bauxite? Do you also know that some types of clothes are manufactured from yarn which itself is an industrial product?"
+     },
+     {
+      "n": 7,
+      "title": "Lifelines of National Economy",
+      "slug": "geography-chapter-7-lifelines-of-national-economy",
+      "file": "/ncert/ncert-class-10-social-science-geography-chapter-7-lifelines-of-national-economy.pdf",
+      "pages": 13,
+      "kb": 2151,
+      "book": "Geography – Contemporary India II",
+      "excerpt": "Some of these are available in our immediate surroundings, while other requirements are met by bringing things from other places. Goods and services do not move from supply locales to demand locales on their own. The movement of these goods and services from their supply locations to demand locations necessitates the need for transport."
+     },
+     {
+      "n": 1,
+      "title": "Development",
+      "slug": "economics-chapter-1-development",
+      "file": "/ncert/ncert-class-10-social-science-economics-chapter-1-development.pdf",
+      "pages": 16,
+      "kb": 2427,
+      "book": "Economics – Understanding Economic Development",
+      "excerpt": "NOTES FOR TEACHERS NOTES FOR THE TEACHER CHAPTER I : DEVELOPMENT Development has many aspects. The purpose of this chapter is to enable students to understand this idea. They have to understand that people have different perspectives on development and there are ways by which we can arrive at common indicators for development."
+     },
+     {
+      "n": 2,
+      "title": "Sectors of the Indian Economy",
+      "slug": "economics-chapter-2-sectors-of-the-indian-economy",
+      "file": "/ncert/ncert-class-10-social-science-economics-chapter-2-sectors-of-the-indian-economy.pdf",
+      "pages": 20,
+      "kb": 2977,
+      "book": "Economics – Understanding Economic Development",
+      "excerpt": "NOTES FOR THE TEACHER CHAPTER 2: SECTORS OF THE INDIAN ECONOMY An economy is best understood when we study its components or sectors. Sectoral classification can be done on the basis of several criteria. In this chapter, three types of classifications are discussed: primary/secondary/tertiary; organised/ unorganised; and public/private."
+     },
+     {
+      "n": 3,
+      "title": "Money and Credit",
+      "slug": "economics-chapter-3-money-and-credit",
+      "file": "/ncert/ncert-class-10-social-science-economics-chapter-3-money-and-credit.pdf",
+      "pages": 16,
+      "kb": 3297,
+      "book": "Economics – Understanding Economic Development",
+      "excerpt": "NOTES FOR THE TEACHER CHAPTER 3 : MONEY AND CREDIT Money is a fascinating subject and full of curiosities. The history of money and how various forms were used at different times is an interesting story. At this stage the purpose is to allow students to realise the social situation in which these forms were used."
+     },
+     {
+      "n": 4,
+      "title": "Globalisation and the Indian Economy",
+      "slug": "economics-chapter-4-globalisation-and-the-indian-economy",
+      "file": "/ncert/ncert-class-10-social-science-economics-chapter-4-globalisation-and-the-indian-economy.pdf",
+      "pages": 20,
+      "kb": 3501,
+      "book": "Economics – Understanding Economic Development",
+      "excerpt": "NOTES FOR THE TEACHER NOTES FOR THE TEACHER NOTES FOR THE TEACHER NOTES FOR THE TEACHER NOTES FOR THE TEACHER Most regions of the world are getting increasingly interconnected. While this interconnectedness across countries has many dimensions — cultural, political, social and economic — this chapter looks at globalisation in a more limited sense."
+     },
+     {
+      "n": 5,
+      "title": "Consumer Rights",
+      "slug": "economics-chapter-5-consumer-rights",
+      "file": "/ncert/ncert-class-10-social-science-economics-chapter-5-consumer-rights.pdf",
+      "pages": 19,
+      "kb": 3110,
+      "book": "Economics – Understanding Economic Development",
+      "excerpt": "NOTES FOR THE TEACHER This chapter proposes to discuss the issue of consumer rights within the context of the ways markets operate in our country. There are many aspects of unequal situations in a market and poor enforcement of rules and regulations. Hence, there is a need to sensitise learners and encourage them to participate in the consumer movement."
+     },
+     {
+      "n": 1,
+      "title": "The Rise of Nationalism in Europe",
+      "slug": "history-chapter-1-the-rise-of-nationalism-in-europe",
+      "file": "/ncert/ncert-class-10-social-science-history-chapter-1-the-rise-of-nationalism-in-europe.pdf",
+      "pages": 28,
+      "kb": 5518,
+      "book": "History – India and the Contemporary World II",
+      "excerpt": "1) of the series, shows the peoples of Europe and America – men and women of all ages and social classes – marching in a long train, and offering homage to the statue of Liberty as they pass by it."
+     },
+     {
+      "n": 2,
+      "title": "Nationalism in India",
+      "slug": "history-chapter-2-nationalism-in-india",
+      "file": "/ncert/ncert-class-10-social-science-history-chapter-2-nationalism-in-india.pdf",
+      "pages": 22,
+      "kb": 4940,
+      "book": "History – India and the Contemporary World II",
+      "excerpt": "29 Nationalism in India As you have seen, modern nationalism in Europe came to be associated with the formation of nation-states. It also meant a change in people’s understanding of who they were, and what defined their identity and sense of belonging. New symbols and icons, new songs and ideas forged new links and redefined the boundaries of communities."
+     },
+     {
+      "n": 3,
+      "title": "The Making of a Global World",
+      "slug": "history-chapter-3-the-making-of-a-global-world",
+      "file": "/ncert/ncert-class-10-social-science-history-chapter-3-the-making-of-a-global-world.pdf",
+      "pages": 28,
+      "kb": 5920,
+      "book": "History – India and the Contemporary World II",
+      "excerpt": "But as you will see in this chapter, the making of the global world has a long history – of trade, of migration, of people in search of work, the movement of capital, and much else. As we think about the dramatic and visible signs of global interconnectedness in our lives today, we need to understand the phases through which this world in which we live has emerged."
+     },
+     {
+      "n": 4,
+      "title": "The Age of Industrialisation",
+      "slug": "history-chapter-4-the-age-of-industrialisation",
+      "file": "/ncert/ncert-class-10-social-science-history-chapter-4-the-age-of-industrialisation.pdf",
+      "pages": 24,
+      "kb": 5876,
+      "book": "History – India and the Contemporary World II",
+      "excerpt": "79 The Age of Industrialisation The Age of Industrialisation Chapter IV The Age of Industrialisation The Age of Industrialisation In 1900, a popular music publisher E.T. Paull produced a music book that had a picture on the cover page announcing the ‘Dawn of the Century’ (Fig."
+     },
+     {
+      "n": 5,
+      "title": "Print Culture and the Modern World",
+      "slug": "history-chapter-5-print-culture-and-the-modern-world",
+      "file": "/ncert/ncert-class-10-social-science-history-chapter-5-print-culture-and-the-modern-world.pdf",
+      "pages": 26,
+      "kb": 5340,
+      "book": "History – India and the Contemporary World II",
+      "excerpt": "We find evidence of print everywhere around us – in books, journals, newspapers, prints of famous paintings, and also in everyday things like theatre programmes, official circulars, calendars, diaries, advertisements, cinema posters at street corners. We read printed literature, see printed images, follow the news through newspapers, and track public debates that appear in print."
+     },
+     {
+      "n": 1,
+      "title": "Power-sharing",
+      "slug": "political-science-chapter-1-power-sharing",
+      "file": "/ncert/ncert-class-10-social-science-political-science-chapter-1-power-sharing.pdf",
+      "pages": 12,
+      "kb": 1823,
+      "book": "Political Science – Democratic Politics II",
+      "excerpt": "Po we r -sha r ing 1 Chapter I Power-sharing Overview With this chapter, we resume the tour of democracy that we started last year. We noted last year that in a democracy all power does not rest with any one organ of the government. An intelligent sharing of power among legislature, executive and judiciary is very important to the design of a democracy."
+     },
+     {
+      "n": 2,
+      "title": "Federalism",
+      "slug": "political-science-chapter-2-federalism",
+      "file": "/ncert/ncert-class-10-social-science-political-science-chapter-2-federalism.pdf",
+      "pages": 16,
+      "kb": 2634,
+      "book": "Political Science – Democratic Politics II",
+      "excerpt": "Fe d era lism 13 Chapter 2 Federalism Overview In the previous chapter, we noted that vertical division of power among different levels of government is one of the major forms of power-sharing in modern democracies. The rest of the chapter tries to understand the theory and practice of federalism in India."
+     },
+     {
+      "n": 3,
+      "title": "Gender, Religion and Caste",
+      "slug": "political-science-chapter-3-gender-religion-and-caste",
+      "file": "/ncert/ncert-class-10-social-science-political-science-chapter-3-gender-religion-and-caste.pdf",
+      "pages": 17,
+      "kb": 2304,
+      "book": "Political Science – Democratic Politics II",
+      "excerpt": "Ge nde r , R elig io n and C ast e 29 Chapter 3 Gender, Religion and Caste Overview The existence of social diversity does not threaten democracy. Political expression of social differences is possible and sometimes quite desirable in a democratic system. In this chapter we apply these ideas to the practice of democracy in India."
+     },
+     {
+      "n": 4,
+      "title": "Political Parties",
+      "slug": "political-science-chapter-4-political-parties",
+      "file": "/ncert/ncert-class-10-social-science-political-science-chapter-4-political-parties.pdf",
+      "pages": 17,
+      "kb": 3474,
+      "book": "Political Science – Democratic Politics II",
+      "excerpt": "46 De moc ra tic Polit ics Chapter 4 Overview In this tour of democracy, we have come across political parties several times. In Class IX, we noticed the role of political parties in the rise of democracies, in the formation of constitutional designs, in electoral politics and in the making and working of governments."
+     },
+     {
+      "n": 5,
+      "title": "Outcomes of Democracy",
+      "slug": "political-science-chapter-5-outcomes-of-democracy",
+      "file": "/ncert/ncert-class-10-social-science-political-science-chapter-5-outcomes-of-democracy.pdf",
+      "pages": 12,
+      "kb": 2115,
+      "book": "Political Science – Democratic Politics II",
+      "excerpt": "Out co me s o f De mo crac y 63 Chapter 5 Outcomes of Democracy Overview As we begin to wind up our tour of democracy, it is time to move beyond our discussion of specific themes and ask a general set of questions: What does democracy do? We begin by thinking about how to assess the outcomes of democracy."
+     }
+    ]
+   },
+   {
+    "slug": "science",
+    "name": "Science",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Chemical Reactions and Equations",
+      "slug": "chapter-1-chemical-reactions-and-equations",
+      "file": "/ncert/ncert-class-10-science-chapter-1-chemical-reactions-and-equations.pdf",
+      "pages": 16,
+      "kb": 4064,
+      "excerpt": "Chemical Reactions and Equations 1 CHAPTER C onsider the following situations of daily life and think what happens when – n milk is left at room temperature during summers. In all the above situations, the nature and the identity of the initial substance have somewhat changed. We have already learnt about physical and chemical changes of matter in our previous classes."
+     },
+     {
+      "n": 2,
+      "title": "Acids, Bases and Salts",
+      "slug": "chapter-2-acids-bases-and-salts",
+      "file": "/ncert/ncert-class-10-science-chapter-2-acids-bases-and-salts.pdf",
+      "pages": 20,
+      "kb": 3866,
+      "excerpt": "Acids, Bases and Salts 2 CHAPTER Y ou have learnt in your previous classes that the sour and bitter tastes of food are due to acids and bases, respectively, present in them. If someone in the family is suffering from a problem of acidity after overeating, which of the following would you suggest as a remedy– lemon juice, vinegar or baking soda solution?"
+     },
+     {
+      "n": 3,
+      "title": "Metals and Non-metals",
+      "slug": "chapter-3-metals-and-non-metals",
+      "file": "/ncert/ncert-class-10-science-chapter-3-metals-and-non-metals.pdf",
+      "pages": 21,
+      "kb": 2824,
+      "excerpt": "Metals and Non-metals 3 CHAPTER I n Class IX you have learnt about various elements. You have seen that elements can be classified as metals or non-metals on the basis of their properties. n Think of some uses of metals and non-metals in your daily life. n What properties did you think of while categorising elements as metals or non-metals? n How are these properties related to the uses of these elements?"
+     },
+     {
+      "n": 4,
+      "title": "Carbon and its Compounds",
+      "slug": "chapter-4-carbon-and-its-compounds",
+      "file": "/ncert/ncert-class-10-science-chapter-4-carbon-and-its-compounds.pdf",
+      "pages": 21,
+      "kb": 12130,
+      "excerpt": "Science 58 Carbon and its Compounds 4 CHAPTER I n the last Chapter, we came to know many compounds of importance to us. In this Chapter we will study about some more interesting compounds and their properties. Also, we shall be learning about carbon, an element which is of immense significance to us in both its elemental form and in the combined form."
+     },
+     {
+      "n": 5,
+      "title": "Life Processes",
+      "slug": "chapter-5-life-processes",
+      "file": "/ncert/ncert-class-10-science-chapter-5-life-processes.pdf",
+      "pages": 21,
+      "kb": 8811,
+      "excerpt": "Life Processes 5 CHAPTER H ow do we tell the difference between what is alive and what is not alive? If we see a dog running, or a cow chewing cud, or a man shouting loudly on the street, we know that these are living beings. We would still think that they were alive, but how did we know that? But what about plants that have leaves of colours other than green?"
+     },
+     {
+      "n": 6,
+      "title": "Control and Coordination",
+      "slug": "chapter-6-control-and-coordination",
+      "file": "/ncert/ncert-class-10-science-chapter-6-control-and-coordination.pdf",
+      "pages": 13,
+      "kb": 2323,
+      "excerpt": "Science 100 Control and Coordination 6 CHAPTER I n the previous chapter, we looked at life processes involved in the maintenance functions in living organisms. There, we had started with a notion we all have, that if we see something moving, it is alive. Some of these movements are in fact the result of growth, as in plants."
+     },
+     {
+      "n": 7,
+      "title": "How do Organisms Reproduce?",
+      "slug": "chapter-7-how-do-organisms-reproduce",
+      "file": "/ncert/ncert-class-10-science-chapter-7-how-do-organisms-reproduce.pdf",
+      "pages": 15,
+      "kb": 3963,
+      "excerpt": "7 CHAPTER B efore we discuss the mechanisms by which organisms reproduce, let us ask a more basic question – why do organisms reproduce? After all, reproduction is not necessary to maintain the life of an individual organism, unlike the essential life processes such as nutrition, respiration, or excretion."
+     },
+     {
+      "n": 8,
+      "title": "Heredity and Evolution",
+      "slug": "chapter-8-heredity-and-evolution",
+      "file": "/ncert/ncert-class-10-science-chapter-8-heredity-and-evolution.pdf",
+      "pages": 6,
+      "kb": 17697,
+      "excerpt": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences. Each of them, in turn, will give rise to two individuals in the next generation. Each of the four individuals in the bottom row will be different from each other."
+     },
+     {
+      "n": 9,
+      "title": "Light – Reflection and Refraction",
+      "slug": "chapter-9-light-reflection-and-refraction",
+      "file": "/ncert/ncert-class-10-science-chapter-9-light-reflection-and-refraction.pdf",
+      "pages": 27,
+      "kb": 2682,
+      "excerpt": "Science 134 Light – Reflection and Refraction 9 CHAPTER W e see a variety of objects in the world around us. This reflected light, when received by our eyes, enables us to see things. We are able to see through a transparent medium as light is transmitted through it."
+     },
+     {
+      "n": 10,
+      "title": "The Human Eye and the Colourful World",
+      "slug": "chapter-10-the-human-eye-and-the-colourful-world",
+      "file": "/ncert/ncert-class-10-science-chapter-10-the-human-eye-and-the-colourful-world.pdf",
+      "pages": 10,
+      "kb": 1685,
+      "excerpt": "The Human Eye and the Colourful World 10 CHAPTER Y ou have studied in the previous chapter about refraction of light by lenses. You also studied the nature, position and relative size of images formed by lenses. The human eye uses light and enables us to see objects around us. How do the lenses used in spectacles correct defects of vision? We have learnt in the previous chapter about light and some of its properties."
+     },
+     {
+      "n": 11,
+      "title": "Electricity",
+      "slug": "chapter-11-electricity",
+      "file": "/ncert/ncert-class-10-science-chapter-11-electricity.pdf",
+      "pages": 24,
+      "kb": 2536,
+      "excerpt": "Electricity 11 CHAPTER E lectricity has an important place in modern society. It is a controllable and convenient form of energy for a variety of uses in homes, schools, hospitals, industries and so on. What are the factors that control or regulate the current through an electric circuit? We shall also discuss the heating effect of electric current and its applications."
+     },
+     {
+      "n": 12,
+      "title": "Magnetic Effects of Electric Current",
+      "slug": "chapter-12-magnetic-effects-of-electric-current",
+      "file": "/ncert/ncert-class-10-science-chapter-12-magnetic-effects-of-electric-current.pdf",
+      "pages": 13,
+      "kb": 2164,
+      "excerpt": "Magnetic Effects of Electric Current 12 CHAPTER I n the previous Chapter on ‘Electricity’ we learnt about the heating effects of electric current. We know that an electric current-carrying wire behaves like a magnet. n Horizontally place a small compass near to this copper wire. n Pass the current through the circuit by inserting the key into the plug."
+     },
+     {
+      "n": 13,
+      "title": "Our Environment",
+      "slug": "chapter-13-our-environment",
+      "file": "/ncert/ncert-class-10-science-chapter-13-our-environment.pdf",
+      "pages": 10,
+      "kb": 4097,
+      "excerpt": "Our elders tell us that the ‘environment’ is not what it used to be earlier; others say that we should work in a healthy ‘environment’; and global summits involving the developed and developing countries are regularly held to discuss ‘environmental’ issues. In this chapter, we shall be studying how various components in the environment interact with each other and how we impact the environment."
+     }
+    ]
+   },
+   {
+    "slug": "maths",
+    "name": "Maths",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Real Numbers",
+      "slug": "chapter-1-real-numbers",
+      "file": "/ncert/ncert-class-10-maths-chapter-1-real-numbers.pdf",
+      "pages": 9,
+      "kb": 1499,
+      "excerpt": "REAL NUMBERS 1 1 1.1 Introduction In Class IX, you began your exploration of the world of real numbers and encountered irrational numbers. We begin with very important properties of positive integers in Sections 1.2, namely the Euclid’s division algorithm and the Fundamental Theorem of Arithmetic. Euclid’s division algorithm, as the name suggests, has to do with divisibility of integers."
+     },
+     {
+      "n": 2,
+      "title": "Polynomials",
+      "slug": "chapter-2-polynomials",
+      "file": "/ncert/ncert-class-10-maths-chapter-2-polynomials.pdf",
+      "pages": 14,
+      "kb": 1647,
+      "excerpt": "10 MATHEMATICS 2 2.1 Introduction In Class IX, you have studied polynomials in one variable and their degrees. The name ‘quadratic’ has been derived from the word ‘quadrate’, which means ‘square’. You have already studied in Class IX, how to find the zeroes of a linear polynomial. Thus, the zero of a linear polynomial is related to its coefficients."
+     },
+     {
+      "n": 3,
+      "title": "Pair of Linear Equations in Two Variables",
+      "slug": "chapter-3-pair-of-linear-equations-in-two-variables",
+      "file": "/ncert/ncert-class-10-maths-chapter-3-pair-of-linear-equations-in-two-variables.pdf",
+      "pages": 14,
+      "kb": 2036,
+      "excerpt": "24 MATHEMATICS 3 3.1 Introduction You must have come across situations like the one given below : Akhila went to a fair in her village. She wanted to enjoy rides on the Giant Wheel and play Hoopla (a game in which you throw a ring on the items kept in a stall, and if the ring covers any object completely, you get it). The number of times she played Hoopla is half the number of rides she had on the Giant Wheel."
+     },
+     {
+      "n": 4,
+      "title": "Quadratic Equations",
+      "slug": "chapter-4-quadratic-equations",
+      "file": "/ncert/ncert-class-10-maths-chapter-4-quadratic-equations.pdf",
+      "pages": 11,
+      "kb": 1465,
+      "excerpt": "38 MATHEMATICS 4 4.1 Introduction In Chapter 2, you have studied different types of polynomials. When we equate this polynomial to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. For instance, suppose a charity trust decides to build a prayer hall having a carpet area of 300 square metres with its length one metre more than twice its breadth."
+     },
+     {
+      "n": 5,
+      "title": "Arithmetic Progressions",
+      "slug": "chapter-5-arithmetic-progressions",
+      "file": "/ncert/ncert-class-10-maths-chapter-5-arithmetic-progressions.pdf",
+      "pages": 24,
+      "kb": 2303,
+      "excerpt": "ARITHMETIC PROGRESSIONS 49 5 5.1 Introduction You must have observed that in nature, many things follow a certain pattern, such as the petals of a sunflower, the holes of a honeycomb, the grains on a maize cob, the spirals on a pineapple and on a pine cone, etc. We now look for some patterns which occur in our day-to-day life. Some such examples are : (i) Reena applied for a job and got selected."
+     },
+     {
+      "n": 6,
+      "title": "Triangles",
+      "slug": "chapter-6-triangles",
+      "file": "/ncert/ncert-class-10-maths-chapter-6-triangles.pdf",
+      "pages": 26,
+      "kb": 2734,
+      "excerpt": "TRIANGLES 73 6 6.1 Introduction You are familiar with triangles and many of their properties from your earlier classes. In Class IX, you have studied congruence of triangles in detail. Recall that two figures are said to be congruent, if they have the same shape and the same size. In this chapter, we shall study about those figures which have the same shape but not necessarily the same size."
+     },
+     {
+      "n": 7,
+      "title": "Coordinate Geometry",
+      "slug": "chapter-7-coordinate-geometry",
+      "file": "/ncert/ncert-class-10-maths-chapter-7-coordinate-geometry.pdf",
+      "pages": 14,
+      "kb": 2103,
+      "excerpt": "COORDINATE GEOMETRY 99 7 7.1 Introduction In Class IX, you have studied that to locate the position of a point on a plane, we require a pair of coordinate axes. The distance of a point from the y-axis is called its x-coordinate, or abscissa. The distance of a point from the x-axis is called its y-coordinate, or ordinate."
+     },
+     {
+      "n": 8,
+      "title": "Introduction to Trigonometry",
+      "slug": "chapter-8-introduction-to-trigonometry",
+      "file": "/ncert/ncert-class-10-maths-chapter-8-introduction-to-trigonometry.pdf",
+      "pages": 20,
+      "kb": 2179,
+      "excerpt": "INTRODUCTION TO TRIGONOMETRY 113 8 There is perhaps nothing which so occupies the middle position of mathematics as trigonometry. Herbart (1890) 8.1 Introduction You have already studied about triangles, and in particular, right triangles, in your earlier classes. Let us take some examples from our surroundings where right triangles can be imagined to be formed."
+     },
+     {
+      "n": 9,
+      "title": "Some Applications of Trigonometry",
+      "slug": "chapter-9-some-applications-of-trigonometry",
+      "file": "/ncert/ncert-class-10-maths-chapter-9-some-applications-of-trigonometry.pdf",
+      "pages": 11,
+      "kb": 1796,
+      "excerpt": "SOME APPLICATIONS OF TRIGONOMETRY 133 9 9.1 Heights and Distances In the previous chapter, you have studied about trigonometric ratios. In this chapter, you will be studying about some ways in which trigonometry is used in the life around you. The angle BAC, so formed by the line of sight with the horizontal, is called the angle of elevation of the top of the minar from the eye of the student."
+     },
+     {
+      "n": 10,
+      "title": "Circles",
+      "slug": "chapter-10-circles",
+      "file": "/ncert/ncert-class-10-maths-chapter-10-circles.pdf",
+      "pages": 10,
+      "kb": 1335,
+      "excerpt": "You have also studied various terms related to a circle like chord, segment, sector, arc etc. Let us now examine the different situations that can arise when a circle and a line are given in a plane. In this case, PQ is called a non-intersecting line with respect to the circle. Here the rope on both sides of the pulley, if considered as a ray, is like a tangent to the circle representing the pulley."
+     },
+     {
+      "n": 11,
+      "title": "Areas Related to Circles",
+      "slug": "chapter-11-areas-related-to-circles",
+      "file": "/ncert/ncert-class-10-maths-chapter-11-areas-related-to-circles.pdf",
+      "pages": 7,
+      "kb": 1280,
+      "excerpt": "154 MATHEMATICS 11 11.1 Areas of Sector and Segment of a Circle You have already come across the terms sector and segment of a circle in your earlier classes."
+     },
+     {
+      "n": 12,
+      "title": "Surface Areas and Volumes",
+      "slug": "chapter-12-surface-areas-and-volumes",
+      "file": "/ncert/ncert-class-10-maths-chapter-12-surface-areas-and-volumes.pdf",
+      "pages": 10,
+      "kb": 1583,
+      "excerpt": "You have also learnt how to find their surface areas and volumes. 12.1 In our day-to-day life, we come across a number of solids made up of combinations of two or more of the basic solids as shown above. You must have seen a truck with a container fitted on its back (see Fig. Is it in the shape of any of the four basic solids mentioned above?"
+     },
+     {
+      "n": 13,
+      "title": "Statistics",
+      "slug": "chapter-13-statistics",
+      "file": "/ncert/ncert-class-10-maths-chapter-13-statistics.pdf",
+      "pages": 31,
+      "kb": 2739,
+      "excerpt": "STATISTICS 171 13 13.1 Introduction In Class IX, you have studied the classification of given data into ungrouped as well as grouped frequency distributions. You have also learnt to represent the data pictorially in the form of various graphs such as bar graphs, histograms (including those of varying widths) and frequency polygons."
+     },
+     {
+      "n": 14,
+      "title": "Probability",
+      "slug": "chapter-14-probability",
+      "file": "/ncert/ncert-class-10-maths-chapter-14-probability.pdf",
+      "pages": 16,
+      "kb": 1805,
+      "excerpt": "202 MATHEMATICS 14 The theory of probabilities and the theory of errors now constitute a formidable body of great mathematical interest and of great practical importance. Woodward 14.1 Probability — A Theoretical Approach Let us consider the following situation : Suppose a coin is tossed at random. By the phrase ‘random toss’, we mean that the coin is allowed to fall freely without any bias or interference."
+     }
+    ]
+   },
+   {
+    "slug": "english",
+    "name": "English",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "A Letter to God",
+      "slug": "first-flight-chapter-1-a-letter-to-god",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-1-a-letter-to-god.pdf",
+      "pages": 15,
+      "kb": 2085,
+      "book": "First Flight",
+      "excerpt": "Lencho is a farmer who writes a letter to God when his crops are ruined, asking for a hundred pesos. Think what your answers to these questions would be, and guess how the story continues, before you begin to read it. One of the cheapest ways to send money to someone is through the post office."
+     },
+     {
+      "n": 2,
+      "title": "Nelson Mandela: Long Walk to Freedom",
+      "slug": "first-flight-chapter-2-nelson-mandela-long-walk-to-freedom",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-2-nelson-mandela-long-walk-to-freedom.pdf",
+      "pages": 16,
+      "kb": 2127,
+      "book": "First Flight",
+      "excerpt": "BEFORE YOU READ • ‘Apartheid’ is a political system that separates people according to their race. Can you say which of the three countries named below had such a political system until very recently? (i) United States of America (ii) South Africa (iii) Australia • Have you heard of Nelson Mandela? Mandela, and his African National Congress, spent a lifetime fighting against apartheid."
+     },
+     {
+      "n": 3,
+      "title": "Two Stories about Flying",
+      "slug": "first-flight-chapter-3-two-stories-about-flying",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-3-two-stories-about-flying.pdf",
+      "pages": 16,
+      "kb": 2271,
+      "book": "First Flight",
+      "excerpt": "BEFORE YOU READ Since the earliest times, humans have dreamt of conquering the skies. His two brothers and his sister had already flown away the day before. Somehow when he had taken a little run forward to the brink of the ledge and attempted to flap his wings he became afraid. The great expanse of sea stretched down beneath, and it was such a long way down — miles down."
+     },
+     {
+      "n": 4,
+      "title": "From the Diary of Anne Frank",
+      "slug": "first-flight-chapter-4-from-the-diary-of-anne-frank",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-4-from-the-diary-of-anne-frank.pdf",
+      "pages": 15,
+      "kb": 1909,
+      "book": "First Flight",
+      "excerpt": "BEFORE YOU READ Anneliese Marie ‘Anne’ Frank (12 June 1929 – February/March 1945) was a German – born Jewish girl who wrote while in hiding with her family and four friends in Amsterdam during the German occupation of the Netherlands in World War II. Her family had moved to Amsterdam after the Nazis gained power in Germany but were trapped when the Nazi occupation extended into the Netherlands."
+     },
+     {
+      "n": 5,
+      "title": "Glimpses of India",
+      "slug": "first-flight-chapter-5-glimpses-of-india",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-5-glimpses-of-india.pdf",
+      "pages": 17,
+      "kb": 2065,
+      "book": "First Flight",
+      "excerpt": "What images — of people and of places — come to your mind, when you think of our country? You may know that apart from the British, the Dutch and the French, the Portuguese have also played a part in the history of our country. Can you say which parts of India show French and Portuguese influences?"
+     },
+     {
+      "n": 6,
+      "title": "Mijbil the Otter",
+      "slug": "first-flight-chapter-6-mijbil-the-otter",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-6-mijbil-the-otter.pdf",
+      "pages": 14,
+      "kb": 1900,
+      "book": "First Flight",
+      "excerpt": "BEFORE YOU READ Gavin Maxwell lives in a cottage in Camusfearna, in the West Highlands in Scotland. When his dog Jonnie died, Maxwell was too sad to think of keeping a dog again. If you do, you perhaps know that a pet is a serious responsibility. Read in the box below what the SPCA — the Society for the Prevention of Cruelty to Animals — has to say about how to care for a pet."
+     },
+     {
+      "n": 7,
+      "title": "Madam Rides the Bus",
+      "slug": "first-flight-chapter-7-madam-rides-the-bus",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-7-madam-rides-the-bus.pdf",
+      "pages": 17,
+      "kb": 2350,
+      "book": "First Flight",
+      "excerpt": "BEFORE YOU READ In this sensitive story, an eight-year old girl’s first bus journey into the world outside her village is also her induction into the mystery of life and death. She sees the gap between our knowing that there is death, and our understanding of it. Then put a tick against the ones you think you will find in the text."
+     },
+     {
+      "n": 8,
+      "title": "The Sermon at Benares",
+      "slug": "first-flight-chapter-8-the-sermon-at-benares",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-8-the-sermon-at-benares.pdf",
+      "pages": 9,
+      "kb": 1511,
+      "book": "First Flight",
+      "excerpt": "BEFORE YOU READ Activity Use a dictionary or ask for your teacher’s help as you discuss the following questions in groups. Find out the meanings of the words and phrases given in the box. afflicted with be composed desolation lamentation procure be subject to 3. At twelve, he was sent away for schooling in the Hindu sacred scriptures and four years later he returned home to marry a princess."
+     },
+     {
+      "n": 9,
+      "title": "The Proposal",
+      "slug": "first-flight-chapter-9-the-proposal",
+      "file": "/ncert/ncert-class-10-english-first-flight-chapter-9-the-proposal.pdf",
+      "pages": 21,
+      "kb": 2378,
+      "book": "First Flight",
+      "excerpt": "(i) a suggestion, plan or scheme for doing something (ii) an offer for a possible plan or action (iii) the act of asking someone’s hand in marriage A Russian Wedding Do you know anything about a Russian marriage ceremony? Preparations for a Russian Wedding: A Russian wedding is very simple. The planning only includes arranging for rings, brides’ dress, cars, and a reception."
+     },
+     {
+      "n": 1,
+      "title": "A Triumph of Surgery",
+      "slug": "footprints-without-feet-chapter-1-a-triumph-of-surgery",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-1-a-triumph-of-surgery.pdf",
+      "pages": 7,
+      "kb": 2591,
+      "book": "Footprints without Feet",
+      "excerpt": "READ AND FIND OUT • Why is Mrs Pumphrey worried about Tricki? I had pulled up my car when I saw him in the street with his mistress and I was shocked at his appearance. He had become hugely fat, like a bloated sausage with a leg at each corner. His eyes, bloodshot and rheumy, stared straight ahead and his tongue lolled from his jaws. Mrs Pumphrey hastened to explain, “He was so listless, Mr Herriot."
+     },
+     {
+      "n": 2,
+      "title": "The Thief's Story",
+      "slug": "footprints-without-feet-chapter-2-the-thief-s-story",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-2-the-thief-s-story.pdf",
+      "pages": 6,
+      "kb": 2232,
+      "book": "Footprints without Feet",
+      "excerpt": "And though only 15, I was an experienced and fairly successful hand. I hadn’t had much luck of late and thought I might be able to get into the young man’s confidence. After this introduction, Anil talked about the well-oiled wrestlers who were grunting, lifting and throwing each other about. But the meal I cooked that night must have been terrible because Anil gave it to a stray dog and told me to be off."
+     },
+     {
+      "n": 3,
+      "title": "The Midnight Visitor",
+      "slug": "footprints-without-feet-chapter-3-the-midnight-visitor",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-3-the-midnight-visitor.pdf",
+      "pages": 6,
+      "kb": 2433,
+      "book": "Footprints without Feet",
+      "excerpt": "READ AND FIND OUT • How is Ausable different from other secret agents? • Who is Fowler and what is his first authentic thrill of the day? AUSABLE did not fit any description of a secret agent Fowler had ever read. Following him down the musty corridor of the gloomy French hotel where Ausable had a room, Fowler felt let down."
+     },
+     {
+      "n": 4,
+      "title": "A Question of Trust",
+      "slug": "footprints-without-feet-chapter-4-a-question-of-trust",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-4-a-question-of-trust.pdf",
+      "pages": 6,
+      "kb": 2234,
+      "book": "Footprints without Feet",
+      "excerpt": "A Question of Trust 4 READ AND FIND OUT • What does Horace Danby like to collect? EVERYONE thought that Horace Danby was a good, honest citizen. He was about fifty years old and unmarried, and he lived with a housekeeper who worried over his health. In fact, he was usually very well and happy except for attacks of hay fever in summer. He made locks and was successful enough at his business to have two helpers."
+     },
+     {
+      "n": 5,
+      "title": "Footprints without Feet",
+      "slug": "footprints-without-feet-chapter-5-footprints-without-feet",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-5-footprints-without-feet.pdf",
+      "pages": 6,
+      "kb": 2305,
+      "book": "Footprints without Feet",
+      "excerpt": "READ AND FIND OUT • How did the invisible man first become visible? THE two boys started in surprise at the fresh muddy imprints of a pair of bare feet. What was a barefooted man doing on the steps of a house, in the middle of London? Further footprints followed, one after another, descending the steps and progressing down the street."
+     },
+     {
+      "n": 6,
+      "title": "The Making of a Scientist",
+      "slug": "footprints-without-feet-chapter-6-the-making-of-a-scientist",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-6-the-making-of-a-scientist.pdf",
+      "pages": 7,
+      "kb": 2363,
+      "book": "Footprints without Feet",
+      "excerpt": "READ AND FIND OUT • How did a book become a turning point in Richard Ebright’s life? AT the age of twenty-two, a former ‘scout of the year’ excited the scientific world with a new theory on how cells work. Ebright and his college room-mate explained the theory in an article in the Proceedings of the National Academy of Science."
+     },
+     {
+      "n": 7,
+      "title": "The Necklace",
+      "slug": "footprints-without-feet-chapter-7-the-necklace",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-7-the-necklace.pdf",
+      "pages": 8,
+      "kb": 2694,
+      "book": "Footprints without Feet",
+      "excerpt": "SHE was one of those pretty, young ladies, born as if through an error of destiny, into a family of clerks. She had no dowry, no hopes, no means of becoming known, loved, and married by a man either rich or distinguished; and she allowed herself to marry a petty clerk in the office of the Board of Education. She suffered incessantly, feeling herself born for all delicacies and luxuries."
+     },
+     {
+      "n": 8,
+      "title": "Bholi",
+      "slug": "footprints-without-feet-chapter-8-bholi",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-8-bholi.pdf",
+      "pages": 9,
+      "kb": 2812,
+      "book": "Footprints without Feet",
+      "excerpt": "HER name was Sulekha, but since her childhood everyone had been calling her Bholi, the simpleton. When she was ten months old, she had fallen off the cot on her head and perhaps it had damaged some part of her brain. That was why she remained a backward child and came to be known as Bholi, the simpleton. But when she was two years old, she had an attack of small-pox."
+     },
+     {
+      "n": 9,
+      "title": "The Book That Saved the Earth",
+      "slug": "footprints-without-feet-chapter-9-the-book-that-saved-the-earth",
+      "file": "/ncert/ncert-class-10-english-footprints-without-feet-chapter-9-the-book-that-saved-the-earth.pdf",
+      "pages": 15,
+      "kb": 3982,
+      "book": "Footprints without Feet",
+      "excerpt": "Footprints without Feet 56 Mother Goose is a well-known book of nursery rhymes in English. Do you think such a book can save Planet Earth from a Martian invasion? Read this play, set four centuries in the future, and find out."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "cls": 11,
+  "subjects": [
+   {
+    "slug": "physics",
+    "name": "Physics",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Units and Measurement",
+      "slug": "chapter-1-units-and-measurement",
+      "file": "/ncert/ncert-class-11-physics-chapter-1-units-and-measurement.pdf",
+      "pages": 12,
+      "kb": 1050,
+      "excerpt": "CHAPTER ONE UNITS AND MEASUREMENT 1.1 INTRODUCTION Measurement of any physical quantity involves comparison with a certain basic, arbitrarily chosen, internationally accepted reference standard called unit. The result of a measurement of a physical quantity is expressed by a number (or numerical measure) accompanied by a unit."
+     },
+     {
+      "n": 2,
+      "title": "Motion in a Straight Line",
+      "slug": "chapter-2-motion-in-a-straight-line",
+      "file": "/ncert/ncert-class-11-physics-chapter-2-motion-in-a-straight-line.pdf",
+      "pages": 14,
+      "kb": 1392,
+      "excerpt": "CHAPTER TWO MOTION IN A STRAIGHT LINE 2.1 Introduction 2.2 Instantaneous velocity and speed 2.3 Acceleration 2.4 Kinematic equations for uniformly accelerated motion 2.5 Relative velocity Summary Points to ponder Exercises 2.1 INTRODUCTION Motion is common to everything in the universe. Even when we are sleeping, air moves into and out of our lungs and blood flows in arteries and veins."
+     },
+     {
+      "n": 3,
+      "title": "Motion in a Plane",
+      "slug": "chapter-3-motion-in-a-plane",
+      "file": "/ncert/ncert-class-11-physics-chapter-3-motion-in-a-plane.pdf",
+      "pages": 22,
+      "kb": 2076,
+      "excerpt": "CHAPTER THREE MOTION IN A PLANE 3.1 INTRODUCTION In the last chapter we developed the concepts of position, displacement, velocity and acceleration that are needed to describe the motion of an object along a straight line. We found that the directional aspect of these quantities can be taken care of by + and – signs, as in one dimension only two directions are possible."
+     },
+     {
+      "n": 4,
+      "title": "Laws of Motion",
+      "slug": "chapter-4-laws-of-motion",
+      "file": "/ncert/ncert-class-11-physics-chapter-4-laws-of-motion.pdf",
+      "pages": 22,
+      "kb": 1936,
+      "excerpt": "CHAPTER FOUR LAWS OF MOTION 4.1 INTRODUCTION In the preceding Chapter, our concern was to describe the motion of a particle in space quantitatively. We saw that uniform motion needs the concept of velocity alone whereas non-uniform motion requires the concept of acceleration in addition. So far, we have not asked the question as to what governs the motion of bodies."
+     },
+     {
+      "n": 5,
+      "title": "Work, Energy and Power",
+      "slug": "chapter-5-work-energy-and-power",
+      "file": "/ncert/ncert-class-11-physics-chapter-5-work-energy-and-power.pdf",
+      "pages": 21,
+      "kb": 1856,
+      "excerpt": "CHAPTER FIVE WORK, ENERGY AND POWER 5.1 INTRODUCTION The terms ‘work’, ‘energy’ and ‘power’ are frequently used in everyday language. A farmer ploughing the field, a construction worker carrying bricks, a student studying for a competitive examination, an artist painting a beautiful landscape, all are said to be working. In physics, however, the word ‘Work’ covers a definite and precise meaning."
+     },
+     {
+      "n": 6,
+      "title": "System of Particles and Rotational Motion",
+      "slug": "chapter-6-system-of-particles-and-rotational-motion",
+      "file": "/ncert/ncert-class-11-physics-chapter-6-system-of-particles-and-rotational-motion.pdf",
+      "pages": 35,
+      "kb": 4128,
+      "excerpt": "CHAPTER SIX SYSTEMS OF PARTICLES AND ROTATIONAL MOTION 6.1 INTRODUCTION In the earlier chapters we primarily considered the motion of a single particle. (A particle is ideally represented as a point mass having no size.) We applied the results of our study even to the motion of bodies of finite size, assuming that motion of such bodies can be described in terms of the motion of a particle."
+     },
+     {
+      "n": 7,
+      "title": "Gravitation",
+      "slug": "chapter-7-gravitation",
+      "file": "/ncert/ncert-class-11-physics-chapter-7-gravitation.pdf",
+      "pages": 17,
+      "kb": 1528,
+      "excerpt": "CHAPTER SEVEN GRAVITATION 7.1 INTRODUCTION Early in our lives, we become aware of the tendency of all material objects to be attracted towards the earth. Anything thrown up falls down towards the earth, going uphill is lot more tiring than going downhill, raindrops from the clouds above fall towards the earth and there are many other such phenomena."
+     },
+     {
+      "n": 8,
+      "title": "Mechanical Properties of Solids",
+      "slug": "chapter-8-mechanical-properties-of-solids",
+      "file": "/ncert/ncert-class-11-physics-chapter-8-mechanical-properties-of-solids.pdf",
+      "pages": 13,
+      "kb": 1196,
+      "excerpt": "CHAPTER EIGHT MECHANICAL PROPERTIES OF SOLIDS 8.1 INTRODUCTION In Chapter 6, we studied the rotation of the bodies and then realised that the motion of a body depends on how mass is distributed within the body. We restricted ourselves to simpler situations of rigid bodies. A rigid body generally means a hard solid object having a definite shape and size. But in reality, bodies can be stretched, compressed and bent."
+     },
+     {
+      "n": 9,
+      "title": "Mechanical Properties of Fluids",
+      "slug": "chapter-9-mechanical-properties-of-fluids",
+      "file": "/ncert/ncert-class-11-physics-chapter-9-mechanical-properties-of-fluids.pdf",
+      "pages": 22,
+      "kb": 2034,
+      "excerpt": "CHAPTER NINE MECHANICAL PROPERTIES OF FLUIDS 9.1 INTRODUCTION In this chapter, we shall study some common physical properties of liquids and gases. It is this property that distinguishes liquids and gases from solids in a basic way. Earth has an envelop of air and two-thirds of its surface is covered with water. Water is not only necessary for our existence; every mammalian body constitute mostly of water."
+     },
+     {
+      "n": 10,
+      "title": "Thermal Properties of Matter",
+      "slug": "chapter-10-thermal-properties-of-matter",
+      "file": "/ncert/ncert-class-11-physics-chapter-10-thermal-properties-of-matter.pdf",
+      "pages": 24,
+      "kb": 2206,
+      "excerpt": "CHAPTER TEN THERMAL PROPERTIES OF MATTER 10.1 INTRODUCTION We all have common sense notions of heat and temperature. A kettle with boiling water is hotter than a box containing ice. In physics, we need to define the notion of heat, temperature, etc., more carefully. In this chapter, you will learn what heat is and how it is measured, and study the various proceses by which heat flows from one body to another."
+     },
+     {
+      "n": 11,
+      "title": "Thermodynamics",
+      "slug": "chapter-11-thermodynamics",
+      "file": "/ncert/ncert-class-11-physics-chapter-11-thermodynamics.pdf",
+      "pages": 18,
+      "kb": 1769,
+      "excerpt": "CHAPTER ELEVEN THERMODYNAMICS 11.1 INTRODUCTION In previous chapter we have studied thermal properties of matter. In this chapter we shall study laws that govern thermal energy. We shall study the processes where work is converted into heat and vice versa. In winter, when we rub our palms together, we feel warmer; here work done in rubbing produces the ‘heat’."
+     },
+     {
+      "n": 12,
+      "title": "Kinetic Theory",
+      "slug": "chapter-12-kinetic-theory",
+      "file": "/ncert/ncert-class-11-physics-chapter-12-kinetic-theory.pdf",
+      "pages": 15,
+      "kb": 1444,
+      "excerpt": "CHAPTER TWELVE KINETIC THEORY 12.1 INTRODUCTION Boyle discovered the law named after him in 1661. Boyle, Newton and several others tried to explain the behaviour of gases by considering that gases are made up of tiny atomic particles. The actual atomic theory got established more than 150 years later."
+     },
+     {
+      "n": 13,
+      "title": "Oscillations",
+      "slug": "chapter-13-oscillations",
+      "file": "/ncert/ncert-class-11-physics-chapter-13-oscillations.pdf",
+      "pages": 19,
+      "kb": 1559,
+      "excerpt": "CHAPTER THIRTEEN OSCILLATIONS 13.1 INTRODUCTION In our daily life we come across various kinds of motions. You have already learnt about some of them, e.g., rectilinear motion and motion of a projectile. We have also learnt about uniform circular motion and orbital motion of planets in the solar system. In these cases, the motion is repeated after a certain interval of time, that is, it is periodic."
+     },
+     {
+      "n": 14,
+      "title": "Waves",
+      "slug": "chapter-14-waves",
+      "file": "/ncert/ncert-class-11-physics-chapter-14-waves.pdf",
+      "pages": 22,
+      "kb": 1826,
+      "excerpt": "CHAPTER FOURTEEN WAVES 14.1 INTRODUCTION In the previous Chapter, we studied the motion of objects oscillating in isolation. What happens in a system, which is a collection of such objects? Here, elastic forces bind the constituents to each other and, therefore, the motion of one affects that of the other. If you drop a little pebble in a pond of still water, the water surface gets disturbed."
+     }
+    ]
+   },
+   {
+    "slug": "chemistry",
+    "name": "Chemistry",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Some Basic Concepts of Chemistry",
+      "slug": "chapter-1-some-basic-concepts-of-chemistry",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-1-some-basic-concepts-of-chemistry.pdf",
+      "pages": 28,
+      "kb": 3421,
+      "excerpt": "UNIT 1 SOME BASIC CONCEPTS OF CHEMISTRY Science can be viewed as a continuing human effort to systematise knowledge for describing and understanding nature. You have learnt in your previous classes that we come across diverse substances present in nature and changes in them in daily life."
+     },
+     {
+      "n": 2,
+      "title": "Structure of Atom",
+      "slug": "chapter-2-structure-of-atom",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-2-structure-of-atom.pdf",
+      "pages": 45,
+      "kb": 4840,
+      "excerpt": "The rich diversity of chemical behaviour of different elements can be traced to the differences in the internal structure of atoms of these elements. The existence of atoms has been proposed since the time of early Indian and Greek philosophers (400 B.C.) who were of the view that atoms are the fundamental building blocks of matter."
+     },
+     {
+      "n": 3,
+      "title": "Classification of Elements and Periodicity in Properties",
+      "slug": "chapter-3-classification-of-elements-and-periodicity-in-properties",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-3-classification-of-elements-and-periodicity-in-properties.pdf",
+      "pages": 26,
+      "kb": 2870,
+      "excerpt": "The Periodic Table is arguably the most important concept in chemistry, both in principle and in practice. It is the everyday support for students, it suggests new avenues of research to professionals, and it provides a succinct organization of the whole of chemistry."
+     },
+     {
+      "n": 4,
+      "title": "Chemical Bonding and Molecular Structure",
+      "slug": "chapter-4-chemical-bonding-and-molecular-structure",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-4-chemical-bonding-and-molecular-structure.pdf",
+      "pages": 36,
+      "kb": 4519,
+      "excerpt": "Scientists are constantly discovering new compounds, orderly arranging the facts about them, trying to explain with the existing knowledge, organising to modify the earlier views or evolve theories for explaining the newly observed facts. CHEMICAL BONDING AND MOLECULAR STRUCTURE Matter is made up of one or different type of elements."
+     },
+     {
+      "n": 5,
+      "title": "Thermodynamics",
+      "slug": "chapter-5-thermodynamics",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-5-thermodynamics.pdf",
+      "pages": 32,
+      "kb": 5372,
+      "excerpt": "Thermodynamics It is the only physical theory of universal content concerning which I am convinced that, within the framework of the applicability of its basic concepts, it will never be overthrown. Albert Einstein Chemical energy stored by molecules can be released as heat during chemical reactions when a fuel like methane, cooking gas or coal burns in air."
+     },
+     {
+      "n": 6,
+      "title": "Equilibrium",
+      "slug": "chapter-6-equilibrium",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-6-equilibrium.pdf",
+      "pages": 47,
+      "kb": 4776,
+      "excerpt": "Unit 6 Equilibrium Chemical equilibria are important in numerous biological and environmental processes. For example, equilibria involving O2 molecules and the protein hemoglobin play a crucial role in the transport and delivery of O2 from our lungs to our muscles. Similar equilibria involving CO molecules and hemoglobin account for the toxicity of CO."
+     },
+     {
+      "n": 7,
+      "title": "Redox Reactions",
+      "slug": "chapter-7-redox-reactions",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-7-redox-reactions.pdf",
+      "pages": 21,
+      "kb": 1836,
+      "excerpt": "235 redox reactions Chemistry deals with varieties of matter and change of one kind of matter into the other. Transformation of matter from one kind into another occurs through the various types of reactions. A number of phenomena, both physical as well as biological, are concerned with redox reactions. These reactions find extensive use in pharmaceutical, biological, industrial, metallurgical and agricultural areas."
+     },
+     {
+      "n": 8,
+      "title": "Organic Chemistry – Some Basic Principles and Techniques",
+      "slug": "chapter-8-organic-chemistry-some-basic-principles-and-techniques",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-8-organic-chemistry-some-basic-principles-and-techniques.pdf",
+      "pages": 39,
+      "kb": 4157,
+      "excerpt": "In the previous unit you have learnt that the element carbon has the unique property called catenation due to which it forms covalent bonds with other carbon atoms. It also forms covalent bonds with atoms of other elements like hydrogen, oxygen, nitrogen, sulphur, phosphorus and halogens. The resulting compounds are studied under a separate branch of chemistry called organic chemistry."
+     },
+     {
+      "n": 9,
+      "title": "Hydrocarbons",
+      "slug": "chapter-9-hydrocarbons",
+      "file": "/ncert/ncert-class-11-chemistry-chapter-9-hydrocarbons.pdf",
+      "pages": 33,
+      "kb": 3223,
+      "excerpt": "Hydrocarbons The term ‘hydrocarbon’ is self-explanatory which means compounds of carbon and hydrogen only. LPG is the abbreviated form of liquified petroleum gas whereas CNG stands for compressed natural gas. Another term ‘LNG’ (liquified natural gas) is also in news these days. This is also a fuel and is obtained by liquifaction of natural gas."
+     }
+    ]
+   },
+   {
+    "slug": "maths",
+    "name": "Maths",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Sets",
+      "slug": "chapter-1-sets",
+      "file": "/ncert/ncert-class-11-maths-chapter-1-sets.pdf",
+      "pages": 23,
+      "kb": 1657,
+      "excerpt": "HARDY v 1.1 Introduction The concept of set serves as a fundamental part of the present day mathematics. Today this concept is being used in almost every branch of mathematics. Sets are used to define the concepts of relations and functions. He first encountered sets while working on “problems on trigonometric series”. In this Chapter, we discuss some basic definitions and operations involving sets."
+     },
+     {
+      "n": 2,
+      "title": "Relations and Functions",
+      "slug": "chapter-2-relations-and-functions",
+      "file": "/ncert/ncert-class-11-maths-chapter-2-relations-and-functions.pdf",
+      "pages": 19,
+      "kb": 1486,
+      "excerpt": "vMathematics is the indispensable instrument of all physical research. – BERTHELOT v 2.1 Introduction Much of mathematics is about finding a pattern – a recognisable link between quantities that change. In our daily life, we come across many patterns that characterise relations such as brother and sister, father and son, teacher and student."
+     },
+     {
+      "n": 3,
+      "title": "Trigonometric Functions",
+      "slug": "chapter-3-trigonometric-functions",
+      "file": "/ncert/ncert-class-11-maths-chapter-3-trigonometric-functions.pdf",
+      "pages": 33,
+      "kb": 2451,
+      "excerpt": "vA mathematician knows how to solve a problem, he can not solve it. – MILNE v 3.1 Introduction The word ‘trigonometry’ is derived from the Greek words ‘trigon’ and ‘metron’ and it means ‘measuring the sides of a triangle’. The subject was originally developed to solve geometric problems involving triangles. It was studied by sea captains for navigation, surveyor to map out the new lands, by engineers and others."
+     },
+     {
+      "n": 4,
+      "title": "Complex Numbers and Quadratic Equations",
+      "slug": "chapter-4-complex-numbers-and-quadratic-equations",
+      "file": "/ncert/ncert-class-11-maths-chapter-4-complex-numbers-and-quadratic-equations.pdf",
+      "pages": 13,
+      "kb": 1009,
+      "excerpt": "76 MATHEMATICS Chapter COMPLEX NUMBERS AND QUADRATIC EQUATIONS W. – GAUSS v 4.1 Introduction In earlier classes, we have studied linear equations in one and two variables and quadratic equations in one variable. 4.3 Algebra of Complex Numbers In this Section, we shall develop the algebra of complex numbers."
+     },
+     {
+      "n": 5,
+      "title": "Linear Inequalities",
+      "slug": "chapter-5-linear-inequalities",
+      "file": "/ncert/ncert-class-11-maths-chapter-5-linear-inequalities.pdf",
+      "pages": 11,
+      "kb": 816,
+      "excerpt": "5 Chapter vMathematics is the art of saying many things in many different ways. – MAXWELLv 5.1 Introduction In earlier classes, we have studied equations in one variable and two variables and also solved some statement problems by translating them in the form of equations. Now a natural question arises: ‘Is it always possible to translate a statement problem in the form of an equation?"
+     },
+     {
+      "n": 6,
+      "title": "Permutations and Combinations",
+      "slug": "chapter-6-permutations-and-combinations",
+      "file": "/ncert/ncert-class-11-maths-chapter-6-permutations-and-combinations.pdf",
+      "pages": 26,
+      "kb": 1837,
+      "excerpt": "100 MATHEMATICS vEvery body of discovery is mathematical in form because there is no other guidance we can have – DARWINv 6.1 Introduction Suppose you have a suitcase with a number lock. The lock can be opened if 4 specific digits are arranged in a particular sequence with no repetition. Some how, you have forgotten this specific sequence of digits."
+     },
+     {
+      "n": 7,
+      "title": "Binomial Theorem",
+      "slug": "chapter-7-binomial-theorem",
+      "file": "/ncert/ncert-class-11-maths-chapter-7-binomial-theorem.pdf",
+      "pages": 9,
+      "kb": 742,
+      "excerpt": "126 MATHEMATICS vMathematics is a most exact science and its conclusions are capable of absolute proofs. STEINMETZv 7.1 Introduction In earlier classes, we have learnt how to find the squares and cubes of binomials like a + b and a – b. This difficulty was overcome by a theorem known as binomial theorem. In this Chapter, we study binomial theorem for positive integral indices only."
+     },
+     {
+      "n": 8,
+      "title": "Sequences and Series",
+      "slug": "chapter-8-sequences-and-series",
+      "file": "/ncert/ncert-class-11-maths-chapter-8-sequences-and-series.pdf",
+      "pages": 16,
+      "kb": 1166,
+      "excerpt": "– DEDEKIND v 8.1 Introduction In mathematics, the word, “sequence” is used in much the same way as it is in ordinary English. When we say that a collection of objects is listed in a sequence, we usually mean that the collection is ordered in such a way that it has an identified first member, second member, third member and so on. For example, population of human beings or bacteria at different times form a sequence."
+     },
+     {
+      "n": 9,
+      "title": "Straight Lines",
+      "slug": "chapter-9-straight-lines",
+      "file": "/ncert/ncert-class-11-maths-chapter-9-straight-lines.pdf",
+      "pages": 25,
+      "kb": 1896,
+      "excerpt": "vG eometry, as a logical system, is a means and even the most powerful means to make children feel the strength of the human spirit that is of their own spirit. FREUDENTHALv 9.1 Introduction We are familiar with two-dimensional coordinate geometry from earlier classes."
+     },
+     {
+      "n": 10,
+      "title": "Conic Sections",
+      "slug": "chapter-10-conic-sections",
+      "file": "/ncert/ncert-class-11-maths-chapter-10-conic-sections.pdf",
+      "pages": 32,
+      "kb": 2460,
+      "excerpt": "176 MATHEMATICS vLet the relation of knowledge to real life be very visible to your pupils and let them understand how by knowledge the world could be transformed. – BERTRAND RUSSELL v 10.1 Introduction In the preceding Chapter 10, we have studied various forms of the equations of a line. In this Chapter, we shall study about some other curves, viz., circles, ellipses, parabolas and hyperbolas."
+     },
+     {
+      "n": 11,
+      "title": "Introduction to Three Dimensional Geometry",
+      "slug": "chapter-11-introduction-to-three-dimensional-geometry",
+      "file": "/ncert/ncert-class-11-maths-chapter-11-introduction-to-three-dimensional-geometry.pdf",
+      "pages": 9,
+      "kb": 713,
+      "excerpt": "208 MATHEMATICS vMathematics is both the queen and the hand-maiden of all sciences – E.T. BELLv 11.1 Introduction You may recall that to locate the position of a point in a plane, we need two intersecting mutually perpendicular lines in the plane. These lines are called the coordinate axes and the two numbers are called the coordinates of the point with respect to the axes."
+     },
+     {
+      "n": 12,
+      "title": "Limits and Derivatives",
+      "slug": "chapter-12-limits-and-derivatives",
+      "file": "/ncert/ncert-class-11-maths-chapter-12-limits-and-derivatives.pdf",
+      "pages": 40,
+      "kb": 2831,
+      "excerpt": "vWith the Calculus as a key, Mathematics can be successfully applied to the explanation of the course of Nature – WHITEHEAD v 12.1 Introduction This chapter is an introduction to Calculus. Calculus is that branch of mathematics which mainly deals with the study of change in the value of a function as the points in the domain change. First, we give an intuitive idea of derivative (without actually defining it)."
+     },
+     {
+      "n": 13,
+      "title": "Statistics",
+      "slug": "chapter-13-statistics",
+      "file": "/ncert/ncert-class-11-maths-chapter-13-statistics.pdf",
+      "pages": 32,
+      "kb": 2270,
+      "excerpt": "v“Statistics may be rightly called the science of averages and their estimates.” – A.L.BOWLEY & A.L. BODDINGTON v 13.1 Introduction We know that statistics deals with data collected for specific purposes. We can make decisions about the data by analysing and interpreting it. In earlier classes, we have studied methods of representing data graphically and in tabular form."
+     },
+     {
+      "n": 14,
+      "title": "Probability",
+      "slug": "chapter-14-probability",
+      "file": "/ncert/ncert-class-11-maths-chapter-14-probability.pdf",
+      "pages": 25,
+      "kb": 1761,
+      "excerpt": "vWhere a mathematical reasoning can be had, it is as great a folly to make use of any other, as to grope for a thing in the dark, when you have a candle in your hand. – JOHN ARBUTHNOT v 14.1 Event We have studied about random experiment and sample space associated with an experiment. The sample space serves as an universal set for all questions concerned with the experiment."
+     }
+    ]
+   },
+   {
+    "slug": "biology",
+    "name": "Biology",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "The Living World",
+      "slug": "chapter-1-the-living-world",
+      "file": "/ncert/ncert-class-11-biology-chapter-1-the-living-world.pdf",
+      "pages": 9,
+      "kb": 2211,
+      "excerpt": "The living world comprises an amazing diversity of living organisms. Early man could easily perceive the difference between inanimate matter and living organisms. Early man deified some of the inanimate matter (wind, sea, fire etc.) and some among the animals and plants. A common feature of all such forms of inanimate and animate objects was the sense of awe or fear that they evoked."
+     },
+     {
+      "n": 2,
+      "title": "Biological Classification",
+      "slug": "chapter-2-biological-classification",
+      "file": "/ncert/ncert-class-11-biology-chapter-2-biological-classification.pdf",
+      "pages": 13,
+      "kb": 3217,
+      "excerpt": "10 BIOLOGY Since the dawn of civilisation, there have been many attempts to classify living organisms. It was done instinctively not using criteria that were scientific but borne out of a need to use organisms for our own use – for food, shelter and clothing. Aristotle was the earliest to attempt a more scientific basis for classification."
+     },
+     {
+      "n": 3,
+      "title": "Plant Kingdom",
+      "slug": "chapter-3-plant-kingdom",
+      "file": "/ncert/ncert-class-11-biology-chapter-3-plant-kingdom.pdf",
+      "pages": 14,
+      "kb": 5060,
+      "excerpt": "PLANT KINGDOM 23 In the previous chapter, we looked at the broad classification of living organisms under the system proposed by Whittaker (1969) wherein he suggested the Five Kingdom classification viz. In this chapter, we will deal in detail with further classification within Kingdom Plantae popularly known as the ‘plant kingdom’. We must stress here that our understanding of the plant kingdom has changed over time."
+     },
+     {
+      "n": 4,
+      "title": "Animal Kingdom",
+      "slug": "chapter-4-animal-kingdom",
+      "file": "/ncert/ncert-class-11-biology-chapter-4-animal-kingdom.pdf",
+      "pages": 18,
+      "kb": 6073,
+      "excerpt": "ANIMAL KINGDOM 37 37 When you look around, you will observe different animals with different structures and forms. As over a million species of animals have been described till now, the need for classification becomes all the more important. The classification also helps in assigning a systematic position to newly described species."
+     },
+     {
+      "n": 5,
+      "title": "Morphology of Flowering Plants",
+      "slug": "chapter-5-morphology-of-flowering-plants",
+      "file": "/ncert/ncert-class-11-biology-chapter-5-morphology-of-flowering-plants.pdf",
+      "pages": 16,
+      "kb": 3352,
+      "excerpt": "UNIT 2 The description of the diverse forms of life on earth was made only by observation – through naked eyes or later through magnifying lenses and microscopes. This description is mainly of gross structural features, both external and internal. In addition, observable and perceivable living phenomena were also recorded as part of this description."
+     },
+     {
+      "n": 6,
+      "title": "Anatomy of Flowering Plants",
+      "slug": "chapter-6-anatomy-of-flowering-plants",
+      "file": "/ncert/ncert-class-11-biology-chapter-6-anatomy-of-flowering-plants.pdf",
+      "pages": 8,
+      "kb": 1856,
+      "excerpt": "ANATOMY OF FLOWERING PLANTS 71 You can very easily see the structural similarities and variations in the external morphology of the larger living organism, both plants and animals. Similarly, if we were to study the internal structure, one also finds several similarities as well as differences. This chapter introduces you to the internal structure and functional organisation of higher plants."
+     },
+     {
+      "n": 7,
+      "title": "Structural Organisation in Animals",
+      "slug": "chapter-7-structural-organisation-in-animals",
+      "file": "/ncert/ncert-class-11-biology-chapter-7-structural-organisation-in-animals.pdf",
+      "pages": 6,
+      "kb": 989,
+      "excerpt": "STRUCTURAL ORGANISATION IN ANIMALS 79 In the preceding chapters you came across a large variety of organisms, both unicellular and multicellular, of the animal kingdom. In unicellular organisms, all functions like digestion, respiration and reproduction are performed by a single cell."
+     },
+     {
+      "n": 8,
+      "title": "Cell: The Unit of Life",
+      "slug": "chapter-8-cell-the-unit-of-life",
+      "file": "/ncert/ncert-class-11-biology-chapter-8-cell-the-unit-of-life.pdf",
+      "pages": 19,
+      "kb": 6822,
+      "excerpt": "The detailed description of their form and appearance only brought out their diversity. It is the cell theory that emphasised the unity underlying this diversity of forms, i.e., the cellular organisation of all life forms. A description of cell structure and cell growth by division is given in the chapters comprising this unit."
+     },
+     {
+      "n": 9,
+      "title": "Biomolecules",
+      "slug": "chapter-9-biomolecules",
+      "file": "/ncert/ncert-class-11-biology-chapter-9-biomolecules.pdf",
+      "pages": 16,
+      "kb": 1809,
+      "excerpt": "104 BIOLOGY There is a wide diversity in living organisms in our biosphere. Now a question that arises in our minds is: Are all living organisms made of the same chemicals, i.e., elements and compounds? You have learnt in chemistry how elemental analysis is performed."
+     },
+     {
+      "n": 10,
+      "title": "Cell Cycle and Cell Division",
+      "slug": "chapter-10-cell-cycle-and-cell-division",
+      "file": "/ncert/ncert-class-11-biology-chapter-10-cell-cycle-and-cell-division.pdf",
+      "pages": 11,
+      "kb": 2431,
+      "excerpt": "120 BIOLOGY Are you aware that all organisms, even the largest, start their life from a single cell? You may wonder how a single cell then goes on to form such large organisms. Growth and reproduction are characteristics of cells, indeed of all living organisms. All cells reproduce by dividing into two, with each parental cell giving rise to two daughter cells each time they divide."
+     },
+     {
+      "n": 11,
+      "title": "Photosynthesis in Higher Plants",
+      "slug": "chapter-11-photosynthesis-in-higher-plants",
+      "file": "/ncert/ncert-class-11-biology-chapter-11-photosynthesis-in-higher-plants.pdf",
+      "pages": 22,
+      "kb": 2615,
+      "excerpt": "UNIT 4 The description of structure and variation of living organisms over a period of time, ended up as two, apparently irreconcilable perspectives on biology. The two perspectives essentially rested on two levels of organisation of life forms and phenomena. One described at organismic and above level of organisation while the second described at cellular and molecular level of organisation."
+     },
+     {
+      "n": 12,
+      "title": "Respiration in Plants",
+      "slug": "chapter-12-respiration-in-plants",
+      "file": "/ncert/ncert-class-11-biology-chapter-12-respiration-in-plants.pdf",
+      "pages": 13,
+      "kb": 1614,
+      "excerpt": "RESPIRATION IN PLANTS 153 All of us breathe to live, but why is breathing so essential to life? Also, do all living organisms, including plants and microbes, breathe? All living organisms need energy for carrying out daily life activities, be it absorption, transport, movement, reproduction or even breathing. We know we eat food for energy – but how is this energy taken from food?"
+     },
+     {
+      "n": 13,
+      "title": "Plant Growth and Development",
+      "slug": "chapter-13-plant-growth-and-development",
+      "file": "/ncert/ncert-class-11-biology-chapter-13-plant-growth-and-development.pdf",
+      "pages": 15,
+      "kb": 1877,
+      "excerpt": "166 BIOLOGY You have already studied the organisation of a flowering plant in Chapter 5. Have you ever thought about where and how the structures like roots, stems, leaves, flowers, fruits and seeds arise and that too in an orderly sequence? You are, by now, aware of the terms seed, seedling, plantlet, mature plant. You have also seen that trees continue to increase in height or girth over a period of time."
+     },
+     {
+      "n": 14,
+      "title": "Breathing and Exchange of Gases",
+      "slug": "chapter-14-breathing-and-exchange-of-gases",
+      "file": "/ncert/ncert-class-11-biology-chapter-14-breathing-and-exchange-of-gases.pdf",
+      "pages": 12,
+      "kb": 2004,
+      "excerpt": "UNIT 5 The reductionist approach to study of life forms resulted in increasing use of physico-chemical concepts and techniques. Majority of these studies employed either surviving tissue model or straightaway cell- free systems. Molecular physiology became almost synonymous with biochemistry and biophysics."
+     },
+     {
+      "n": 15,
+      "title": "Body Fluids and Circulation",
+      "slug": "chapter-15-body-fluids-and-circulation",
+      "file": "/ncert/ncert-class-11-biology-chapter-15-body-fluids-and-circulation.pdf",
+      "pages": 12,
+      "kb": 3033,
+      "excerpt": "BODY FLUIDS AND CIRCULATION 193 You have learnt that all living cells have to be provided with nutrients, O2 and other essential substances. Also, the waste or harmful substances produced, have to be removed continuously for healthy functioning of tissues. It is therefore, essential to have efficient mechanisms for the movement of these substances to the cells and from the cells."
+     },
+     {
+      "n": 16,
+      "title": "Excretory Products and their Elimination",
+      "slug": "chapter-16-excretory-products-and-their-elimination",
+      "file": "/ncert/ncert-class-11-biology-chapter-16-excretory-products-and-their-elimination.pdf",
+      "pages": 12,
+      "kb": 1732,
+      "excerpt": "EXCRETORY PRODUCTS AND THEIR ELIMINATION 205 Animals accumulate ammonia, urea, uric acid, carbon dioxide, water and ions like Na+, K+, Cl–, phosphate, sulphate, etc., either by metabolic activities or by other means like excess ingestion. In this chapter, you will learn the mechanisms of elimination of these substances with special emphasis on common nitrogenous wastes."
+     },
+     {
+      "n": 17,
+      "title": "Locomotion and Movement",
+      "slug": "chapter-17-locomotion-and-movement",
+      "file": "/ncert/ncert-class-11-biology-chapter-17-locomotion-and-movement.pdf",
+      "pages": 13,
+      "kb": 4395,
+      "excerpt": "LOCOMOTION AND MOVEMENT 217 Movement is one of the significant features of living beings. Streaming of protoplasm in the unicellular organisms like Amoeba is a simple form of movement. Movement of cilia, flagella and tentacles are shown by many organisms. Some of the movements result in a change of place or location. Walking, running, climbing, flying and swimming are all some forms of locomotory movements."
+     },
+     {
+      "n": 18,
+      "title": "Neural Control and Coordination",
+      "slug": "chapter-18-neural-control-and-coordination",
+      "file": "/ncert/ncert-class-11-biology-chapter-18-neural-control-and-coordination.pdf",
+      "pages": 9,
+      "kb": 4154,
+      "excerpt": "230 BIOLOGY As you know, the functions of the organs/organ systems in our body must be coordinated to maintain homeostasis. Coordination is the process through which two or more organs interact and complement the functions of one another. For example, when we do physical exercises, the energy demand is increased for maintaining an increased muscular activity."
+     },
+     {
+      "n": 19,
+      "title": "Chemical Coordination and Integration",
+      "slug": "chapter-19-chemical-coordination-and-integration",
+      "file": "/ncert/ncert-class-11-biology-chapter-19-chemical-coordination-and-integration.pdf",
+      "pages": 14,
+      "kb": 2081,
+      "excerpt": "239 239 CHEMICAL COORDINATION AND INTEGRATION You have already learnt that the neural system provides a point-to-point rapid coordination among organs. As the nerve fibres do not innervate all cells of the body and the cellular functions need to be continuously regulated; a special kind of coordination and integration has to be provided."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "cls": 12,
+  "subjects": [
+   {
+    "slug": "physics",
+    "name": "Physics",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Electric Charges and Fields",
+      "slug": "chapter-1-electric-charges-and-fields",
+      "file": "/ncert/ncert-class-12-physics-chapter-1-electric-charges-and-fields.pdf",
+      "pages": 44,
+      "kb": 3755,
+      "excerpt": "Chapter One ELECTRIC CHARGES AND FIELDS 1.1 INTRODUCTION All of us have the experience of seeing a spark or hearing a crackle when we take off our synthetic clothes or sweater, particularly in dry weather. Have you ever tried to find any explanation for this phenomenon? Another common example of electric discharge is the lightning that we see in the sky during thunderstorms."
+     },
+     {
+      "n": 2,
+      "title": "Electrostatic Potential and Capacitance",
+      "slug": "chapter-2-electrostatic-potential-and-capacitance",
+      "file": "/ncert/ncert-class-12-physics-chapter-2-electrostatic-potential-and-capacitance.pdf",
+      "pages": 36,
+      "kb": 3681,
+      "excerpt": "When an external force does work in taking a body from a point to another against a force like spring force or gravitational force, that work gets stored as potential energy of the body. When the external force is removed, the body moves, gaining kinetic energy and losing an equal amount of potential energy. Spring force and gravitational force are examples of conservative forces."
+     },
+     {
+      "n": 3,
+      "title": "Current Electricity",
+      "slug": "chapter-3-current-electricity",
+      "file": "/ncert/ncert-class-12-physics-chapter-3-current-electricity.pdf",
+      "pages": 26,
+      "kb": 2020,
+      "excerpt": "3.1 INTRODUCTION In Chapter 1, all charges whether free or bound, were considered to be at rest. Lightning is one such phenomenon in which charges flow from the clouds to the earth through the atmosphere, sometimes with disastrous results. The flow of charges in lightning is not steady, but in our everyday life we see many devices where charges flow in a steady manner, like water flowing smoothly in a river."
+     },
+     {
+      "n": 4,
+      "title": "Moving Charges and Magnetism",
+      "slug": "chapter-4-moving-charges-and-magnetism",
+      "file": "/ncert/ncert-class-12-physics-chapter-4-moving-charges-and-magnetism.pdf",
+      "pages": 29,
+      "kb": 3468,
+      "excerpt": "4.1 INTRODUCTION Both Electricity and Magnetism have been known for more than 2000 years. During a lecture demonstration in the summer of 1820, Danish physicist Hans Christian Oersted noticed that a current in a straight wire caused a noticeable deflection in a nearby magnetic compass needle."
+     },
+     {
+      "n": 5,
+      "title": "Magnetism and Matter",
+      "slug": "chapter-5-magnetism-and-matter",
+      "file": "/ncert/ncert-class-12-physics-chapter-5-magnetism-and-matter.pdf",
+      "pages": 18,
+      "kb": 1783,
+      "excerpt": "Physics 136 5.1 INTRODUCTION Magnetic phenomena are universal in nature. Vast, distant galaxies, the tiny invisible atoms, humans and beasts all are permeated through and through with a host of magnetic fields from a variety of sources. The word magnet is derived from the name of an island in Greece called magnesia where magnetic ore deposits were found, as early as 600 BC."
+     },
+     {
+      "n": 6,
+      "title": "Electromagnetic Induction",
+      "slug": "chapter-6-electromagnetic-induction",
+      "file": "/ncert/ncert-class-12-physics-chapter-6-electromagnetic-induction.pdf",
+      "pages": 23,
+      "kb": 2286,
+      "excerpt": "Physics 154 6.1 INTRODUCTION Electricity and magnetism were considered separate and unrelated phenomena for a long time. In the early decades of the nineteenth century, experiments on electric current by Oersted, Ampere and a few others established the fact that electricity and magnetism are inter-related. They found that moving electric charges produce magnetic fields."
+     },
+     {
+      "n": 7,
+      "title": "Alternating Current",
+      "slug": "chapter-7-alternating-current",
+      "file": "/ncert/ncert-class-12-physics-chapter-7-alternating-current.pdf",
+      "pages": 24,
+      "kb": 2283,
+      "excerpt": "7.1 INTRODUCTION We have so far considered direct current (dc) sources and circuits with dc sources. But voltages and currents that vary with time are very common. The electric mains supply in our homes and offices is a voltage that varies like a sine function with time. Such a voltage is called alternating voltage (ac voltage) and the current driven by it in a circuit is called the alternating current (ac current)*."
+     },
+     {
+      "n": 8,
+      "title": "Electromagnetic Waves",
+      "slug": "chapter-8-electromagnetic-waves",
+      "file": "/ncert/ncert-class-12-physics-chapter-8-electromagnetic-waves.pdf",
+      "pages": 14,
+      "kb": 1277,
+      "excerpt": "Chapter Eight ELECTROMAGNETIC WAVES 8.1 INTRODUCTION In Chapter 4, we learnt that an electric current produces magnetic field and that two current-carrying wires exert a magnetic force on each other. Further, in Chapter 6, we have seen that a magnetic field changing with time gives rise to an electric field. Does an electric field changing with time give rise to a magnetic field?"
+     },
+     {
+      "n": 9,
+      "title": "Ray Optics and Optical Instruments",
+      "slug": "chapter-9-ray-optics-and-optical-instruments",
+      "file": "/ncert/ncert-class-12-physics-chapter-9-ray-optics-and-optical-instruments.pdf",
+      "pages": 34,
+      "kb": 2708,
+      "excerpt": "Chapter Nine RAY OPTICS AND OPTICAL INSTRUMENTS 9.1 INTRODUCTION Nature has endowed the human eye (retina) with the sensitivity to detect electromagnetic waves within a small range of the electromagnetic spectrum. Electromagnetic radiation belonging to this region of the spectrum (wavelength of about 400 nm to 750 nm) is called light."
+     },
+     {
+      "n": 10,
+      "title": "Wave Optics",
+      "slug": "chapter-10-wave-optics",
+      "file": "/ncert/ncert-class-12-physics-chapter-10-wave-optics.pdf",
+      "pages": 19,
+      "kb": 2031,
+      "excerpt": "It explained the laws of reflection and refraction of light at an interface. The corpuscular model predicted that if the ray of light (on refraction) bends towards the normal then the speed of light would be greater in the second medium."
+     },
+     {
+      "n": 11,
+      "title": "Dual Nature of Radiation and Matter",
+      "slug": "chapter-11-dual-nature-of-radiation-and-matter",
+      "file": "/ncert/ncert-class-12-physics-chapter-11-dual-nature-of-radiation-and-matter.pdf",
+      "pages": 16,
+      "kb": 1165,
+      "excerpt": "Physics 274 11.1 INTRODUCTION The Maxwell’s equations of electromagnetism and Hertz experiments on the generation and detection of electromagnetic waves in 1887 strongly established the wave nature of light. Towards the same period at the end of 19th century, experimental investigations on conduction of electricity (electric discharge) through gases at low pressure in a discharge tube led to many historic discoveries."
+     },
+     {
+      "n": 12,
+      "title": "Atoms",
+      "slug": "chapter-12-atoms",
+      "file": "/ncert/ncert-class-12-physics-chapter-12-atoms.pdf",
+      "pages": 16,
+      "kb": 1423,
+      "excerpt": "Physics 290 12.1 INTRODUCTION By the nineteenth century, enough evidence had accumulated in favour of atomic hypothesis of matter. In 1897, the experiments on electric discharge through gases carried out by the English physicist J. Thomson (1856 – 1940) revealed that atoms of different elements contain negatively charged constituents (electrons) that are identical for all atoms."
+     },
+     {
+      "n": 13,
+      "title": "Nuclei",
+      "slug": "chapter-13-nuclei",
+      "file": "/ncert/ncert-class-12-physics-chapter-13-nuclei.pdf",
+      "pages": 17,
+      "kb": 1202,
+      "excerpt": "Physics 306 13.1 INTRODUCTION In the previous chapter, we have learnt that in every atom, the positive charge and mass are densely concentrated at the centre of the atom forming its nucleus. The overall dimensions of a nucleus are much smaller than those of an atom. Experiments on scattering of a-particles demonstrated that the radius of a nucleus was smaller than the radius of an atom by a factor of about 104."
+     },
+     {
+      "n": 14,
+      "title": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+      "slug": "chapter-14-semiconductor-electronics-materials-devices-and-simple-circuits",
+      "file": "/ncert/ncert-class-12-physics-chapter-14-semiconductor-electronics-materials-devices-and-simple-circuits.pdf",
+      "pages": 32,
+      "kb": 2877,
+      "excerpt": "14.1 INTRODUCTION Devices in which a controlled flow of electrons can be obtained are the basic building blocks of all the electronic circuits."
+     }
+    ]
+   },
+   {
+    "slug": "chemistry",
+    "name": "Chemistry",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Solutions",
+      "slug": "chapter-1-solutions",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-1-solutions.pdf",
+      "pages": 30,
+      "kb": 3251,
+      "excerpt": "Most of these are mixtures containing two or more pure substances. Their utility or importance in life depends on their composition. In this Unit, we will consider mostly liquid solutions and their formation. This will be followed by studying the properties of the solutions, like vapour pressure and colligative properties."
+     },
+     {
+      "n": 2,
+      "title": "Electrochemistry",
+      "slug": "chapter-2-electrochemistry",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-2-electrochemistry.pdf",
+      "pages": 30,
+      "kb": 3680,
+      "excerpt": "Electrochemistry is the study of production of electricity from energy released during spontaneous chemical reactions and the use of electrical energy to bring about non-spontaneous chemical transformations. The subject is of importance both for theoretical and practical considerations. A large number of metals, sodium hydroxide, chlorine, fluorine and many other chemicals are produced by electrochemical methods."
+     },
+     {
+      "n": 3,
+      "title": "Chemical Kinetics",
+      "slug": "chapter-3-chemical-kinetics",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-3-chemical-kinetics.pdf",
+      "pages": 28,
+      "kb": 3293,
+      "excerpt": "Substances with well defined properties are converted by chemical reactions into other substances with different properties. Along with feasibility and extent, it is equally important to know the rate and the factors controlling the rate of a chemical reaction for its complete understanding. For example, which parameters determine as to how rapidly food gets spoiled?"
+     },
+     {
+      "n": 4,
+      "title": "The d- and f-Block Elements",
+      "slug": "chapter-4-the-d-and-f-block-elements",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-4-the-d-and-f-block-elements.pdf",
+      "pages": 29,
+      "kb": 3489,
+      "excerpt": "The d-block of the periodic table contains the elements of the groups 3-12 in which the d orbitals are progressively filled in each of the four long periods. The f-block consists of elements in which 4 f and 5 f orbitals are progressively filled. They are placed in a separate panel at the bottom of the periodic table."
+     },
+     {
+      "n": 5,
+      "title": "Coordination Compounds",
+      "slug": "chapter-5-coordination-compounds",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-5-coordination-compounds.pdf",
+      "pages": 23,
+      "kb": 3019,
+      "excerpt": "118 Chemistry In the previous Unit we learnt that the transition metals form a large number of complex compounds in which the metal atoms are bound to a number of anions or neutral molecules by sharing of electrons. In modern terminology such compounds are called coordination compounds. The chemistry of coordination compounds is an important and challenging area of modern inorganic chemistry."
+     },
+     {
+      "n": 6,
+      "title": "Haloalkanes and Haloarenes",
+      "slug": "chapter-6-haloalkanes-and-haloarenes",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-6-haloalkanes-and-haloarenes.pdf",
+      "pages": 34,
+      "kb": 3640,
+      "excerpt": "The replacement of hydrogen atom(s) in an aliphatic or aromatic hydrocarbon by halogen atom(s) results in the formation of alkyl halide (haloalkane) and aryl halide (haloarene), respectively. Haloalkanes contain halogen atom(s) attached to the sp3 hybridised carbon atom of an alkyl group whereas haloarenes contain halogen atom(s) attached to sp2 hybridised carbon atom(s) of an aryl group."
+     },
+     {
+      "n": 7,
+      "title": "Alcohols, Phenols and Ethers",
+      "slug": "chapter-7-alcohols-phenols-and-ethers",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-7-alcohols-phenols-and-ethers.pdf",
+      "pages": 34,
+      "kb": 3882,
+      "excerpt": "Objectives Alcohols, phenols and ethers are the basic compounds for the formation of detergents, antiseptics and fragrances, respectively. Alcohols and phenols are formed when a hydrogen atom in a hydrocarbon, aliphatic and aromatic respectively, is replaced by –OH group. These classes of compounds find wide applications in industry as well as in day-to-day life."
+     },
+     {
+      "n": 8,
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "slug": "chapter-8-aldehydes-ketones-and-carboxylic-acids",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-8-aldehydes-ketones-and-carboxylic-acids.pdf",
+      "pages": 32,
+      "kb": 3681,
+      "excerpt": "Objectives Carbonyl compounds are of utmost importance to organic chemistry. They are constituents of fabrics, flavourings, plastics and drugs. In this Unit, we will study about the organic compounds containing carbon-oxygen double bond (>C=O) called carbonyl group, which is one of the most important functional groups in organic chemistry."
+     },
+     {
+      "n": 9,
+      "title": "Amines",
+      "slug": "chapter-9-amines",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-9-amines.pdf",
+      "pages": 22,
+      "kb": 2260,
+      "excerpt": "Amines constitute an important class of organic compounds derived by replacing one or more hydrogen atoms of ammonia molecule by alkyl/aryl group(s). In nature, they occur among proteins, vitamins, alkaloids and hormones. Two biologically active compounds, namely adrenaline and ephedrine, both containing secondary amino group, are used to increase blood pressure."
+     },
+     {
+      "n": 10,
+      "title": "Biomolecules",
+      "slug": "chapter-10-biomolecules",
+      "file": "/ncert/ncert-class-12-chemistry-chapter-10-biomolecules.pdf",
+      "pages": 22,
+      "kb": 2460,
+      "excerpt": "The most amazing thing about a living system is that it is composed of non-living atoms and molecules. The pursuit of knowledge of what goes on chemically within a living system falls in the domain of biochemistry. Living systems are made up of various complex biomolecules like carbohydrates, proteins, nucleic acids, lipids, etc. Proteins and carbohydrates are essential constituents of our food."
+     }
+    ]
+   },
+   {
+    "slug": "maths",
+    "name": "Maths",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Relations and Functions",
+      "slug": "chapter-1-relations-and-functions",
+      "file": "/ncert/ncert-class-12-maths-chapter-1-relations-and-functions.pdf",
+      "pages": 17,
+      "kb": 1340,
+      "excerpt": "vThere is no permanent place in the world for ugly mathematics ... It may be very hard to define mathematical beauty but that is just as true of beauty of any kind, we may not know quite what we mean by a beautiful poem, but that does not prevent us from recognising one when we read it."
+     },
+     {
+      "n": 2,
+      "title": "Inverse Trigonometric Functions",
+      "slug": "chapter-2-inverse-trigonometric-functions",
+      "file": "/ncert/ncert-class-12-maths-chapter-2-inverse-trigonometric-functions.pdf",
+      "pages": 16,
+      "kb": 1363,
+      "excerpt": "18 MATHEMATICS vMathematics, in general, is fundamentally the science of self-evident things. There are many functions which are not one-one, onto or both and hence we can not talk of their inverses. In Class XI, we studied that trigonometric functions are not one-one and onto over their natural domains and ranges and hence their inverses do not exist."
+     },
+     {
+      "n": 3,
+      "title": "Matrices",
+      "slug": "chapter-3-matrices",
+      "file": "/ncert/ncert-class-12-maths-chapter-3-matrices.pdf",
+      "pages": 42,
+      "kb": 3309,
+      "excerpt": "34 MATHEMATICS vThe essence of Mathematics lies in its freedom. — CANTOR v 3.1 Introduction The knowledge of matrices is necessary in various branches of mathematics. This mathematical tool simplifies our work to a great extent when compared with other straight forward methods. The evolution of concept of matrices is the result of an attempt to obtain compact and simple methods of solving system of linear equations."
+     },
+     {
+      "n": 4,
+      "title": "Determinants",
+      "slug": "chapter-4-determinants",
+      "file": "/ncert/ncert-class-12-maths-chapter-4-determinants.pdf",
+      "pages": 28,
+      "kb": 1965,
+      "excerpt": "76 MATHEMATICS v All Mathematical truths are relative and conditional. STEINMETZ v 4.1 Introduction In the previous chapter, we have studied about matrices and algebra of matrices. We have also learnt that a system of algebraic equations can be expressed in the form of matrices. Determinants have wide applications in Engineering, Science, Economics, Social Science, etc."
+     },
+     {
+      "n": 5,
+      "title": "Continuity and Differentiability",
+      "slug": "chapter-5-continuity-and-differentiability",
+      "file": "/ncert/ncert-class-12-maths-chapter-5-continuity-and-differentiability.pdf",
+      "pages": 43,
+      "kb": 3094,
+      "excerpt": "MATHEMATICS 104 vThe whole of science is nothing more than a refinement of everyday thinking.” — ALBERT EINSTEIN v 5.1 Introduction This chapter is essentially a continuation of our study of differentiation of functions in Class XI. We had learnt to differentiate certain functions like polynomial functions and trigonometric functions."
+     },
+     {
+      "n": 6,
+      "title": "Applications of Derivatives",
+      "slug": "chapter-6-applications-of-derivatives",
+      "file": "/ncert/ncert-class-12-maths-chapter-6-applications-of-derivatives.pdf",
+      "pages": 40,
+      "kb": 3155,
+      "excerpt": "In this chapter, we will study applications of the derivative in various disciplines, e.g., in engineering, science, social science, and many other fields. We will also use derivative to find intervals on which a function is increasing or decreasing. Finally, we use the derivative to find approximate value of certain quantities."
+     },
+     {
+      "n": 7,
+      "title": "Integrals",
+      "slug": "chapter-7-integrals",
+      "file": "/ncert/ncert-class-12-maths-chapter-7-integrals.pdf",
+      "pages": 67,
+      "kb": 4882,
+      "excerpt": "INTEGRALS 225 v Just as a mountaineer climbs a mountain – because it is there, so a good mathematics student studies new material because it is there. BRISTOL v 7.1 Introduction Differential Calculus is centred on the concept of the derivative. The original motivation for the derivative was the problem of defining tangent lines to the graphs of functions and calculating the slope of such lines."
+     },
+     {
+      "n": 8,
+      "title": "Applications of Integrals",
+      "slug": "chapter-8-applications-of-integrals",
+      "file": "/ncert/ncert-class-12-maths-chapter-8-applications-of-integrals.pdf",
+      "pages": 8,
+      "kb": 788,
+      "excerpt": "292 MATHEMATICS Fig 8.1 v One should study Mathematics because it is only through Mathematics that nature can be conceived in harmonious form. – BIRKHOFF v 8.1 Introduction In geometry, we have learnt formulae to calculate areas of various geometrical figures including triangles, rectangles, trapezias and circles. Such formulae are fundamental in the applications of mathematics to many real life problems."
+     },
+     {
+      "n": 9,
+      "title": "Differential Equations",
+      "slug": "chapter-9-differential-equations",
+      "file": "/ncert/ncert-class-12-maths-chapter-9-differential-equations.pdf",
+      "pages": 38,
+      "kb": 2687,
+      "excerpt": "MATHEMATICS 300 vHe who seeks for methods without having a definite problem in mind seeks for the most part in vain. HILBERT v 9.1 Introduction In Class XI and in Chapter 5 of the present book, we discussed how to differentiate a given function f with respect to an independent variable, i.e., how to find f ′(x) for a given function f at each x in its domain of definition."
+     },
+     {
+      "n": 10,
+      "title": "Vector Algebra",
+      "slug": "chapter-10-vector-algebra",
+      "file": "/ncert/ncert-class-12-maths-chapter-10-vector-algebra.pdf",
+      "pages": 39,
+      "kb": 4278,
+      "excerpt": "MATHEMATICS 338 vIn most sciences one generation tears down what another has built and what one has established another undoes. In Mathematics alone each generation builds a new story to the old structure. How should a football player hit the ball to give a pass to another player of his team?"
+     },
+     {
+      "n": 11,
+      "title": "Three Dimensional Geometry",
+      "slug": "chapter-11-three-dimensional-geometry",
+      "file": "/ncert/ncert-class-12-maths-chapter-11-three-dimensional-geometry.pdf",
+      "pages": 17,
+      "kb": 1428,
+      "excerpt": "THREE DIMENSIONAL GEOMETRY 377 v The moving power of mathematical invention is not reasoning but imagination. – A.DEMORGAN v 11.1 Introduction In Class XI, while studying Analytical Geometry in two dimensions, and the introduction to three dimensional geometry, we confined to the Cartesian methods only. In the previous chapter of this book, we have studied some basic concepts of vectors."
+     },
+     {
+      "n": 12,
+      "title": "Linear Programming",
+      "slug": "chapter-12-linear-programming",
+      "file": "/ncert/ncert-class-12-maths-chapter-12-linear-programming.pdf",
+      "pages": 12,
+      "kb": 951,
+      "excerpt": "394 MATHEMATICS vThe mathematical experience of the student is incomplete if he never had the opportunity to solve a problem invented by himself. POLYA v 12.1 Introduction In earlier classes, we have discussed systems of linear equations and their applications in day to day problems."
+     },
+     {
+      "n": 13,
+      "title": "Probability",
+      "slug": "chapter-13-probability",
+      "file": "/ncert/ncert-class-12-maths-chapter-13-probability.pdf",
+      "pages": 33,
+      "kb": 2248,
+      "excerpt": "406 MATHEMATICS vThe theory of probabilities is simply the Science of logic quantitatively treated. We discussed the axiomatic approach formulated by Russian Mathematician, A.N. We have also established equivalence between the axiomatic theory and the classical theory of probability in case of equally likely outcomes."
+     }
+    ]
+   },
+   {
+    "slug": "biology",
+    "name": "Biology",
+    "chapters": [
+     {
+      "n": 1,
+      "title": "Sexual Reproduction in Flowering Plants",
+      "slug": "chapter-1-sexual-reproduction-in-flowering-plants",
+      "file": "/ncert/ncert-class-12-biology-chapter-1-sexual-reproduction-in-flowering-plants.pdf",
+      "pages": 25,
+      "kb": 35941,
+      "excerpt": "While individual organisms die without fail, species continue to live through millions of years unless threatened by natural or anthropogenic extinction. Reproduction becomes a vital process without which species cannot survive for long. Each individual leaves its progeny by asexual or sexual means. Sexual mode of reproduction enables creation of new variants, so that survival advantage is enhanced."
+     },
+     {
+      "n": 2,
+      "title": "Human Reproduction",
+      "slug": "chapter-2-human-reproduction",
+      "file": "/ncert/ncert-class-12-biology-chapter-2-human-reproduction.pdf",
+      "pages": 15,
+      "kb": 62942,
+      "excerpt": "As you are aware, humans are sexually reproducing and viviparous. The reproductive events in humans include formation of gametes (gametogenesis), i.e., sperms in males and ovum in females, transfer of sperms into the female genital tract (insemination) and fusion of male and female gametes (fertilisation) leading to formation of zygote."
+     },
+     {
+      "n": 3,
+      "title": "Reproductive Health",
+      "slug": "chapter-3-reproductive-health",
+      "file": "/ncert/ncert-class-12-biology-chapter-3-reproductive-health.pdf",
+      "pages": 10,
+      "kb": 1229,
+      "excerpt": "You have learnt about human reproductive system and its functions in Chapter 2. Now, let’s discuss a closely related topic – reproductive health. The term simply refers to healthy reproductive organs with normal functions. However, it has a broader perspective and includes the emotional and social aspects of reproduction also."
+     },
+     {
+      "n": 4,
+      "title": "Principles of Inheritance and Variation",
+      "slug": "chapter-4-principles-of-inheritance-and-variation",
+      "file": "/ncert/ncert-class-12-biology-chapter-4-principles-of-inheritance-and-variation.pdf",
+      "pages": 28,
+      "kb": 18760,
+      "excerpt": "The work of Mendel and others who followed him gave us an idea of inheritance patterns. However the nature of those ‘factors’ which determine the phenotype was not very clear. As these ‘factors’ represent the genetic basis of inheritance, understanding the structure of genetic material and the structural basis of genotype and phenotype conversion became the focus of attention in biology for the next century."
+     },
+     {
+      "n": 5,
+      "title": "Molecular Basis of Inheritance",
+      "slug": "chapter-5-molecular-basis-of-inheritance",
+      "file": "/ncert/ncert-class-12-biology-chapter-5-molecular-basis-of-inheritance.pdf",
+      "pages": 31,
+      "kb": 4038,
+      "excerpt": "At the time of Mendel, the nature of those ‘factors’ regulating the pattern of inheritance was not clear. Over the next hundred years, the nature of the putative genetic material was investigated culminating in the realisation that DNA – deoxyribonucleic acid – is the genetic material, at least for the majority of organisms. In class XI you have learnt that nucleic acids are polymers of nucleotides."
+     },
+     {
+      "n": 6,
+      "title": "Evolution",
+      "slug": "chapter-6-evolution",
+      "file": "/ncert/ncert-class-12-biology-chapter-6-evolution.pdf",
+      "pages": 17,
+      "kb": 7925,
+      "excerpt": ""
+     },
+     {
+      "n": 7,
+      "title": "Human Health and Disease",
+      "slug": "chapter-7-human-health-and-disease",
+      "file": "/ncert/ncert-class-12-biology-chapter-7-human-health-and-disease.pdf",
+      "pages": 22,
+      "kb": 4398,
+      "excerpt": "Chapter 7 Human Health and Disease Chapter 8 Microbes in Human Welfare Biology is the youngest of the formalised disciplines of natural science. Progress in physics and chemistry proceeded much faster than in Biology. Applications of physics and chemistry in our daily life also have a higher visibility than those of biology."
+     },
+     {
+      "n": 8,
+      "title": "Microbes in Human Welfare",
+      "slug": "chapter-8-microbes-in-human-welfare",
+      "file": "/ncert/ncert-class-12-biology-chapter-8-microbes-in-human-welfare.pdf",
+      "pages": 12,
+      "kb": 12637,
+      "excerpt": "Besides macroscopic plants and animals, microbes are the major components of biological systems on this earth. You have studied about the diversity of living organisms in Class XI. Do you remember which Kingdoms among the living organisms contain micro-organisms? Microbes are present everywhere – in soil, water, air, inside our bodies and that of other animals and plants."
+     },
+     {
+      "n": 9,
+      "title": "Biotechnology: Principles and Processes",
+      "slug": "chapter-9-biotechnology-principles-and-processes",
+      "file": "/ncert/ncert-class-12-biology-chapter-9-biotechnology-principles-and-processes.pdf",
+      "pages": 16,
+      "kb": 3064,
+      "excerpt": "Ever since the days of Rene Descartes, the French philosopher, mathematician and biologist of seventeenth century, all human knowledge especially natural sciences were directed to develop technologies which add to the creature comforts of human lives, as also value to human life. The whole approach to understanding natural phenomena became anthropocentric."
+     },
+     {
+      "n": 10,
+      "title": "Biotechnology and its Applications",
+      "slug": "chapter-10-biotechnology-and-its-applications",
+      "file": "/ncert/ncert-class-12-biology-chapter-10-biotechnology-and-its-applications.pdf",
+      "pages": 11,
+      "kb": 1459,
+      "excerpt": "Biotechnology, as you would have learnt from the previous chapter, essentially deals with industrial scale production of biopharmaceuticals and biologicals using genetically modified microbes, fungi, plants and animals. The applications of biotechnology include therapeutics, diagnostics, genetically modified crops for agriculture, processed food, bioremediation, waste treatment, and energy production."
+     },
+     {
+      "n": 11,
+      "title": "Organisms and Populations",
+      "slug": "chapter-11-organisms-and-populations",
+      "file": "/ncert/ncert-class-12-biology-chapter-11-organisms-and-populations.pdf",
+      "pages": 17,
+      "kb": 1520,
+      "excerpt": "Diversity is not only a characteristic of living organisms but also of content in biology textbooks. Biology is presented either as botany, zoology and microbiology or as classical and modern. Luckily we have many threads which weave the different areas of biological information into a unifying principle. Ecology is one such thread which gives us a holistic perspective to biology."
+     },
+     {
+      "n": 12,
+      "title": "Ecosystem",
+      "slug": "chapter-12-ecosystem",
+      "file": "/ncert/ncert-class-12-biology-chapter-12-ecosystem.pdf",
+      "pages": 11,
+      "kb": 2359,
+      "excerpt": "An ecosystem can be visualised as a functional unit of nature, where living organisms interact among themselves and also with the surrounding physical environment. Ecosystem varies greatly in size from a small pond to a large forest or a sea. Many ecologists regard the entire biosphere as a global ecosystem, as a composite of all local ecosystems on Earth."
+     },
+     {
+      "n": 13,
+      "title": "Biodiversity and Conservation",
+      "slug": "chapter-13-biodiversity-and-conservation",
+      "file": "/ncert/ncert-class-12-biology-chapter-13-biodiversity-and-conservation.pdf",
+      "pages": 13,
+      "kb": 2290,
+      "excerpt": "If an alien from a distant galaxy were to visit our planet Earth, the first thing that would amaze and baffle him would most probably be the enormous diversity of life that he would encounter. Even for humans, the rich variety of living organisms with which they share this planet never ceases to astonish and fascinate us."
+     }
+    ]
+   }
+  ]
+ }
+]

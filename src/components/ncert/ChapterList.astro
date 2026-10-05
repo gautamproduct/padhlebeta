@@ -1,0 +1,135 @@
+---
+import { url } from '~/lib/url';
+import { ncertPath, downloadName, formatKb, type NcertSubject } from '~/data/ncert';
+
+export interface Props {
+  cls: number;
+  subject: NcertSubject;
+  /** Show the subject name on each row (class page lists every subject). */
+  showSubject?: boolean;
+}
+const { cls, subject, showSubject = false } = Astro.props;
+
+// Group consecutive chapters by textbook so Class 10 English / SST read as two/four books.
+const groups: { book?: string; chapters: NcertSubject['chapters'] }[] = [];
+for (const ch of subject.chapters) {
+  const last = groups[groups.length - 1];
+  if (last && last.book === ch.book) last.chapters.push(ch);
+  else groups.push({ book: ch.book, chapters: [ch] });
+}
+---
+
+{groups.map((g) => (
+  <div class="chgroup">
+    {g.book && <h3 class="chgroup__book">{g.book}</h3>}
+    <ol class="chlist" role="list">
+      {g.chapters.map((ch) => (
+        <li class="chrow">
+          <a class="chrow__main" href={url(ncertPath.chapter(cls, subject.slug, ch.slug))}>
+            <span class="chrow__n" aria-hidden="true">{String(ch.n).padStart(2, '0')}</span>
+            <span class="chrow__text">
+              <span class="chrow__title">{ch.title}</span>
+              <span class="chrow__meta">
+                {showSubject && <>{subject.name} · </>}Chapter {ch.n} · {ch.pages} pages · {formatKb(ch.kb)}
+              </span>
+            </span>
+          </a>
+          <span class="chrow__actions">
+            <a class="chbtn chbtn--ghost" href={url(ncertPath.chapter(cls, subject.slug, ch.slug))} aria-label={`Read ${ch.title} online`}>
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg>
+              <span>Read</span>
+            </a>
+            <a class="chbtn chbtn--solid" href={url(ch.file)} download={downloadName(cls, subject, ch)} aria-label={`Download ${ch.title} PDF`} data-ncert-dl>
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+              <span>PDF</span>
+            </a>
+          </span>
+        </li>
+      ))}
+    </ol>
+  </div>
+))}
+
+<style>
+  .chgroup + .chgroup { margin-top: var(--space-6); }
+  .chgroup__book {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg-subtle);
+    margin: 0 0 var(--space-3) var(--space-2);
+  }
+  .chlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+  }
+  .chrow {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    transition: background 160ms var(--ease-out);
+  }
+  .chrow + .chrow { border-top: 1px solid var(--border); }
+  .chrow:hover { background: var(--bg-soft); }
+  .chrow__main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    color: inherit;
+    text-decoration: none;
+    padding-block: var(--space-1);
+  }
+  .chrow__main:hover { text-decoration: none; }
+  .chrow__n {
+    flex: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    background: var(--accent-soft);
+    color: var(--saffron-700);
+    font-weight: 800;
+    font-size: 0.9375rem;
+    font-variant-numeric: tabular-nums;
+  }
+  html[data-theme='dark'] .chrow__n { color: var(--saffron-400); }
+  .chrow__text { display: flex; flex-direction: column; min-width: 0; }
+  .chrow__title { font-weight: 700; font-size: 1rem; line-height: 1.35; }
+  .chrow__meta { font-size: 0.8125rem; color: var(--fg-subtle); margin-top: 2px; }
+  .chrow__actions { display: flex; gap: var(--space-2); flex: none; }
+  .chbtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: 0.8125rem;
+    padding: 0.5rem 0.875rem;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: all 160ms var(--ease-out);
+    white-space: nowrap;
+  }
+  .chbtn:hover { text-decoration: none; transform: translateY(-1px); }
+  .chbtn--ghost { color: var(--fg); border: 1px solid var(--border-strong); }
+  .chbtn--ghost:hover { background: var(--bg-elev); border-color: var(--fg-muted); }
+  .chbtn--solid { background: var(--accent); color: var(--accent-fg); }
+  .chbtn--solid:hover { background: var(--accent-hover); box-shadow: 0 6px 18px -8px var(--accent); }
+  @media (max-width: 560px) {
+    .chrow { padding: var(--space-3); }
+    .chrow__main { gap: var(--space-3); }
+    .chrow__n { width: 2.125rem; height: 2.125rem; font-size: 0.8125rem; border-radius: 10px; }
+    .chbtn--ghost { display: none; }
+    .chbtn { padding: 0.5rem 0.75rem; }
+  }
+</style>

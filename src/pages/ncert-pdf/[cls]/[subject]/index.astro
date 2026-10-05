@@ -1,0 +1,188 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import Breadcrumbs from '~/components/Breadcrumbs.astro';
+import FAQ from '~/components/FAQ.astro';
+import ChapterList from '~/components/ncert/ChapterList.astro';
+import { url, absUrl } from '~/lib/url';
+import { ncertClasses, subjectMeta, ncertPath, subjectTotals, formatKb, SESSION, type NcertSubject } from '~/data/ncert';
+
+export function getStaticPaths() {
+  return ncertClasses.flatMap((c) =>
+    c.subjects.map((s) => ({ params: { cls: `class-${c.cls}`, subject: s.slug }, props: { cls: c.cls, s } })),
+  );
+}
+const { cls, s } = Astro.props as { cls: number; s: NcertSubject };
+const t = subjectTotals(s);
+const m = subjectMeta[s.slug];
+const siblings = ncertClasses.find((c) => c.cls === cls)!.subjects.filter((x) => x.slug !== s.slug);
+const sameSubject = ncertClasses.filter((c) => c.cls !== cls && c.subjects.some((x) => x.slug === s.slug));
+const name = `NCERT Class ${cls} ${s.name}`;
+const first = s.chapters[0];
+
+const faq = [
+  { q: `How many chapters are in ${name}?`, a: `${name} (${SESSION}) has ${s.chapters.length} chapters: ${s.chapters.map((c) => `${c.n}. ${c.title}`).join('; ')}.` },
+  { q: `How do I download the full ${name} book as one PDF?`, a: `Tap "Download full book" on this page. All ${s.chapters.length} chapters (${t.pages} pages) are joined into one PDF on your own device, in textbook order — nothing is uploaded.` },
+  { q: `Can I read ${name} online?`, a: `Yes. Tap Read on any chapter and it opens in the built-in reader — no app or download needed. It works on phones too.` },
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name: `${name} Textbook (${SESSION})`,
+  url: absUrl(ncertPath.subject(cls, s.slug)),
+  author: { '@type': 'Organization', name: 'NCERT' },
+  inLanguage: 'en',
+  bookFormat: 'https://schema.org/EBook',
+  numberOfPages: t.pages,
+  educationalLevel: `Class ${cls}`,
+  about: s.name,
+  isAccessibleForFree: true,
+  hasPart: s.chapters.map((c) => ({
+    '@type': 'Chapter',
+    position: c.n,
+    name: c.title,
+    url: absUrl(ncertPath.chapter(cls, s.slug, c.slug)),
+  })),
+};
+---
+
+<BaseLayout
+  title={`${name} Book PDF Download ${SESSION} – All Chapters Free`}
+  rawTitle
+  description={`Download ${name} book PDF free — all ${s.chapters.length} chapters (${SESSION}), from ${first.title} onwards. Read online, download chapter-wise or the full book as one PDF.`}
+  jsonLd={jsonLd}
+>
+  <section class="section page-hero" style={`--hue:${m?.hue ?? '#64748B'}`}>
+    <div class="container narrow">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'NCERT PDF', href: ncertPath.hub() }, { label: `Class ${cls}`, href: ncertPath.cls(cls) }, { label: s.name }]} />
+
+      <header class="shead">
+        <span class="badge">Class {cls} · {m?.exams}</span>
+        <h1>{name} <span class="hl">PDF</span></h1>
+        <p class="answer">
+          {name} ({SESSION}) has <b>{s.chapters.length} chapters</b> and {t.pages} pages. Every chapter is below — tap
+          <b>Read</b> to open it here or <b>PDF</b> to download. Free, no login.
+        </p>
+        <div class="actions">
+          <button type="button" class="btn btn--primary btn--lg" id="fullbook" data-files={JSON.stringify(s.chapters.map((c) => url(c.file)))} data-name={`${name} - Full Book.pdf`}>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+            <span data-label>Download full book · {formatKb(t.kb)}</span>
+          </button>
+          <a class="btn btn--ghost btn--lg" href={url(ncertPath.chapter(cls, s.slug, first.slug))}>Start reading Ch 1</a>
+        </div>
+        <div class="bar" hidden><i></i></div>
+      </header>
+
+      <ChapterList cls={cls} subject={s} />
+
+      <aside class="more">
+        {siblings.length > 0 && (
+          <div>
+            <h2>More Class {cls} subjects</h2>
+            <div class="links">
+              {siblings.map((x) => <a href={url(ncertPath.subject(cls, x.slug))}>{x.name}</a>)}
+            </div>
+          </div>
+        )}
+        {sameSubject.length > 0 && (
+          <div>
+            <h2>{s.name} in other classes</h2>
+            <div class="links">
+              {sameSubject.map((c) => <a href={url(ncertPath.subject(c.cls, s.slug))}>Class {c.cls} {s.name}</a>)}
+            </div>
+          </div>
+        )}
+        <div>
+          <h2>Printing it?</h2>
+          <p>Fit 2 or 4 textbook pages on one A4 sheet with the free <a href={url('/tools/pages-per-sheet/')}>pages-per-sheet tool</a> — half the paper, same chapter.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <FAQ items={faq} id="subject-faq" />
+</BaseLayout>
+
+<script>
+  import { getPdfLib, downloadBlob } from '~/lib/pdf-runtime';
+
+  const btn = document.getElementById('fullbook') as HTMLButtonElement | null;
+  const bar = document.querySelector<HTMLElement>('.bar');
+  if (btn && bar) {
+    const label = btn.querySelector<HTMLElement>('[data-label]')!;
+    const original = label.textContent;
+    btn.addEventListener('click', async () => {
+      const files: string[] = JSON.parse(btn.dataset.files!);
+      btn.disabled = true;
+      bar.hidden = false;
+      const fill = bar.querySelector('i')!;
+      try {
+        const { PDFDocument } = await getPdfLib();
+        const out = await PDFDocument.create();
+        for (let i = 0; i < files.length; i++) {
+          label.textContent = `Fetching chapter ${i + 1} of ${files.length}…`;
+          const bytes = await fetch(files[i]).then((r) => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.arrayBuffer();
+          });
+          const src = await PDFDocument.load(bytes, { ignoreEncryption: true });
+          const pages = await out.copyPages(src, src.getPageIndices());
+          pages.forEach((p) => out.addPage(p));
+          fill.style.width = `${((i + 1) / files.length) * 100}%`;
+        }
+        label.textContent = 'Saving…';
+        out.setTitle(btn.dataset.name!.replace(/\.pdf$/, ''));
+        out.setAuthor('NCERT');
+        out.setProducer('Padhle Beta');
+        const data = await out.save();
+        downloadBlob(new Blob([data], { type: 'application/pdf' }), btn.dataset.name!);
+        label.textContent = 'Downloaded ✓';
+      } catch (err) {
+        console.error(err);
+        label.textContent = 'Could not join — download chapters one by one below';
+      } finally {
+        btn.disabled = false;
+        setTimeout(() => { label.textContent = original; bar.hidden = true; fill.style.width = '0'; }, 4000);
+      }
+    });
+  }
+</script>
+
+<style>
+  .narrow { max-width: 860px; }
+  .shead { margin-bottom: var(--space-7); }
+  .badge {
+    display: inline-block;
+    font: 700 0.75rem var(--font-ui);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--hue);
+    background: color-mix(in srgb, var(--hue) 12%, transparent);
+    padding: 5px 12px;
+    border-radius: 999px;
+    margin-bottom: var(--space-4);
+  }
+  .shead h1 { font-size: var(--text-4xl); line-height: 1.05; letter-spacing: -0.03em; }
+  .hl { color: var(--hue); }
+  .answer { font-size: 1.125rem; color: var(--fg-muted); margin-top: var(--space-4); max-width: 640px; line-height: 1.55; }
+  .answer b { color: var(--fg); }
+  .actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-6); }
+  .actions button { border: 0; cursor: pointer; }
+  .actions button:disabled { opacity: 0.85; cursor: progress; }
+  .bar { height: 6px; border-radius: 999px; background: var(--border); margin-top: var(--space-4); overflow: hidden; max-width: 420px; }
+  .bar i { display: block; height: 100%; width: 0; background: var(--accent); transition: width 300ms var(--ease-out); }
+
+  .more { display: grid; gap: var(--space-6); margin-top: var(--space-9); }
+  .more h2 { font-size: 1.125rem; margin-bottom: var(--space-3); }
+  .more p { color: var(--fg-muted); }
+  .links { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .links a {
+    font: 700 0.875rem var(--font-ui);
+    padding: 0.5rem 0.95rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--bg-elev);
+    color: var(--fg);
+  }
+  .links a:hover { text-decoration: none; border-color: var(--accent); color: var(--accent); }
+</style>
