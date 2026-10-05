@@ -6,6 +6,8 @@ import { site, tools, type Tool } from '~/data/site';
 import { getCollection } from 'astro:content';
 import ConverterStudio from '~/components/ConverterStudio.astro';
 import HomeSeo from '~/components/HomeSeo.astro';
+import HomeNcert from '~/components/ncert/HomeNcert.astro';
+import ToolGrid from '~/components/ToolGrid.astro';
 import BeforeAfter from '~/components/BeforeAfter.astro';
 import { getTool } from '~/data/site';
 import { url, absUrl } from '~/lib/url';
@@ -36,6 +38,10 @@ const homeFaq = [
   {
     q: 'Can I print 2 or 4 slides on one page?',
     a: 'Yes — pick 2, 4 or 6 slides per A4 sheet in the converter options. For white PDFs that do not need converting, use the Pages per Sheet tool.',
+  },
+  {
+    q: 'Where can I download NCERT books PDF for free?',
+    a: 'On Padhle Beta’s NCERT PDF page — every chapter of the Class 9, 10, 11 and 12 NCERT textbooks, free to read online or download, chapter-wise or as a full book. No login.',
   },
   {
     q: 'Is Padhle Beta really free?',
@@ -125,6 +131,8 @@ const webAppJsonLd = {
     </div>
   </section>
 
+  <HomeNcert />
+
   {/* FEATURES */}
   <section class="section">
     <div class="container">
@@ -179,18 +187,10 @@ const webAppJsonLd = {
     <div class="container">
       <header class="center-head">
         <span class="eyebrow">Also free</span>
-        <h2>Other tools for your notes</h2>
+        <h2>12 more tools. One tap each.</h2>
+        <p>Print cheaper, combine chapters, shrink files for WhatsApp — all in your browser, nothing uploaded.</p>
       </header>
-      <ul class="toolchips" role="list">
-        {tools.filter((t) => t.slug !== 'dark-to-light').map((t) => (
-          <li>
-            <a href={url(`/tools/${t.slug}/`)}>
-              <strong>{t.name}</strong>
-              <span>{t.description}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
+      <ToolGrid exclude={['dark-to-light']} />
     </div>
   </section>
 
@@ -293,18 +293,4 @@ const webAppJsonLd = {
   .steps3 p { font-family: var(--font-ui); font-size: 0.9375rem; line-height: 1.6; color: var(--fg-muted); margin: 0; }
 
   /* ---------- Tools ---------- */
-  .toolchips {
-    list-style: none; padding: 0; margin: 0;
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: var(--space-3);
-  }
-  .toolchips a {
-    display: block; height: 100%;
-    padding: var(--space-4) var(--space-5);
-    border: 1px solid var(--border); border-radius: var(--radius);
-    background: var(--bg-elev); color: inherit;
-    transition: border-color 120ms ease, transform 120ms ease;
-  }
-  .toolchips a:hover { border-color: var(--accent); text-decoration: none; transform: translateY(-2px); }
-  .toolchips strong { display: block; font-family: var(--font-ui); font-size: 0.9875rem; color: var(--fg); }
-  .toolchips span { display: block; font-family: var(--font-ui); font-size: 0.8125rem; color: var(--fg-muted); margin-top: 0.25rem; line-height: 1.45; }
 </style>

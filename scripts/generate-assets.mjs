@@ -81,6 +81,17 @@ const images = {
   'image-to-pdf': [['Photos of notes', 'to one PDF.'], FOOT],
   'focus-timer': [['Pomodoro timer', 'for long study days.'], 'Free focus timer for JEE, NEET & boards'],
 };
+// NCERT: hub, one per class, one per class+subject (chapter pages reuse the subject image).
+const ncert = JSON.parse(await readFile(new URL('../src/data/ncert.json', import.meta.url), 'utf8'));
+const NFOOT = 'Free NCERT PDF · Read online or download · No login';
+images.ncert = [['Every NCERT chapter.', 'Free PDF, one tap.'], 'Class 9, 10, 11 & 12 · ' + NFOOT];
+for (const c of ncert) {
+  const n = c.subjects.reduce((a, x) => a + x.chapters.length, 0);
+  images[`ncert-class-${c.cls}`] = [[`NCERT Class ${c.cls}`, 'books PDF.'], `${n} chapters · ${NFOOT}`];
+  for (const x of c.subjects) {
+    images[`ncert-${c.cls}-${x.slug}`] = [[`Class ${c.cls} ${x.name}`, 'NCERT PDF.'], `${x.chapters.length} chapters · ${NFOOT}`];
+  }
+}
 for (const [name, [lines, sub]] of Object.entries(images)) {
   await sharp(Buffer.from(og(lines, sub))).png({ compressionLevel: 9 }).toFile(fileURLToPath(new URL(`og/${name}.png`, pub)));
 }

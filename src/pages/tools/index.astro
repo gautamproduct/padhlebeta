@@ -1,112 +1,145 @@
 ---
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import Breadcrumbs from '~/components/Breadcrumbs.astro';
-import ToolIcon from '~/components/ToolIcon.astro';
+import ToolGrid from '~/components/ToolGrid.astro';
 import { site, tools } from '~/data/site';
-import { url } from '~/lib/url';
+import { url, absUrl } from '~/lib/url';
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: 'PDF Tools for Students · ' + site.name,
-  description: 'Five free browser-based PDF utilities built for Indian students printing coaching notes.',
-  url: site.siteUrl + site.basePath + '/tools/',
+  name: 'Free PDF Tools for Students · ' + site.name,
+  description: `${tools.length} free browser-based PDF tools built for Indian students printing and sharing notes.`,
+  url: absUrl('/tools/'),
   mainEntity: {
     '@type': 'ItemList',
     itemListElement: tools.map((t, i) => ({
       '@type': 'ListItem',
       position: i + 1,
       name: t.name,
-      url: site.siteUrl + site.basePath + '/tools/' + t.slug + '/',
+      url: absUrl(`/tools/${t.slug}/`),
     })),
   },
 };
 ---
 
 <BaseLayout
-  title="All PDF Tools"
-  description="Browse every free PDF tool Padhle Beta offers — dark to light, merge, compress, image to PDF, and extract pages. No signup, no upload, 100% in your browser."
+  title="Free PDF Tools for Students – Merge, Compress, Print & More"
+  rawTitle
+  description={`${tools.length} free PDF tools for students: black notes to white, pages per sheet, merge, split, compress for WhatsApp, image to PDF and more. No signup, no upload — runs in your browser.`}
   jsonLd={jsonLd}
 >
-  <section class="section page-hero">
+  <section class="section page-hero tools-page">
     <div class="container">
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tools' }]} />
 
-      <header class="tools-head">
-        <span class="eyebrow">All tools</span>
-        <h1>Every PDF tool you need as a student.</h1>
-        <p>Five focused utilities. Each one solves a specific problem with coaching notes — and each one runs entirely in your browser.</p>
+      <header class="th">
+        <span class="eyebrow">{tools.length} free tools</span>
+        <h1>Fix any PDF problem<br /><span class="hl">in about ten seconds.</span></h1>
+        <p>Print cheaper, combine chapters, shrink files for WhatsApp. Pick a tool, drop your file, download. That’s it.</p>
+        <ul class="trust" role="list">
+          <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6l-8-3Z"/></svg>Files never leave your device</li>
+          <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m5 12 5 5L20 7"/></svg>No signup, no watermark</li>
+          <li><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 3h10v18l-5-3-5 3V3Z"/></svg>Works on your phone</li>
+        </ul>
       </header>
 
-      <div class="tools-grid">
-        {tools.map((t) => (
-          <a href={url(`/tools/${t.slug}/`)} class="tool-card">
-            <span class="tool-card__icon" aria-hidden="true">
-              <ToolIcon name={t.slug as any} size={26} />
-            </span>
-            <div>
-              <h2>{t.name}</h2>
-              <p>{t.description}</p>
-              <span class="tool-card__cta">Open tool →</span>
-            </div>
-          </a>
-        ))}
-      </div>
+      <a href={url('/tools/dark-to-light/')} class="feat">
+        <span class="feat__copy">
+          <span class="feat__tag">Most popular</span>
+          <span class="feat__title">Black coaching notes → white, printable A4</span>
+          <span class="feat__desc">PW, Unacademy, ALLEN slides with a black background eat ink. Flip them to white in one tap — up to 60% less ink.</span>
+          <span class="btn btn--primary btn--lg feat__cta">Convert my notes →</span>
+        </span>
+        <span class="feat__art" aria-hidden="true">
+          <span class="pg pg--dark"><i></i><i></i><i></i><i></i></span>
+          <svg class="feat__arrow" viewBox="0 0 24 24" width="36" height="36"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+          <span class="pg pg--light"><i></i><i></i><i></i><i></i></span>
+        </span>
+      </a>
+
+      <ToolGrid grouped exclude={['dark-to-light']} />
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .tools-head {
-    max-width: 720px;
-    margin: 0 auto var(--space-7);
-    text-align: center;
-  }
-  .tools-head p {
-    font-family: var(--font-body);
-    font-size: 1.125rem;
-    color: var(--fg-muted);
-    margin-top: var(--space-3);
-  }
-
-  .tools-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-4);
-    max-width: 920px;
-    margin: 0 auto;
-  }
-  .tool-card {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: var(--space-5);
-    align-items: start;
-    background: var(--bg-elev);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    padding: var(--space-5) var(--space-6);
-    color: inherit;
-    transition: border-color 150ms ease, transform 150ms ease, box-shadow 150ms ease;
-  }
-  .tool-card:hover {
-    text-decoration: none;
-    border-color: var(--accent);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow);
-  }
-  .tool-card__icon {
-    width: 56px;
-    height: 56px;
-    border-radius: 16px;
-    background: var(--accent-soft);
-    color: var(--saffron-700);
-    display: inline-flex;
-    align-items: center;
+  .th { max-width: 760px; margin: 0 auto var(--space-8); text-align: center; }
+  .th h1 { font-size: var(--text-4xl); line-height: 1.05; letter-spacing: -0.03em; }
+  .hl { color: var(--accent); }
+  .th p { font-size: 1.1875rem; color: var(--fg-muted); margin-top: var(--space-4); }
+  .trust {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-6) 0 0;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-shrink: 0;
+    gap: var(--space-3) var(--space-6);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--fg-muted);
   }
-  .tool-card h2 { font-size: 1.25rem; margin-bottom: 0.35rem; }
-  .tool-card p { color: var(--fg-muted); font-family: var(--font-body); font-size: 1rem; line-height: 1.55; margin-bottom: var(--space-3); }
-  .tool-card__cta { font-family: var(--font-ui); font-weight: 600; color: var(--accent); font-size: 0.9375rem; }
-  .tool-card:hover .tool-card__cta { color: var(--accent-hover); }
+  .trust li { display: inline-flex; align-items: center; gap: 8px; }
+  .trust svg { color: var(--green-600); }
+
+  .feat {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+    gap: var(--space-6);
+    padding: clamp(1.5rem, 4vw, 2.75rem);
+    margin-bottom: var(--space-9);
+    border-radius: var(--radius-2xl);
+    color: #F8FAFC;
+    background:
+      radial-gradient(60% 90% at 100% 0%, rgba(255, 107, 26, 0.35), transparent 60%),
+      linear-gradient(135deg, #0B1220, #1E293B);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: var(--shadow-lg);
+    transition: transform 240ms var(--ease-out), box-shadow 240ms var(--ease-out);
+  }
+  .feat:hover { text-decoration: none; transform: translateY(-3px); box-shadow: var(--shadow-xl); }
+  @media (max-width: 820px) { .feat { grid-template-columns: 1fr; } }
+  .feat__copy { display: flex; flex-direction: column; align-items: flex-start; }
+  .feat__tag {
+    font: 700 0.75rem var(--font-ui);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FDBA74;
+    background: rgba(255, 107, 26, 0.16);
+    padding: 5px 12px;
+    border-radius: 999px;
+  }
+  .feat__title { font: 800 clamp(1.5rem, 3vw, 2.125rem)/1.15 var(--font-ui); letter-spacing: -0.02em; margin-top: var(--space-4); }
+  .feat__desc { color: #CBD5E1; font-size: 1.0625rem; line-height: 1.55; margin-top: var(--space-3); max-width: 520px; }
+  .feat__cta { margin-top: var(--space-5); }
+  .feat:hover .feat__cta { background: var(--accent-hover); }
+
+  .feat__art { display: flex; align-items: center; justify-content: center; gap: var(--space-4); }
+  .feat__arrow { color: #FB923C; flex: none; transition: transform 240ms var(--ease-out); }
+  .feat:hover .feat__arrow { transform: translateX(6px); }
+  .pg {
+    width: clamp(110px, 14vw, 150px);
+    aspect-ratio: 1 / 1.414;
+    border-radius: 10px;
+    padding: 14% 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 9%;
+    box-shadow: 0 20px 40px -16px rgba(0, 0, 0, 0.6);
+  }
+  .pg i { display: block; height: 7%; border-radius: 3px; }
+  .pg i:nth-child(1) { width: 70%; height: 9%; }
+  .pg i:nth-child(3) { width: 85%; }
+  .pg i:nth-child(4) { width: 55%; }
+  .pg--dark { background: #05070B; border: 1px solid #334155; }
+  .pg--dark i { background: #FDE68A; }
+  .pg--dark i:nth-child(2) { background: #F9A8D4; }
+  .pg--dark i:nth-child(3) { background: #E2E8F0; }
+  .pg--dark i:nth-child(4) { background: #67E8F9; }
+  .pg--light { background: #FFFFFF; transform: rotate(3deg); }
+  .pg--light i { background: #1E293B; }
+  .pg--light i:nth-child(2) { background: #475569; }
+  .pg--light i:nth-child(4) { background: #64748B; }
 </style>
