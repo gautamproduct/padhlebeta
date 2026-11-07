@@ -4,7 +4,7 @@ import Breadcrumbs from '~/components/Breadcrumbs.astro';
 import FAQ from '~/components/FAQ.astro';
 import ChapterList from '~/components/ncert/ChapterList.astro';
 import { url, absUrl } from '~/lib/url';
-import { ncertClasses, subjectMeta, ncertPath, subjectTotals, formatKb, SESSION, type NcertSubject } from '~/data/ncert';
+import { ncertClasses, subjectMeta, ncertPath, subjectTotals, formatKb, partsOf, SESSION, type NcertSubject } from '~/data/ncert';
 
 export function getStaticPaths() {
   return ncertClasses.flatMap((c) =>
@@ -18,10 +18,12 @@ const siblings = ncertClasses.find((c) => c.cls === cls)!.subjects.filter((x) =>
 const sameSubject = ncertClasses.filter((c) => c.cls !== cls && c.subjects.some((x) => x.slug === s.slug));
 const name = `NCERT Class ${cls} ${s.name}`;
 const first = s.chapters[0];
+const parts = partsOf(cls, s);
 
 const faq = [
   { q: `How many chapters are in ${name}?`, a: `${name} (${SESSION}) has ${s.chapters.length} chapters: ${s.chapters.map((c) => `${c.n}. ${c.title}`).join('; ')}.` },
   { q: `How do I download the full ${name} book as one PDF?`, a: `Tap "Download full book" on this page. All ${s.chapters.length} chapters (${t.pages} pages) are joined into one PDF on your own device, in textbook order — nothing is uploaded.` },
+  ...(parts.length ? [{ q: `Which chapters are in ${name} Part 1 and Part 2?`, a: parts.map((p) => `${p.label}: Chapters ${p.from}–${p.to} (${p.chapters.map((c) => c.title).join(', ')})`).join('. ') + '.' }] : []),
   { q: `Can I read ${name} online?`, a: `Yes. Tap Read on any chapter and it opens in the built-in reader — no app or download needed. It works on phones too.` },
 ];
 
@@ -47,9 +49,13 @@ const jsonLd = {
 ---
 
 <BaseLayout
-  title={`${name} Book PDF Download ${SESSION} – All Chapters Free`}
+  title={parts.length
+    ? `${name} Book PDF ${SESSION} – Part 1 & 2, All Chapters Free`
+    : `${name} Book PDF Download ${SESSION} – All Chapters Free`}
   rawTitle
-  description={`Download ${name} book PDF free — all ${s.chapters.length} chapters (${SESSION}), from ${first.title} onwards. Read online, download chapter-wise or the full book as one PDF.`}
+  description={parts.length
+    ? `Download ${name} Part 1 & Part 2 PDF free — all ${s.chapters.length} chapters (${SESSION}) with the full index. Read online, download chapter-wise or the full book.`
+    : `Download ${name} book PDF free — all ${s.chapters.length} chapters (${SESSION}), from ${first.title} onwards. Read online, download chapter-wise or the full book as one PDF.`}
   ogImage={`/og/ncert-${cls}-${s.slug}.png`}
   jsonLd={jsonLd}
 >
@@ -73,6 +79,22 @@ const jsonLd = {
         </div>
         <div class="bar" hidden><i></i></div>
       </header>
+
+      {parts.length > 0 && (
+        <section class="parts" aria-labelledby="parts-h">
+          <h2 id="parts-h">{name} index: Part 1 &amp; Part 2</h2>
+          <div class="parts__grid">
+            {parts.map((p) => (
+              <div class="parts__card">
+                <h3>{p.label} <small>Chapters {p.from}–{p.to}</small></h3>
+                <ol role="list">
+                  {p.chapters.map((c) => <li><a href={url(ncertPath.chapter(cls, s.slug, c.slug))}><span>{c.n}</span>{c.title}</a></li>)}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <ChapterList cls={cls} subject={s} />
 
@@ -173,6 +195,16 @@ const jsonLd = {
   .bar { height: 6px; border-radius: 999px; background: var(--border); margin-top: var(--space-4); overflow: hidden; max-width: 420px; }
   .bar i { display: block; height: 100%; width: 0; background: var(--accent); transition: width 300ms var(--ease-out); }
 
+  .parts { margin-top: var(--space-8); }
+  .parts h2 { font-size: var(--text-xl); margin-bottom: var(--space-4); }
+  .parts__grid { display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
+  .parts__card { border: 1px solid var(--border, rgba(127, 127, 127, 0.25)); border-radius: 14px; padding: var(--space-4) var(--space-5); }
+  .parts__card h3 { font-size: 1rem; margin-bottom: var(--space-3); }
+  .parts__card h3 small { font-weight: 500; opacity: 0.7; margin-left: 0.35em; }
+  .parts__card ol { display: grid; gap: var(--space-2); }
+  .parts__card a { display: flex; gap: var(--space-3); text-decoration: none; }
+  .parts__card a:hover { text-decoration: underline; }
+  .parts__card span { min-width: 1.5rem; font-weight: 700; color: var(--hue); font-variant-numeric: tabular-nums; }
   .more { display: grid; gap: var(--space-6); margin-top: var(--space-9); }
   .more h2 { font-size: 1.125rem; margin-bottom: var(--space-3); }
   .more p { color: var(--fg-muted); }

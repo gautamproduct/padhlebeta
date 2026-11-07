@@ -22,7 +22,49 @@
       "file": "/ncert/ncert-class-9-science-chapter-2-cell-the-building-block-of-life.pdf",
       "pages": 20,
       "kb": 10767,
-      "excerpt": "It is widely accepted amongst the scientific community that life originated in water. Some researchers believe that life may have originated in small water pools with changing environmental conditions rather than in the oceans. In India, the hot springs of Puga Valley in Ladakh maintain very high temperatures (nearly at the boiling point of water) even in a cold climate."
+      "excerpt": "It is widely accepted amongst the scientific community that life originated in water. Some researchers believe that life may have originated in small water pools with changing environmental conditions rather than in the oceans. In India, the hot springs of Puga Valley in Ladakh maintain very high temperatures (nearly at the boiling point of water) even in a cold climate.",
+      "topics": [
+       {
+        "n": "2.1",
+        "t": "How to Study Cells?"
+       },
+       {
+        "n": "2.2",
+        "t": "Structure of a Cell"
+       },
+       {
+        "n": "2.2.1",
+        "t": "Cell membrane — The universal feature of a cell"
+       },
+       {
+        "n": "2.2.2",
+        "t": "Cell wall — The outer covering of cells"
+       },
+       {
+        "n": "2.3",
+        "t": "The Cell Interior — A Coordinated Working System"
+       },
+       {
+        "n": "2.3.1",
+        "t": "Why do eukaryotic cells need these organelles?"
+       },
+       {
+        "n": "2.4",
+        "t": "How do Normal Cells Grow and Divide?"
+       },
+       {
+        "n": "2.4.1",
+        "t": "Cell division"
+       },
+       {
+        "n": "2.5",
+        "t": "Cell Theory — The Unifying Principle of Biology"
+       },
+       {
+        "n": "2.5.1",
+        "t": "Do cells grow and reproduce forever?"
+       }
+      ]
      },
      {
       "n": 3,
@@ -31,7 +73,73 @@
       "file": "/ncert/ncert-class-9-science-chapter-3-tissues-in-action.pdf",
       "pages": 20,
       "kb": 13470,
-      "excerpt": "Tissues in Action Life begins when a single cell divides itself several times to give rise to a large number of cells. These cells gradually form the skin (protection), muscles (movement), bones (support), nerves (control and coordination), and all other organs. This process is so intricate that it is considered one of nature’s greatest engineering marvels."
+      "excerpt": "Tissues in Action Life begins when a single cell divides itself several times to give rise to a large number of cells. These cells gradually form the skin (protection), muscles (movement), bones (support), nerves (control and coordination), and all other organs. This process is so intricate that it is considered one of nature’s greatest engineering marvels.",
+      "topics": [
+       {
+        "n": "3.1",
+        "t": "Why are Plant and Animal Tissues Different?"
+       },
+       {
+        "n": "3.2",
+        "t": "Tissues for Growth in Plants"
+       },
+       {
+        "n": "3.2.2",
+        "t": "Lateral meristem — How do plants grow in girth?"
+       },
+       {
+        "n": "3.2.3",
+        "t": "Intercalary meristem — How do plants grow after"
+       },
+       {
+        "n": "3.2.4",
+        "t": "Permanent tissues"
+       },
+       {
+        "n": "3.3",
+        "t": "Animal Tissues"
+       },
+       {
+        "n": "3.3.2",
+        "t": "How are various parts connected in our body?"
+       },
+       {
+        "n": "3.3.3",
+        "t": "Can we control movement in our body?"
+       },
+       {
+        "n": "3.3.4",
+        "t": "How does the body sense, communicate and respond?"
+       },
+       {
+        "n": "3.4",
+        "t": "The Musculoskeletal System"
+       },
+       {
+        "n": "3.4.1",
+        "t": "The musculoskeletal system in action"
+       },
+       {
+        "n": "3.5",
+        "t": "Types of Joints"
+       },
+       {
+        "n": "3.5.1",
+        "t": "Ball and socket joint"
+       },
+       {
+        "n": "3.5.2",
+        "t": "Hinge joint"
+       },
+       {
+        "n": "3.5.3",
+        "t": "Pivot joint"
+       },
+       {
+        "n": "3.5.4",
+        "t": "Fixed joints"
+       }
+      ]
      },
      {
       "n": 4,
@@ -40,7 +148,57 @@
       "file": "/ncert/ncert-class-9-science-chapter-4-describing-motion-around-us.pdf",
       "pages": 24,
       "kb": 7221,
-      "excerpt": "Describing Motion Around Us Chapter 4 Everything in nature is in motion, from massive astronomical objects to subatomic particles."
+      "excerpt": "Describing Motion Around Us Chapter 4 Everything in nature is in motion, from massive astronomical objects to subatomic particles.",
+      "topics": [
+       {
+        "n": "4.1",
+        "t": "Motion in a Straight Line"
+       },
+       {
+        "n": "4.1.1",
+        "t": "Describing position"
+       },
+       {
+        "n": "4.1.2",
+        "t": "Distance travelled and displacement"
+       },
+       {
+        "n": "4.1.3",
+        "t": "Average speed and average velocity"
+       },
+       {
+        "n": "4.1.4",
+        "t": "Average acceleration"
+       },
+       {
+        "n": "4.2",
+        "t": "Graphical Representation of Motion"
+       },
+       {
+        "n": "4.2.1",
+        "t": "Plotting graph"
+       },
+       {
+        "n": "4.2.2",
+        "t": "Position-time graphs"
+       },
+       {
+        "n": "4.2.3",
+        "t": "Velocity-time graphs"
+       },
+       {
+        "n": "4.3",
+        "t": "Kinematic Equations for Motion in a Straight Line with Constant Acceleration"
+       },
+       {
+        "n": "4.4",
+        "t": "Motion in a Plane"
+       },
+       {
+        "n": "4.4.1",
+        "t": "Uniform circular motion"
+       }
+      ]
      },
      {
       "n": 5,
@@ -49,7 +207,69 @@
       "file": "/ncert/ncert-class-9-science-chapter-5-exploring-mixtures-and-their-separation.pdf",
       "pages": 22,
       "kb": 11463,
-      "excerpt": "Exploring Mixtures and their Separation Chapter 5 Have you ever wondered how sweet, white crystals of sugar are obtained from tall, green sugarcane plants? Or how do doctors detect diseases like malaria using just a few drops of blood? Many such everyday activities are made possible by techniques based on the fascinating science of separating mixtures."
+      "excerpt": "Exploring Mixtures and their Separation Chapter 5 Have you ever wondered how sweet, white crystals of sugar are obtained from tall, green sugarcane plants? Or how do doctors detect diseases like malaria using just a few drops of blood? Many such everyday activities are made possible by techniques based on the fascinating science of separating mixtures.",
+      "topics": [
+       {
+        "n": "5.1",
+        "t": "How Can We Classify Mixtures?"
+       },
+       {
+        "n": "5.2",
+        "t": "Solutions"
+       },
+       {
+        "n": "5.2.1",
+        "t": "Concentration of a solution"
+       },
+       {
+        "n": "5.2.2",
+        "t": "How do we express concentration?"
+       },
+       {
+        "n": "5.2.3",
+        "t": "Solubility of substances"
+       },
+       {
+        "n": "5.3",
+        "t": "Methods of Separation of Homogeneous Mixtures"
+       },
+       {
+        "n": "5.3.1",
+        "t": "Crystallization"
+       },
+       {
+        "n": "5.3.2",
+        "t": "Distillation"
+       },
+       {
+        "n": "5.3.3",
+        "t": "Paper Chromatography"
+       },
+       {
+        "n": "5.4",
+        "t": "How Can We Separate the Components of Heterogeneous Mixtures?"
+       },
+       {
+        "n": "5.4.1",
+        "t": "Separation of two immiscible liquids"
+       },
+       {
+        "n": "5.4.2",
+        "t": "Sublimation"
+       },
+       {
+        "n": "5.4.3",
+        "t": "Suspensions"
+       },
+       {
+        "n": "5.4.4",
+        "t": "Colloids"
+       },
+       {
+        "n": "5.5",
+        "t": "Tyndall Effect"
+       }
+      ]
      },
      {
       "n": 6,
@@ -58,7 +278,41 @@
       "file": "/ncert/ncert-class-9-science-chapter-6-how-forces-affect-motion.pdf",
       "pages": 22,
       "kb": 7240,
-      "excerpt": "How Forces Affect Motion Chapter 6 In Chapter 4, you learnt to describe the motion of an object in terms of its position, velocity and acceleration. Is there an underlying cause for a change in position and velocity of an object? In this chapter, we will investigate what causes changes in the motion of objects. We will also discuss Newton’s three laws of motion and learn how to apply them."
+      "excerpt": "How Forces Affect Motion Chapter 6 In Chapter 4, you learnt to describe the motion of an object in terms of its position, velocity and acceleration. Is there an underlying cause for a change in position and velocity of an object? In this chapter, we will investigate what causes changes in the motion of objects. We will also discuss Newton’s three laws of motion and learn how to apply them.",
+      "topics": [
+       {
+        "n": "6.1",
+        "t": "The Concept of Force"
+       },
+       {
+        "n": "6.1.1",
+        "t": "Measuring the magnitude of a force"
+       },
+       {
+        "n": "6.2",
+        "t": "Balanced and Unbalanced Forces"
+       },
+       {
+        "n": "6.3",
+        "t": "The Force of Friction: Often"
+       },
+       {
+        "n": "6.4",
+        "t": "Newton’s First Law of Motion"
+       },
+       {
+        "n": "6.5",
+        "t": "Newton’s Second Law of Motion"
+       },
+       {
+        "n": "6.6",
+        "t": "Newton’s Third Law of Motion"
+       },
+       {
+        "n": "6.7",
+        "t": "Forces Acting on a System of Objects"
+       }
+      ]
      },
      {
       "n": 7,
@@ -67,7 +321,65 @@
       "file": "/ncert/ncert-class-9-science-chapter-7-work-energy-and-simple-machines.pdf",
       "pages": 24,
       "kb": 7531,
-      "excerpt": "Work, Energy, and Simple Machines Chapter 7 In earlier Chapters 4 and 6, you have learnt how forces change the motion of objects, and how kinematic equations and Newton’s laws can be used to analyse motion. But when forces change with time or act in complicated ways, applying these laws directly can become difficult. Is there a simpler and more powerful way to understand such situations?"
+      "excerpt": "Work, Energy, and Simple Machines Chapter 7 In earlier Chapters 4 and 6, you have learnt how forces change the motion of objects, and how kinematic equations and Newton’s laws can be used to analyse motion. But when forces change with time or act in complicated ways, applying these laws directly can become difficult. Is there a simpler and more powerful way to understand such situations?",
+      "topics": [
+       {
+        "n": "7.1",
+        "t": "Work Done by a Constant Force"
+       },
+       {
+        "n": "7.1.1",
+        "t": "When is work done equal to zero?"
+       },
+       {
+        "n": "7.1.2",
+        "t": "Positive and negative work done"
+       },
+       {
+        "n": "7.2",
+        "t": "The Work-Energy Theorem"
+       },
+       {
+        "n": "7.3",
+        "t": "Forms of Energy"
+       },
+       {
+        "n": "7.4",
+        "t": "Mechanical Energy"
+       },
+       {
+        "n": "7.4.1",
+        "t": "Kinetic energy"
+       },
+       {
+        "n": "7.4.2",
+        "t": "Potential energy"
+       },
+       {
+        "n": "7.4.3",
+        "t": "Conservation of mechanical energy"
+       },
+       {
+        "n": "7.5",
+        "t": "Power"
+       },
+       {
+        "n": "7.6",
+        "t": "Simple Machines"
+       },
+       {
+        "n": "7.6.1",
+        "t": "Pulley"
+       },
+       {
+        "n": "7.6.2",
+        "t": "Inclined plane"
+       },
+       {
+        "n": "7.6.3",
+        "t": "Lever"
+       }
+      ]
      },
      {
       "n": 8,
@@ -76,7 +388,61 @@
       "file": "/ncert/ncert-class-9-science-chapter-8-journey-inside-the-atom.pdf",
       "pages": 22,
       "kb": 5645,
-      "excerpt": "Journey Inside the Atom Chapter 8 Everything that you see or observe, or feel around is matter. You have learnt that matter consists of tiny particles called atoms. Do you notice that both living beings, like us, and non-living things, like a house, are ultimately composed of atoms? These atoms are so tiny that they cannot be seen with the naked eye."
+      "excerpt": "Journey Inside the Atom Chapter 8 Everything that you see or observe, or feel around is matter. You have learnt that matter consists of tiny particles called atoms. Do you notice that both living beings, like us, and non-living things, like a house, are ultimately composed of atoms? These atoms are so tiny that they cannot be seen with the naked eye.",
+      "topics": [
+       {
+        "n": "8.1",
+        "t": "Rediscovering the Roots of Atomic Theory"
+       },
+       {
+        "n": "8.2",
+        "t": "A Short Historical Journey Through Atomic Models"
+       },
+       {
+        "n": "8.2.1",
+        "t": "Thomson’s model of an atom"
+       },
+       {
+        "n": "8.2.2",
+        "t": "Testing Thomson’s model: The gold foil experiment"
+       },
+       {
+        "n": "8.2.3",
+        "t": "Bohr’s model of the atom"
+       },
+       {
+        "n": "8.3.1",
+        "t": "Discovery of the Neutron"
+       },
+       {
+        "n": "8.4",
+        "t": "Symbols of Elements"
+       },
+       {
+        "n": "8.5",
+        "t": "Atomic Number"
+       },
+       {
+        "n": "8.6",
+        "t": "Mass Number"
+       },
+       {
+        "n": "8.7",
+        "t": "How Are Electrons Distributed in Different Energy Levels?"
+       },
+       {
+        "n": "8.7.1",
+        "t": "Building up atoms"
+       },
+       {
+        "n": "8.8",
+        "t": "Combining Capacity of an Atom: Valency"
+       },
+       {
+        "n": "8.9",
+        "t": "A Deeper Look into Atomic Structure"
+       }
+      ]
      },
      {
       "n": 9,
@@ -85,7 +451,57 @@
       "file": "/ncert/ncert-class-9-science-chapter-9-atomic-foundations-of-matter.pdf",
       "pages": 22,
       "kb": 6608,
-      "excerpt": "Atomic Foundations of Matter Chapter 9 In Chapter 8, Journey Inside the Atom, you explored the structure of the atom. You also studied subatomic particles, viz., electrons, protons and neutrons, in terms of their discoveries, properties and locations in the atom. You also learnt that atoms with an octet of electrons in their valence shell are stable."
+      "excerpt": "Atomic Foundations of Matter Chapter 9 In Chapter 8, Journey Inside the Atom, you explored the structure of the atom. You also studied subatomic particles, viz., electrons, protons and neutrons, in terms of their discoveries, properties and locations in the atom. You also learnt that atoms with an octet of electrons in their valence shell are stable.",
+      "topics": [
+       {
+        "n": "9.1",
+        "t": "Law of Conservation of Mass"
+       },
+       {
+        "n": "9.2",
+        "t": "Law of Constant Proportions"
+       },
+       {
+        "n": "9.3",
+        "t": "Dalton’s Atomic Theory"
+       },
+       {
+        "n": "9.4",
+        "t": "How Atoms Combine?"
+       },
+       {
+        "n": "9.4.1",
+        "t": "Bonding by sharing of electrons — Covalent Bond"
+       },
+       {
+        "n": "9.4.2",
+        "t": "Bonding by electron transfer — Ionic bond"
+       },
+       {
+        "n": "9.5",
+        "t": "Writing Chemical Formulae"
+       },
+       {
+        "n": "9.5.1",
+        "t": "Writing chemical formulae of covalent compounds"
+       },
+       {
+        "n": "9.5.2",
+        "t": "Writing chemical formulae of ionic compounds"
+       },
+       {
+        "n": "9.6",
+        "t": "Properties of the Ionic and Covalent Compounds"
+       },
+       {
+        "n": "9.7",
+        "t": "Molecular Mass of Covalent Compounds"
+       },
+       {
+        "n": "9.8",
+        "t": "Formula Unit Mass of Ionic Compounds"
+       }
+      ]
      },
      {
       "n": 10,
@@ -94,7 +510,73 @@
       "file": "/ncert/ncert-class-9-science-chapter-10-sound-waves-characteristics-and-applications.pdf",
       "pages": 24,
       "kb": 13990,
-      "excerpt": "Sound Waves: Characteristics and Applications Chapter 10 Sound is an everyday sensory experience that helps us become aware of our surroundings. Every day, we hear a variety of sounds in our surroundings, such as human voices, birds chirping, waves crashing on the seashore, leaves rustling, mobile phones ringing, vehicles honking, music, and the claps of thunder."
+      "excerpt": "Sound Waves: Characteristics and Applications Chapter 10 Sound is an everyday sensory experience that helps us become aware of our surroundings. Every day, we hear a variety of sounds in our surroundings, such as human voices, birds chirping, waves crashing on the seashore, leaves rustling, mobile phones ringing, vehicles honking, music, and the claps of thunder.",
+      "topics": [
+       {
+        "n": "10.1",
+        "t": "Production of Sound"
+       },
+       {
+        "n": "10.1.1",
+        "t": "Tuning fork"
+       },
+       {
+        "n": "10.2",
+        "t": "Propagation of Sound"
+       },
+       {
+        "n": "10.2.1",
+        "t": "Sound needs a medium to propagate"
+       },
+       {
+        "n": "10.3",
+        "t": "Sound Waves"
+       },
+       {
+        "n": "10.4",
+        "t": "Energy of Sound Waves"
+       },
+       {
+        "n": "10.5",
+        "t": "Graphical Representation of a Sound Wave"
+       },
+       {
+        "n": "10.6",
+        "t": "Characteristics of a Sound Wave"
+       },
+       {
+        "n": "10.6.1",
+        "t": "Wavelength, frequency and time period"
+       },
+       {
+        "n": "10.6.2",
+        "t": "Amplitude and intensity of the sound waves"
+       },
+       {
+        "n": "10.6.3",
+        "t": "Speed of Sound"
+       },
+       {
+        "n": "10.6.4",
+        "t": "Human perception of sound"
+       },
+       {
+        "n": "10.7",
+        "t": "Reflection of Sound"
+       },
+       {
+        "n": "10.7.1",
+        "t": "Echo"
+       },
+       {
+        "n": "10.7.2",
+        "t": "Reverberation"
+       },
+       {
+        "n": "10.8",
+        "t": "Ultrasonic and Infrasonic Waves, their Applications"
+       }
+      ]
      },
      {
       "n": 11,
@@ -103,7 +585,73 @@
       "file": "/ncert/ncert-class-9-science-chapter-11-reproduction-how-life-continues.pdf",
       "pages": 20,
       "kb": 10556,
-      "excerpt": "Reproduction: How Life Continues You have learnt that one of the important characteristics of living beings is that they reproduce. Every organism has a definite life span — it is born, grows, matures, reproduces and eventually dies. Reproduction is a biological process by which living beings produce new individuals of their own kind."
+      "excerpt": "Reproduction: How Life Continues You have learnt that one of the important characteristics of living beings is that they reproduce. Every organism has a definite life span — it is born, grows, matures, reproduces and eventually dies. Reproduction is a biological process by which living beings produce new individuals of their own kind.",
+      "topics": [
+       {
+        "n": "11.1",
+        "t": "Asexual Reproduction"
+       },
+       {
+        "n": "11.1.1",
+        "t": "How is vegetative propagation in plants helpful in agriculture?"
+       },
+       {
+        "n": "11.2",
+        "t": "Sexual Reproduction"
+       },
+       {
+        "n": "11.2.1",
+        "t": "How does meiosis help create variations in sexual reproduction?"
+       },
+       {
+        "n": "11.2.2",
+        "t": "Sexual reproduction in flowering plants"
+       },
+       {
+        "n": "11.2.3",
+        "t": "How does the process of pollination occur in flowers?"
+       },
+       {
+        "n": "11.2.4",
+        "t": "Pollination strategies and reproductive success"
+       },
+       {
+        "n": "11.2.5",
+        "t": "Fertilisation and seed formation"
+       },
+       {
+        "n": "11.3",
+        "t": "Sexual Reproduction in Animals"
+       },
+       {
+        "n": "11.4",
+        "t": "Variations in Reproduction in Animals"
+       },
+       {
+        "n": "11.5",
+        "t": "Reproduction in Human Beings"
+       },
+       {
+        "n": "11.5.1",
+        "t": "Reproductive maturity"
+       },
+       {
+        "n": "11.5.2",
+        "t": "What are the parts of the male reproductive system?"
+       },
+       {
+        "n": "11.5.3",
+        "t": "What are the parts of the female"
+       },
+       {
+        "n": "11.5.4",
+        "t": "How are reproductive cells made?"
+       },
+       {
+        "n": "11.5.5",
+        "t": "What happens when a sperm meets an egg?"
+       }
+      ]
      },
      {
       "n": 12,
@@ -112,7 +660,73 @@
       "file": "/ncert/ncert-class-9-science-chapter-12-patterns-in-life-diversity-and-classification.pdf",
       "pages": 24,
       "kb": 15133,
-      "excerpt": "Have you ever wondered why some plants can survive long droughts while others cannot? Or, how certain insects protect crops while others damage them? From microscopic organisms invisible to the naked eye to giant trees, from glowing jellyfish to soaring eagles, life exists in countless forms and habitats — from the snow-clad Himalayas to the coral reefs of the Andaman Sea."
+      "excerpt": "Have you ever wondered why some plants can survive long droughts while others cannot? Or, how certain insects protect crops while others damage them? From microscopic organisms invisible to the naked eye to giant trees, from glowing jellyfish to soaring eagles, life exists in countless forms and habitats — from the snow-clad Himalayas to the coral reefs of the Andaman Sea.",
+      "topics": [
+       {
+        "n": "12.1",
+        "t": "India as a Biodiversity Hotspot"
+       },
+       {
+        "n": "12.2",
+        "t": "How has the Biodiversity Evolved?"
+       },
+       {
+        "n": "12.3",
+        "t": "How to Classify Organisms?"
+       },
+       {
+        "n": "12.3.1",
+        "t": "Some criteria to classify living organisms"
+       },
+       {
+        "n": "12.4",
+        "t": "The Need for Classification"
+       },
+       {
+        "n": "12.5",
+        "t": "Biological Classification Systems Over Time"
+       },
+       {
+        "n": "12.6",
+        "t": "Five Kingdom Classification"
+       },
+       {
+        "n": "12.6.2",
+        "t": "Kingdom Protista — Unicellular eukaryotes"
+       },
+       {
+        "n": "12.6.3",
+        "t": "Kingdom Fungi — Multicellular, heterotrophic eukaryotes with a cell wall"
+       },
+       {
+        "n": "12.6.4",
+        "t": "Kingdom Plantae — Multicellular, autotrophic eukaryotes with a cell wall"
+       },
+       {
+        "n": "12.6.5",
+        "t": "Kingdom Animalia — Multicellular, heterotrophic eukaryotes"
+       },
+       {
+        "n": "12.7",
+        "t": "Adaptations as Outcomes of Structural Change"
+       },
+       {
+        "n": "12.7.1",
+        "t": "The hierarchical nature of classification"
+       },
+       {
+        "n": "12.8",
+        "t": "Scientific Naming — The Binomial System"
+       },
+       {
+        "n": "12.9",
+        "t": "Fossils as Evidence"
+       },
+       {
+        "n": "12.10",
+        "t": "Biodiversity Under Threat"
+       }
+      ]
      },
      {
       "n": 13,
@@ -121,7 +735,65 @@
       "file": "/ncert/ncert-class-9-science-chapter-13-earth-as-a-system-energy-matter-and-life.pdf",
       "pages": 21,
       "kb": 14948,
-      "excerpt": "Earth as a System: Energy, Matter, and Life Think It Over y How does the warming of Arabian Sea water affect the southwest monsoon in India? y If a large forest is cleared, how can that affect the flow of a river in that area? y What might happen to coastal cities in India if glaciers and polar ice keep melting faster? y How would increasing carbon dioxide levels in the atmosphere affect the ocean plankton?"
+      "excerpt": "Earth as a System: Energy, Matter, and Life Think It Over y How does the warming of Arabian Sea water affect the southwest monsoon in India? y If a large forest is cleared, how can that affect the flow of a river in that area? y What might happen to coastal cities in India if glaciers and polar ice keep melting faster? y How would increasing carbon dioxide levels in the atmosphere affect the ocean plankton?",
+      "topics": [
+       {
+        "n": "13.1",
+        "t": "Uneven Heating of the Earth"
+       },
+       {
+        "n": "13.1.1",
+        "t": "Interaction of solar radiation on the Earth’s surface"
+       },
+       {
+        "n": "13.1.2",
+        "t": "Latitude and Earth’s shape"
+       },
+       {
+        "n": "13.1.3",
+        "t": "Role of the atmosphere"
+       },
+       {
+        "n": "13.2",
+        "t": "Uneven Heating Causes Wind and Ocean Current s"
+       },
+       {
+        "n": "13.2.1",
+        "t": "Local winds"
+       },
+       {
+        "n": "13.2.2",
+        "t": "Planetary winds"
+       },
+       {
+        "n": "13.2.3",
+        "t": "Ocean currents"
+       },
+       {
+        "n": "13.3",
+        "t": "Biogeochemical Cycles"
+       },
+       {
+        "n": "13.3.1",
+        "t": "Water cycle"
+       },
+       {
+        "n": "13.3.2",
+        "t": "Carbon cycle"
+       },
+       {
+        "n": "13.3.3",
+        "t": "Nitrogen cycle"
+       },
+       {
+        "n": "13.3.4",
+        "t": "Oxygen cycle"
+       },
+       {
+        "n": "13.4",
+        "t": "Human Impact on Earth’s Processes"
+       }
+      ]
      }
     ]
    },
@@ -145,7 +817,25 @@
       "file": "/ncert/ncert-class-9-maths-chapter-2-introduction-to-linear-polynomials.pdf",
       "pages": 25,
       "kb": 2808,
-      "excerpt": "Introduction to Linear Polynomials 2.1 Introduction We have learnt about algebraic expressions in earlier grades. In this chapter, we will learn about the special types of algebraic expressions called linear polynomials. Let us first consider a few examples of ­algebraic expressions. Example 1: Raju went to a shop where there were sealed boxes of different colours on sale."
+      "excerpt": "Introduction to Linear Polynomials 2.1 Introduction We have learnt about algebraic expressions in earlier grades. In this chapter, we will learn about the special types of algebraic expressions called linear polynomials. Let us first consider a few examples of ­algebraic expressions. Example 1: Raju went to a shop where there were sealed boxes of different colours on sale.",
+      "topics": [
+       {
+        "n": "2.2",
+        "t": "Linear Polynomials"
+       },
+       {
+        "n": "2.3",
+        "t": "Exploring linear patterns"
+       },
+       {
+        "n": "2.5",
+        "t": "Linear Relationships"
+       },
+       {
+        "n": "2.6",
+        "t": "Visualising linear relationships"
+       }
+      ]
      },
      {
       "n": 3,
@@ -154,7 +844,73 @@
       "file": "/ncert/ncert-class-9-maths-chapter-3-the-world-of-numbers.pdf",
       "pages": 27,
       "kb": 2432,
-      "excerpt": "The Dawn of Mathematics: The Human Need to Count Long before humanity built cities, formulated laws, or studied the stars, there existed a fundamental, practical necessity: the need to keep count. Mathematics did not begin in a classroom with equations on a board; it began in the dirt, on the bark of trees, and on bones."
+      "excerpt": "The Dawn of Mathematics: The Human Need to Count Long before humanity built cities, formulated laws, or studied the stars, there existed a fundamental, practical necessity: the need to keep count. Mathematics did not begin in a classroom with equations on a board; it began in the dirt, on the bark of trees, and on bones.",
+      "topics": [
+       {
+        "n": "3.1.1",
+        "t": "A History Written in Bone"
+       },
+       {
+        "n": "3.1.2",
+        "t": "The Indian Context: Trade and Astronomy"
+       },
+       {
+        "n": "3.2",
+        "t": "The Revolution of Śhūnya: When Nothing Became Something"
+       },
+       {
+        "n": "3.2.1",
+        "t": "From Philosophy to Mathematics: The Concept of Śhūnyatā"
+       },
+       {
+        "n": "3.2.2",
+        "t": "The Bakhśhālī Manuscript and Brahmagupta’s Rules"
+       },
+       {
+        "n": "3.3",
+        "t": "Integers: Expanding the Horizon"
+       },
+       {
+        "n": "3.3.1",
+        "t": "The Arithmetic of Integers"
+       },
+       {
+        "n": "3.4",
+        "t": "Filling the Spaces: Fractions and Rational Numbers"
+       },
+       {
+        "n": "3.4.1",
+        "t": "Representation of Rational Numbers on the Number Line"
+       },
+       {
+        "n": "3.4.2",
+        "t": "The Density of Rational Numbers"
+       },
+       {
+        "n": "3.5",
+        "t": "Irrational Numbers"
+       },
+       {
+        "n": "3.5.2",
+        "t": "Construction of Length"
+       },
+       {
+        "n": "3.5.3",
+        "t": "The Story of Pi (π) and Madhava’s Infinite Series"
+       },
+       {
+        "n": "3.6",
+        "t": "Real Numbers: Decimals and Cyclic Patterns"
+       },
+       {
+        "n": "3.6.1",
+        "t": "Rational Decimals: Terminating and Repeating"
+       },
+       {
+        "n": "3.6.2",
+        "t": "The Magic of Cyclic Numbers"
+       }
+      ]
      },
      {
       "n": 4,
@@ -163,7 +919,33 @@
       "file": "/ncert/ncert-class-9-maths-chapter-4-exploring-algebraic-identities.pdf",
       "pages": 24,
       "kb": 2202,
-      "excerpt": "Exploring Algebraic Identities 4.1 Introduction In earlier chapters, you learnt about linear polynomials and how they can be used to represent and solve real-life problems. You also studied linear equations and discovered how they describe relationships between quantities. In this chapter, we will take the next step by exploring algebraic identities."
+      "excerpt": "Exploring Algebraic Identities 4.1 Introduction In earlier chapters, you learnt about linear polynomials and how they can be used to represent and solve real-life problems. You also studied linear equations and discovered how they describe relationships between quantities. In this chapter, we will take the next step by exploring algebraic identities.",
+      "topics": [
+       {
+        "n": "4.2",
+        "t": "Visualising Identities"
+       },
+       {
+        "n": "4.3",
+        "t": "Factorisation of Algebraic Expressions Using Identities"
+       },
+       {
+        "n": "4.5",
+        "t": "Factorisation Using Algebra Tiles"
+       },
+       {
+        "n": "4.6",
+        "t": "Factorisation Without Using Algebra Tiles"
+       },
+       {
+        "n": "4.7",
+        "t": "Finding New Identities"
+       },
+       {
+        "n": "4.8",
+        "t": "Simplifying Rational Expressions"
+       }
+      ]
      },
      {
       "n": 5,
@@ -172,7 +954,49 @@
       "file": "/ncert/ncert-class-9-maths-chapter-5-i-m-up-and-down-and-round-and-round.pdf",
       "pages": 26,
       "kb": 2141,
-      "excerpt": "I’m Up and Down, and Round and Round Humanity has always been fascinated by the shapes of the things around them. In some early cave paintings, the sun is depicted as a circle. In the cave paintings of Gudahandi in Odisha, one sees numerous geometric patterns including triangles, squares, circles, and ovals. These shapes were likely inspired by what humans saw in nature."
+      "excerpt": "I’m Up and Down, and Round and Round Humanity has always been fascinated by the shapes of the things around them. In some early cave paintings, the sun is depicted as a circle. In the cave paintings of Gudahandi in Odisha, one sees numerous geometric patterns including triangles, squares, circles, and ovals. These shapes were likely inspired by what humans saw in nature.",
+      "topics": [
+       {
+        "n": "5.1",
+        "t": "Definitions"
+       },
+       {
+        "n": "5.2",
+        "t": "Symmetries of a Circle"
+       },
+       {
+        "n": "5.3",
+        "t": "How Many Circles?"
+       },
+       {
+        "n": "5.4",
+        "t": "Chords and the Angles They Subtend"
+       },
+       {
+        "n": "5.5",
+        "t": "Midpoints and Perpendicular Bisectors of Chords"
+       },
+       {
+        "n": "5.6",
+        "t": "Distance of Chords from the Centre"
+       },
+       {
+        "n": "5.6.1",
+        "t": "Which of the two unequal chords is farther from the centre?"
+       },
+       {
+        "n": "5.7",
+        "t": "Angles Subtended by an Arc"
+       },
+       {
+        "n": "5.7.1",
+        "t": "Angle subtended by an arc at a point on the circle outside the arc"
+       },
+       {
+        "n": "5.8",
+        "t": "Concyclicity of Points"
+       }
+      ]
      },
      {
       "n": 6,
@@ -181,7 +1005,53 @@
       "file": "/ncert/ncert-class-9-maths-chapter-6-measuring-space-perimeter-and-area.pdf",
       "pages": 37,
       "kb": 3248,
-      "excerpt": "The tracks are laid out, and the athletes are all set to go racing down the tracks. Do you notice that the athletes are not at the same starting line? Those in the outer lanes seem to be starting ahead of those in the inner lanes while the finish line is the same for all of them. The distance between the starting points of adjacent lanes is called the ‘stagger’."
+      "excerpt": "The tracks are laid out, and the athletes are all set to go racing down the tracks. Do you notice that the athletes are not at the same starting line? Those in the outer lanes seem to be starting ahead of those in the inner lanes while the finish line is the same for all of them. The distance between the starting points of adjacent lanes is called the ‘stagger’.",
+      "topics": [
+       {
+        "n": "6.1",
+        "t": "Perimeter of a Shape"
+       },
+       {
+        "n": "6.3",
+        "t": "π Is Irrational"
+       },
+       {
+        "n": "6.4",
+        "t": "Length of an Arc of a Circle"
+       },
+       {
+        "n": "6.5",
+        "t": "Problems, Puzzles, and Paradoxes on Perimeter"
+       },
+       {
+        "n": "6.6",
+        "t": "Area of a Rectangle"
+       },
+       {
+        "n": "6.7",
+        "t": "Area of a Parallelogram"
+       },
+       {
+        "n": "6.8",
+        "t": "Area of a Triangle"
+       },
+       {
+        "n": "6.8.1",
+        "t": "Heron’s formula"
+       },
+       {
+        "n": "6.9",
+        "t": "Squaring a Rectangle"
+       },
+       {
+        "n": "6.10",
+        "t": "Area of a Circle"
+       },
+       {
+        "n": "6.10.1",
+        "t": "Area of Sector of a Circle"
+       }
+      ]
      },
      {
       "n": 7,
@@ -190,7 +1060,53 @@
       "file": "/ncert/ncert-class-9-maths-chapter-7-the-mathematics-of-maybe-introduction-to-probability.pdf",
       "pages": 19,
       "kb": 1758,
-      "excerpt": "The Mathematics of Maybe: Introduction to Probability 7.1 What is Probability? Probability is a type of measurement, similar to how we measure quantities like length, area, or volume. However, instead of measuring physical quantities, probability is used to measure the likelihood of events. Specifically, it helps us express how confident or certain we are that a particular event will occur."
+      "excerpt": "The Mathematics of Maybe: Introduction to Probability 7.1 What is Probability? Probability is a type of measurement, similar to how we measure quantities like length, area, or volume. However, instead of measuring physical quantities, probability is used to measure the likelihood of events. Specifically, it helps us express how confident or certain we are that a particular event will occur.",
+      "topics": [
+       {
+        "n": "7.1",
+        "t": "What is Probability?"
+       },
+       {
+        "n": "7.1.1",
+        "t": "What is Randomness?"
+       },
+       {
+        "n": "7.1.2",
+        "t": "The Probability Scale"
+       },
+       {
+        "n": "7.2",
+        "t": "Measuring Probability Objectively"
+       },
+       {
+        "n": "7.2.1",
+        "t": "Experimental Probability: Performing Observations or Experiments"
+       },
+       {
+        "n": "7.2.2",
+        "t": "Theoretical Probability"
+       },
+       {
+        "n": "7.2.3",
+        "t": "Analysing Statistical Data Using Probability"
+       },
+       {
+        "n": "7.3",
+        "t": "Elements of Probability: Sample Spaces and Events"
+       },
+       {
+        "n": "7.3.1",
+        "t": "Sample Space"
+       },
+       {
+        "n": "7.3.2",
+        "t": "Events"
+       },
+       {
+        "n": "7.4",
+        "t": "Tree diagrams"
+       }
+      ]
      },
      {
       "n": 8,
@@ -199,7 +1115,45 @@
       "file": "/ncert/ncert-class-9-maths-chapter-8-predicting-what-comes-next-exploring-sequences.pdf",
       "pages": 27,
       "kb": 2663,
-      "excerpt": "Predicting What Comes Next: Exploring Sequences and Progressions 8.1 Introduction to Sequences We see patterns around us everywhere, be it in nature, in art, in music, in finance and in many other contexts in everyday life. Patterns help us make sense of the world and predict what comes next. In mathematics, sequences are special kinds of patterns formed by numbers or other objects arranged in a particular order."
+      "excerpt": "Predicting What Comes Next: Exploring Sequences and Progressions 8.1 Introduction to Sequences We see patterns around us everywhere, be it in nature, in art, in music, in finance and in many other contexts in everyday life. Patterns help us make sense of the world and predict what comes next. In mathematics, sequences are special kinds of patterns formed by numbers or other objects arranged in a particular order.",
+      "topics": [
+       {
+        "n": "8.1",
+        "t": "Introduction to Sequences"
+       },
+       {
+        "n": "8.2",
+        "t": "Explicit Rule for a Sequence"
+       },
+       {
+        "n": "8.3",
+        "t": "Recursive Rule for a Sequence"
+       },
+       {
+        "n": "8.4",
+        "t": "Arithmetic Progressions"
+       },
+       {
+        "n": "8.4.1",
+        "t": "Visualising an AP"
+       },
+       {
+        "n": "8.5",
+        "t": "Sum of the First n Natural Numbers"
+       },
+       {
+        "n": "8.6",
+        "t": "Geometric Progressions"
+       },
+       {
+        "n": "8.6.1",
+        "t": "Fun with Fractals"
+       },
+       {
+        "n": "8.6.2",
+        "t": "Visualising a GP"
+       }
+      ]
      }
     ]
    }
@@ -350,7 +1304,21 @@
       "pages": 22,
       "kb": 4940,
       "book": "History – India and the Contemporary World II",
-      "excerpt": "29 Nationalism in India As you have seen, modern nationalism in Europe came to be associated with the formation of nation-states. It also meant a change in people’s understanding of who they were, and what defined their identity and sense of belonging. New symbols and icons, new songs and ideas forged new links and redefined the boundaries of communities."
+      "excerpt": "29 Nationalism in India As you have seen, modern nationalism in Europe came to be associated with the formation of nation-states. It also meant a change in people’s understanding of who they were, and what defined their identity and sense of belonging. New symbols and icons, new songs and ideas forged new links and redefined the boundaries of communities.",
+      "topics": [
+       {
+        "n": "2.1",
+        "t": "The Movement in the Towns"
+       },
+       {
+        "n": "2.2",
+        "t": "Rebellion in the Countryside"
+       },
+       {
+        "n": "2.3",
+        "t": "Swaraj in the Plantations"
+       }
+      ]
      },
      {
       "n": 3,
@@ -360,7 +1328,29 @@
       "pages": 28,
       "kb": 5920,
       "book": "History – India and the Contemporary World II",
-      "excerpt": "But as you will see in this chapter, the making of the global world has a long history – of trade, of migration, of people in search of work, the movement of capital, and much else. As we think about the dramatic and visible signs of global interconnectedness in our lives today, we need to understand the phases through which this world in which we live has emerged."
+      "excerpt": "But as you will see in this chapter, the making of the global world has a long history – of trade, of migration, of people in search of work, the movement of capital, and much else. As we think about the dramatic and visible signs of global interconnectedness in our lives today, we need to understand the phases through which this world in which we live has emerged.",
+      "topics": [
+       {
+        "n": "3.1",
+        "t": "Wartime Transformations"
+       },
+       {
+        "n": "3.2",
+        "t": "Post-war Recovery"
+       },
+       {
+        "n": "3.3",
+        "t": "Rise of Mass Production and Consumption"
+       },
+       {
+        "n": "3.4",
+        "t": "The Great Depression"
+       },
+       {
+        "n": "3.5",
+        "t": "India and the Great Depression"
+       }
+      ]
      },
      {
       "n": 4,
@@ -445,7 +1435,45 @@
       "file": "/ncert/ncert-class-10-science-chapter-1-chemical-reactions-and-equations.pdf",
       "pages": 16,
       "kb": 4064,
-      "excerpt": "Chemical Reactions and Equations 1 CHAPTER C onsider the following situations of daily life and think what happens when – n milk is left at room temperature during summers. In all the above situations, the nature and the identity of the initial substance have somewhat changed. We have already learnt about physical and chemical changes of matter in our previous classes."
+      "excerpt": "Chemical Reactions and Equations 1 CHAPTER C onsider the following situations of daily life and think what happens when – n milk is left at room temperature during summers. In all the above situations, the nature and the identity of the initial substance have somewhat changed. We have already learnt about physical and chemical changes of matter in our previous classes.",
+      "topics": [
+       {
+        "n": "1.1.1",
+        "t": "Writing a Chemical Equation"
+       },
+       {
+        "n": "1.1.2",
+        "t": "Balanced Chemical Equations"
+       },
+       {
+        "n": "1.2.1",
+        "t": "Combination Reaction"
+       },
+       {
+        "n": "1.2.2",
+        "t": "Decomposition Reaction"
+       },
+       {
+        "n": "1.2.3",
+        "t": "Displacement Reaction"
+       },
+       {
+        "n": "1.2.4",
+        "t": "Double Displacement Reaction"
+       },
+       {
+        "n": "1.2.5",
+        "t": "Oxidation and Reduction"
+       },
+       {
+        "n": "1.3.1",
+        "t": "Corrosion"
+       },
+       {
+        "n": "1.3.2",
+        "t": "Rancidity"
+       }
+      ]
      },
      {
       "n": 2,
@@ -454,7 +1482,53 @@
       "file": "/ncert/ncert-class-10-science-chapter-2-acids-bases-and-salts.pdf",
       "pages": 20,
       "kb": 3866,
-      "excerpt": "Acids, Bases and Salts 2 CHAPTER Y ou have learnt in your previous classes that the sour and bitter tastes of food are due to acids and bases, respectively, present in them. If someone in the family is suffering from a problem of acidity after overeating, which of the following would you suggest as a remedy– lemon juice, vinegar or baking soda solution?"
+      "excerpt": "Acids, Bases and Salts 2 CHAPTER Y ou have learnt in your previous classes that the sour and bitter tastes of food are due to acids and bases, respectively, present in them. If someone in the family is suffering from a problem of acidity after overeating, which of the following would you suggest as a remedy– lemon juice, vinegar or baking soda solution?",
+      "topics": [
+       {
+        "n": "2.1.1",
+        "t": "Acids and Bases in the Laboratory"
+       },
+       {
+        "n": "2.1.2",
+        "t": "How do Acids and Bases React with Metals?"
+       },
+       {
+        "n": "2.1.3",
+        "t": "How do Metal Carbonates and Metal Hydrogencarbonates React with Acids?"
+       },
+       {
+        "n": "2.1.4",
+        "t": "How do Acids and Bases React with each other?"
+       },
+       {
+        "n": "2.1.5",
+        "t": "Reaction of Metallic Oxides with Acids"
+       },
+       {
+        "n": "2.1.6",
+        "t": "Reaction of a Non-metallic Oxide with Base"
+       },
+       {
+        "n": "2.2.1",
+        "t": "What Happens to an Acid or a Base in a Water Solution?"
+       },
+       {
+        "n": "2.3.1",
+        "t": "Importance of pH in Ever tance of pH in Everyday Life yday Life"
+       },
+       {
+        "n": "2.4.1",
+        "t": "Family of Salts"
+       },
+       {
+        "n": "2.4.3",
+        "t": "Chemicals from Common Salt"
+       },
+       {
+        "n": "2.4.4",
+        "t": "Are the Crystals of Salts really Dry?"
+       }
+      ]
      },
      {
       "n": 3,
@@ -463,7 +1537,49 @@
       "file": "/ncert/ncert-class-10-science-chapter-3-metals-and-non-metals.pdf",
       "pages": 21,
       "kb": 2824,
-      "excerpt": "Metals and Non-metals 3 CHAPTER I n Class IX you have learnt about various elements. You have seen that elements can be classified as metals or non-metals on the basis of their properties. n Think of some uses of metals and non-metals in your daily life. n What properties did you think of while categorising elements as metals or non-metals? n How are these properties related to the uses of these elements?"
+      "excerpt": "Metals and Non-metals 3 CHAPTER I n Class IX you have learnt about various elements. You have seen that elements can be classified as metals or non-metals on the basis of their properties. n Think of some uses of metals and non-metals in your daily life. n What properties did you think of while categorising elements as metals or non-metals? n How are these properties related to the uses of these elements?",
+      "topics": [
+       {
+        "n": "3.2.1",
+        "t": "What happens when Metals are burnt in Air?"
+       },
+       {
+        "n": "3.2.2",
+        "t": "What happens when Metals react with Water?"
+       },
+       {
+        "n": "3.2.3",
+        "t": "What happens when Metals react with Acids?"
+       },
+       {
+        "n": "3.2.4",
+        "t": "How do Metals react with Solutions of other Metal Salts?"
+       },
+       {
+        "n": "3.2.5",
+        "t": "The Reactivity Series"
+       },
+       {
+        "n": "3.3.1",
+        "t": "Properties of Ionic Compounds"
+       },
+       {
+        "n": "3.4.1",
+        "t": "Extraction of Metals"
+       },
+       {
+        "n": "3.4.2",
+        "t": "Enrichment of Ores"
+       },
+       {
+        "n": "3.4.6",
+        "t": "Refining of Metals"
+       },
+       {
+        "n": "3.5.1",
+        "t": "Prevention of Corrosion"
+       }
+      ]
      },
      {
       "n": 4,
@@ -472,7 +1588,53 @@
       "file": "/ncert/ncert-class-10-science-chapter-4-carbon-and-its-compounds.pdf",
       "pages": 21,
       "kb": 12130,
-      "excerpt": "Science 58 Carbon and its Compounds 4 CHAPTER I n the last Chapter, we came to know many compounds of importance to us. In this Chapter we will study about some more interesting compounds and their properties. Also, we shall be learning about carbon, an element which is of immense significance to us in both its elemental form and in the combined form."
+      "excerpt": "Science 58 Carbon and its Compounds 4 CHAPTER I n the last Chapter, we came to know many compounds of importance to us. In this Chapter we will study about some more interesting compounds and their properties. Also, we shall be learning about carbon, an element which is of immense significance to us in both its elemental form and in the combined form.",
+      "topics": [
+       {
+        "n": "4.2.1",
+        "t": "Saturated and Unsaturated Carbon Compounds"
+       },
+       {
+        "n": "4.2.2",
+        "t": "Chains, Branches and Rings"
+       },
+       {
+        "n": "4.2.3",
+        "t": "Will you be my Friend?"
+       },
+       {
+        "n": "4.2.4",
+        "t": "Homologous Series"
+       },
+       {
+        "n": "4.2.5",
+        "t": "Nomenclature of Carbon Compounds"
+       },
+       {
+        "n": "4.3.1",
+        "t": "Combustion"
+       },
+       {
+        "n": "4.3.2",
+        "t": "Oxidation"
+       },
+       {
+        "n": "4.3.3",
+        "t": "Addition Reaction"
+       },
+       {
+        "n": "4.3.4",
+        "t": "Substitution Reaction"
+       },
+       {
+        "n": "4.4.1",
+        "t": "Properties of Ethanol"
+       },
+       {
+        "n": "4.4.2",
+        "t": "Properties of Ethanoic Acid"
+       }
+      ]
      },
      {
       "n": 5,
@@ -481,7 +1643,41 @@
       "file": "/ncert/ncert-class-10-science-chapter-5-life-processes.pdf",
       "pages": 21,
       "kb": 8811,
-      "excerpt": "Life Processes 5 CHAPTER H ow do we tell the difference between what is alive and what is not alive? If we see a dog running, or a cow chewing cud, or a man shouting loudly on the street, we know that these are living beings. We would still think that they were alive, but how did we know that? But what about plants that have leaves of colours other than green?"
+      "excerpt": "Life Processes 5 CHAPTER H ow do we tell the difference between what is alive and what is not alive? If we see a dog running, or a cow chewing cud, or a man shouting loudly on the street, we know that these are living beings. We would still think that they were alive, but how did we know that? But what about plants that have leaves of colours other than green?",
+      "topics": [
+       {
+        "n": "5.2.1",
+        "t": "Autotrophic Nutrition"
+       },
+       {
+        "n": "5.2.2",
+        "t": "Heterotrophic Nutrition"
+       },
+       {
+        "n": "5.2.3",
+        "t": "How do Organisms obtain their Nutrition?"
+       },
+       {
+        "n": "5.2.4",
+        "t": "Nutrition in Human Beings"
+       },
+       {
+        "n": "5.4.1",
+        "t": "Transportation in Human Beings"
+       },
+       {
+        "n": "5.4.2",
+        "t": "Transportation in Plants"
+       },
+       {
+        "n": "5.5.1",
+        "t": "Excretion in Human Beings"
+       },
+       {
+        "n": "5.5.2",
+        "t": "Excretion in Plants"
+       }
+      ]
      },
      {
       "n": 6,
@@ -490,7 +1686,33 @@
       "file": "/ncert/ncert-class-10-science-chapter-6-control-and-coordination.pdf",
       "pages": 13,
       "kb": 2323,
-      "excerpt": "Science 100 Control and Coordination 6 CHAPTER I n the previous chapter, we looked at life processes involved in the maintenance functions in living organisms. There, we had started with a notion we all have, that if we see something moving, it is alive. Some of these movements are in fact the result of growth, as in plants."
+      "excerpt": "Science 100 Control and Coordination 6 CHAPTER I n the previous chapter, we looked at life processes involved in the maintenance functions in living organisms. There, we had started with a notion we all have, that if we see something moving, it is alive. Some of these movements are in fact the result of growth, as in plants.",
+      "topics": [
+       {
+        "n": "6.1.1",
+        "t": "What happens in Reflex Actions?"
+       },
+       {
+        "n": "6.1.2",
+        "t": "Human Brain"
+       },
+       {
+        "n": "6.1.3",
+        "t": "How are these Tissues protected?"
+       },
+       {
+        "n": "6.1.4",
+        "t": "How does the Nervous Tissue cause Action?"
+       },
+       {
+        "n": "6.2.1",
+        "t": "Immediate Response to Stimulus"
+       },
+       {
+        "n": "6.2.2",
+        "t": "Movement Due to Growth"
+       }
+      ]
      },
      {
       "n": 7,
@@ -499,7 +1721,49 @@
       "file": "/ncert/ncert-class-10-science-chapter-7-how-do-organisms-reproduce.pdf",
       "pages": 15,
       "kb": 3963,
-      "excerpt": "7 CHAPTER B efore we discuss the mechanisms by which organisms reproduce, let us ask a more basic question – why do organisms reproduce? After all, reproduction is not necessary to maintain the life of an individual organism, unlike the essential life processes such as nutrition, respiration, or excretion."
+      "excerpt": "7 CHAPTER B efore we discuss the mechanisms by which organisms reproduce, let us ask a more basic question – why do organisms reproduce? After all, reproduction is not necessary to maintain the life of an individual organism, unlike the essential life processes such as nutrition, respiration, or excretion.",
+      "topics": [
+       {
+        "n": "7.1.1",
+        "t": "The Importance of Variation"
+       },
+       {
+        "n": "7.2.1",
+        "t": "Fission"
+       },
+       {
+        "n": "7.2.2",
+        "t": "Fragmentation"
+       },
+       {
+        "n": "7.2.3",
+        "t": "Regeneration"
+       },
+       {
+        "n": "7.2.4",
+        "t": "Budding"
+       },
+       {
+        "n": "7.2.5",
+        "t": "Vegetative Propagation"
+       },
+       {
+        "n": "7.2.6",
+        "t": "Spore Formation"
+       },
+       {
+        "n": "7.3.1",
+        "t": "Why the Sexual Mode of Reproduction?"
+       },
+       {
+        "n": "7.3.2",
+        "t": "Sexual Reproduction in Flowering Plants"
+       },
+       {
+        "n": "7.3.3",
+        "t": "Reproduction in Human Beings"
+       }
+      ]
      },
      {
       "n": 8,
@@ -508,7 +1772,25 @@
       "file": "/ncert/ncert-class-10-science-chapter-8-heredity-and-evolution.pdf",
       "pages": 6,
       "kb": 17697,
-      "excerpt": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences. Each of them, in turn, will give rise to two individuals in the next generation. Each of the four individuals in the bottom row will be different from each other."
+      "excerpt": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences. Each of them, in turn, will give rise to two individuals in the next generation. Each of the four individuals in the bottom row will be different from each other.",
+      "topics": [
+       {
+        "n": "8.2.1",
+        "t": "Inherited Traits"
+       },
+       {
+        "n": "8.2.2",
+        "t": "Rules for the Inheritance of Traits"
+       },
+       {
+        "n": "8.2.3",
+        "t": "How do these Traits get Expressed?"
+       },
+       {
+        "n": "8.2.4",
+        "t": "Sex Determination"
+       }
+      ]
      },
      {
       "n": 9,
@@ -517,7 +1799,57 @@
       "file": "/ncert/ncert-class-10-science-chapter-9-light-reflection-and-refraction.pdf",
       "pages": 27,
       "kb": 2682,
-      "excerpt": "Science 134 Light – Reflection and Refraction 9 CHAPTER W e see a variety of objects in the world around us. This reflected light, when received by our eyes, enables us to see things. We are able to see through a transparent medium as light is transmitted through it."
+      "excerpt": "Science 134 Light – Reflection and Refraction 9 CHAPTER W e see a variety of objects in the world around us. This reflected light, when received by our eyes, enables us to see things. We are able to see through a transparent medium as light is transmitted through it.",
+      "topics": [
+       {
+        "n": "9.2.1",
+        "t": "Image Formation by Spherical Mirrors"
+       },
+       {
+        "n": "9.2.2",
+        "t": "Representation of Images Formed by Spherical Mirrors Using Ray Diagrams"
+       },
+       {
+        "n": "9.2.3",
+        "t": "Sign Convention for Reflection by Spherical Mirrors"
+       },
+       {
+        "n": "9.2.4",
+        "t": "Mirror Formula and Magnification"
+       },
+       {
+        "n": "9.3.1",
+        "t": "Refraction through a Rectangular Glass Slab"
+       },
+       {
+        "n": "9.3.2",
+        "t": "The Refractive Index"
+       },
+       {
+        "n": "9.3.3",
+        "t": "Refraction by Spherical Lenses"
+       },
+       {
+        "n": "9.3.4",
+        "t": "Image Formation by Lenses"
+       },
+       {
+        "n": "9.3.5",
+        "t": "Image Formation in Lenses Using Ray Diagrams"
+       },
+       {
+        "n": "9.3.6",
+        "t": "Sign Convention for Spherical Lenses"
+       },
+       {
+        "n": "9.3.7",
+        "t": "Lens Formula and Magnification"
+       },
+       {
+        "n": "9.3.8",
+        "t": "Power of a Lens"
+       }
+      ]
      },
      {
       "n": 10,
@@ -526,7 +1858,21 @@
       "file": "/ncert/ncert-class-10-science-chapter-10-the-human-eye-and-the-colourful-world.pdf",
       "pages": 10,
       "kb": 1685,
-      "excerpt": "The Human Eye and the Colourful World 10 CHAPTER Y ou have studied in the previous chapter about refraction of light by lenses. You also studied the nature, position and relative size of images formed by lenses. The human eye uses light and enables us to see objects around us. How do the lenses used in spectacles correct defects of vision? We have learnt in the previous chapter about light and some of its properties."
+      "excerpt": "The Human Eye and the Colourful World 10 CHAPTER Y ou have studied in the previous chapter about refraction of light by lenses. You also studied the nature, position and relative size of images formed by lenses. The human eye uses light and enables us to see objects around us. How do the lenses used in spectacles correct defects of vision? We have learnt in the previous chapter about light and some of its properties.",
+      "topics": [
+       {
+        "n": "10.1.1",
+        "t": "Power of Accommodation"
+       },
+       {
+        "n": "10.6.1",
+        "t": "Tyndall Effect"
+       },
+       {
+        "n": "10.6.2",
+        "t": "Why is the colour of the clear Sky Blue?"
+       }
+      ]
      },
      {
       "n": 11,
@@ -535,7 +1881,21 @@
       "file": "/ncert/ncert-class-10-science-chapter-11-electricity.pdf",
       "pages": 24,
       "kb": 2536,
-      "excerpt": "Electricity 11 CHAPTER E lectricity has an important place in modern society. It is a controllable and convenient form of energy for a variety of uses in homes, schools, hospitals, industries and so on. What are the factors that control or regulate the current through an electric circuit? We shall also discuss the heating effect of electric current and its applications."
+      "excerpt": "Electricity 11 CHAPTER E lectricity has an important place in modern society. It is a controllable and convenient form of energy for a variety of uses in homes, schools, hospitals, industries and so on. What are the factors that control or regulate the current through an electric circuit? We shall also discuss the heating effect of electric current and its applications.",
+      "topics": [
+       {
+        "n": "11.6.1",
+        "t": "Resistors in Series"
+       },
+       {
+        "n": "11.6.2",
+        "t": "Resistors in Parallel"
+       },
+       {
+        "n": "11.7.1",
+        "t": "Practical Applications of Heating Effect of Electric Current"
+       }
+      ]
      },
      {
       "n": 12,
@@ -544,7 +1904,25 @@
       "file": "/ncert/ncert-class-10-science-chapter-12-magnetic-effects-of-electric-current.pdf",
       "pages": 13,
       "kb": 2164,
-      "excerpt": "Magnetic Effects of Electric Current 12 CHAPTER I n the previous Chapter on ‘Electricity’ we learnt about the heating effects of electric current. We know that an electric current-carrying wire behaves like a magnet. n Horizontally place a small compass near to this copper wire. n Pass the current through the circuit by inserting the key into the plug."
+      "excerpt": "Magnetic Effects of Electric Current 12 CHAPTER I n the previous Chapter on ‘Electricity’ we learnt about the heating effects of electric current. We know that an electric current-carrying wire behaves like a magnet. n Horizontally place a small compass near to this copper wire. n Pass the current through the circuit by inserting the key into the plug.",
+      "topics": [
+       {
+        "n": "12.2.1",
+        "t": "Magnetic Field due to a Current through a Straight Conductor"
+       },
+       {
+        "n": "12.2.2",
+        "t": "Right-Hand Thumb Rule"
+       },
+       {
+        "n": "12.2.3",
+        "t": "Magnetic Field due to a Current through Circular Loop"
+       },
+       {
+        "n": "12.2.4",
+        "t": "Magnetic Field due to a Current in a Solenoid"
+       }
+      ]
      },
      {
       "n": 13,
@@ -553,7 +1931,21 @@
       "file": "/ncert/ncert-class-10-science-chapter-13-our-environment.pdf",
       "pages": 10,
       "kb": 4097,
-      "excerpt": "Our elders tell us that the ‘environment’ is not what it used to be earlier; others say that we should work in a healthy ‘environment’; and global summits involving the developed and developing countries are regularly held to discuss ‘environmental’ issues. In this chapter, we shall be studying how various components in the environment interact with each other and how we impact the environment."
+      "excerpt": "Our elders tell us that the ‘environment’ is not what it used to be earlier; others say that we should work in a healthy ‘environment’; and global summits involving the developed and developing countries are regularly held to discuss ‘environmental’ issues. In this chapter, we shall be studying how various components in the environment interact with each other and how we impact the environment.",
+      "topics": [
+       {
+        "n": "13.1.1",
+        "t": "Food Chains and Webs"
+       },
+       {
+        "n": "13.2.1",
+        "t": "Ozone Layer and How it is Getting Depleted"
+       },
+       {
+        "n": "13.2.2",
+        "t": "Managing the Garbage we Produce"
+       }
+      ]
      }
     ]
    },
@@ -586,7 +1978,25 @@
       "file": "/ncert/ncert-class-10-maths-chapter-3-pair-of-linear-equations-in-two-variables.pdf",
       "pages": 14,
       "kb": 2036,
-      "excerpt": "24 MATHEMATICS 3 3.1 Introduction You must have come across situations like the one given below : Akhila went to a fair in her village. She wanted to enjoy rides on the Giant Wheel and play Hoopla (a game in which you throw a ring on the items kept in a stall, and if the ring covers any object completely, you get it). The number of times she played Hoopla is half the number of rides she had on the Giant Wheel."
+      "excerpt": "24 MATHEMATICS 3 3.1 Introduction You must have come across situations like the one given below : Akhila went to a fair in her village. She wanted to enjoy rides on the Giant Wheel and play Hoopla (a game in which you throw a ring on the items kept in a stall, and if the ring covers any object completely, you get it). The number of times she played Hoopla is half the number of rides she had on the Giant Wheel.",
+      "topics": [
+       {
+        "n": "3.2",
+        "t": "Graphical Method of Solution of a Pair of Linear Equations"
+       },
+       {
+        "n": "3.3",
+        "t": "Algebraic Methods of Solving a Pair of Linear Equations"
+       },
+       {
+        "n": "3.3.1",
+        "t": "Substitution Method"
+       },
+       {
+        "n": "3.3.2",
+        "t": "Elimination Method"
+       }
+      ]
      },
      {
       "n": 4,
@@ -595,7 +2005,21 @@
       "file": "/ncert/ncert-class-10-maths-chapter-4-quadratic-equations.pdf",
       "pages": 11,
       "kb": 1465,
-      "excerpt": "38 MATHEMATICS 4 4.1 Introduction In Chapter 2, you have studied different types of polynomials. When we equate this polynomial to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. For instance, suppose a charity trust decides to build a prayer hall having a carpet area of 300 square metres with its length one metre more than twice its breadth."
+      "excerpt": "38 MATHEMATICS 4 4.1 Introduction In Chapter 2, you have studied different types of polynomials. When we equate this polynomial to zero, we get a quadratic equation. Quadratic equations come up when we deal with many real-life situations. For instance, suppose a charity trust decides to build a prayer hall having a carpet area of 300 square metres with its length one metre more than twice its breadth.",
+      "topics": [
+       {
+        "n": "4.2",
+        "t": "Quadratic Equations"
+       },
+       {
+        "n": "4.3",
+        "t": "Solution of a Quadratic Equation by Factorisation"
+       },
+       {
+        "n": "4.4",
+        "t": "Nature of Roots"
+       }
+      ]
      },
      {
       "n": 5,
@@ -613,7 +2037,21 @@
       "file": "/ncert/ncert-class-10-maths-chapter-6-triangles.pdf",
       "pages": 26,
       "kb": 2734,
-      "excerpt": "TRIANGLES 73 6 6.1 Introduction You are familiar with triangles and many of their properties from your earlier classes. In Class IX, you have studied congruence of triangles in detail. Recall that two figures are said to be congruent, if they have the same shape and the same size. In this chapter, we shall study about those figures which have the same shape but not necessarily the same size."
+      "excerpt": "TRIANGLES 73 6 6.1 Introduction You are familiar with triangles and many of their properties from your earlier classes. In Class IX, you have studied congruence of triangles in detail. Recall that two figures are said to be congruent, if they have the same shape and the same size. In this chapter, we shall study about those figures which have the same shape but not necessarily the same size.",
+      "topics": [
+       {
+        "n": "6.2",
+        "t": "Similar Figures"
+       },
+       {
+        "n": "6.3",
+        "t": "Similarity of Triangles"
+       },
+       {
+        "n": "6.4",
+        "t": "Criteria for Similarity of Triangles"
+       }
+      ]
      },
      {
       "n": 7,
@@ -631,7 +2069,21 @@
       "file": "/ncert/ncert-class-10-maths-chapter-8-introduction-to-trigonometry.pdf",
       "pages": 20,
       "kb": 2179,
-      "excerpt": "INTRODUCTION TO TRIGONOMETRY 113 8 There is perhaps nothing which so occupies the middle position of mathematics as trigonometry. Herbart (1890) 8.1 Introduction You have already studied about triangles, and in particular, right triangles, in your earlier classes. Let us take some examples from our surroundings where right triangles can be imagined to be formed."
+      "excerpt": "INTRODUCTION TO TRIGONOMETRY 113 8 There is perhaps nothing which so occupies the middle position of mathematics as trigonometry. Herbart (1890) 8.1 Introduction You have already studied about triangles, and in particular, right triangles, in your earlier classes. Let us take some examples from our surroundings where right triangles can be imagined to be formed.",
+      "topics": [
+       {
+        "n": "8.2",
+        "t": "Trigonometric Ratios"
+       },
+       {
+        "n": "8.3",
+        "t": "Trigonometric Ratios of Some Specific Angles"
+       },
+       {
+        "n": "8.4",
+        "t": "Trigonometric Identities"
+       }
+      ]
      },
      {
       "n": 9,
@@ -676,7 +2128,21 @@
       "file": "/ncert/ncert-class-10-maths-chapter-13-statistics.pdf",
       "pages": 31,
       "kb": 2739,
-      "excerpt": "STATISTICS 171 13 13.1 Introduction In Class IX, you have studied the classification of given data into ungrouped as well as grouped frequency distributions. You have also learnt to represent the data pictorially in the form of various graphs such as bar graphs, histograms (including those of varying widths) and frequency polygons."
+      "excerpt": "STATISTICS 171 13 13.1 Introduction In Class IX, you have studied the classification of given data into ungrouped as well as grouped frequency distributions. You have also learnt to represent the data pictorially in the form of various graphs such as bar graphs, histograms (including those of varying widths) and frequency polygons.",
+      "topics": [
+       {
+        "n": "13.2",
+        "t": "Mean of Grouped Data"
+       },
+       {
+        "n": "13.3",
+        "t": "Mode of Grouped Data"
+       },
+       {
+        "n": "13.4",
+        "t": "Median of Grouped Data"
+       }
+      ]
      },
      {
       "n": 14,
@@ -1110,7 +2576,45 @@
       "file": "/ncert/ncert-class-11-maths-chapter-1-sets.pdf",
       "pages": 23,
       "kb": 1657,
-      "excerpt": "HARDY v 1.1 Introduction The concept of set serves as a fundamental part of the present day mathematics. Today this concept is being used in almost every branch of mathematics. Sets are used to define the concepts of relations and functions. He first encountered sets while working on “problems on trigonometric series”. In this Chapter, we discuss some basic definitions and operations involving sets."
+      "excerpt": "HARDY v 1.1 Introduction The concept of set serves as a fundamental part of the present day mathematics. Today this concept is being used in almost every branch of mathematics. Sets are used to define the concepts of relations and functions. He first encountered sets while working on “problems on trigonometric series”. In this Chapter, we discuss some basic definitions and operations involving sets.",
+      "topics": [
+       {
+        "n": "1.2",
+        "t": "Sets and their Representations"
+       },
+       {
+        "n": "1.3",
+        "t": "The Empty Set"
+       },
+       {
+        "n": "1.4",
+        "t": "Finite and Infinite Sets"
+       },
+       {
+        "n": "1.5",
+        "t": "Equal Sets"
+       },
+       {
+        "n": "1.6",
+        "t": "Subsets"
+       },
+       {
+        "n": "1.7",
+        "t": "Universal Set"
+       },
+       {
+        "n": "1.8",
+        "t": "Venn Diagrams"
+       },
+       {
+        "n": "1.9",
+        "t": "Operations on Sets"
+       },
+       {
+        "n": "1.10",
+        "t": "Complement of a Set"
+       }
+      ]
      },
      {
       "n": 2,
@@ -1128,7 +2632,41 @@
       "file": "/ncert/ncert-class-11-maths-chapter-3-trigonometric-functions.pdf",
       "pages": 33,
       "kb": 2451,
-      "excerpt": "vA mathematician knows how to solve a problem, he can not solve it. – MILNE v 3.1 Introduction The word ‘trigonometry’ is derived from the Greek words ‘trigon’ and ‘metron’ and it means ‘measuring the sides of a triangle’. The subject was originally developed to solve geometric problems involving triangles. It was studied by sea captains for navigation, surveyor to map out the new lands, by engineers and others."
+      "excerpt": "vA mathematician knows how to solve a problem, he can not solve it. – MILNE v 3.1 Introduction The word ‘trigonometry’ is derived from the Greek words ‘trigon’ and ‘metron’ and it means ‘measuring the sides of a triangle’. The subject was originally developed to solve geometric problems involving triangles. It was studied by sea captains for navigation, surveyor to map out the new lands, by engineers and others.",
+      "topics": [
+       {
+        "n": "3.2",
+        "t": "Angles"
+       },
+       {
+        "n": "3.2.1",
+        "t": "Degree measure"
+       },
+       {
+        "n": "3.2.2",
+        "t": "Radian measure"
+       },
+       {
+        "n": "3.2.3",
+        "t": "Relation between radian and real numbers"
+       },
+       {
+        "n": "3.2.4",
+        "t": "Relation between degree and radian"
+       },
+       {
+        "n": "3.3",
+        "t": "Trigonometric Functions"
+       },
+       {
+        "n": "3.3.2",
+        "t": "Domain and range of trigonometric functions"
+       },
+       {
+        "n": "3.4",
+        "t": "Trigonometric Functions of Sum and Difference of Two Angles"
+       }
+      ]
      },
      {
       "n": 4,
@@ -1137,7 +2675,25 @@
       "file": "/ncert/ncert-class-11-maths-chapter-4-complex-numbers-and-quadratic-equations.pdf",
       "pages": 13,
       "kb": 1009,
-      "excerpt": "76 MATHEMATICS Chapter COMPLEX NUMBERS AND QUADRATIC EQUATIONS W. – GAUSS v 4.1 Introduction In earlier classes, we have studied linear equations in one and two variables and quadratic equations in one variable. 4.3 Algebra of Complex Numbers In this Section, we shall develop the algebra of complex numbers."
+      "excerpt": "76 MATHEMATICS Chapter COMPLEX NUMBERS AND QUADRATIC EQUATIONS W. – GAUSS v 4.1 Introduction In earlier classes, we have studied linear equations in one and two variables and quadratic equations in one variable. 4.3 Algebra of Complex Numbers In this Section, we shall develop the algebra of complex numbers.",
+      "topics": [
+       {
+        "n": "4.2",
+        "t": "Complex Numbers"
+       },
+       {
+        "n": "4.3",
+        "t": "Algebra of Complex Numbers"
+       },
+       {
+        "n": "4.4",
+        "t": "The Modulus and the Conjugate of a Complex Number"
+       },
+       {
+        "n": "4.5",
+        "t": "Argand Plane and Polar Representation"
+       }
+      ]
      },
      {
       "n": 5,
@@ -1155,7 +2711,21 @@
       "file": "/ncert/ncert-class-11-maths-chapter-6-permutations-and-combinations.pdf",
       "pages": 26,
       "kb": 1837,
-      "excerpt": "100 MATHEMATICS vEvery body of discovery is mathematical in form because there is no other guidance we can have – DARWINv 6.1 Introduction Suppose you have a suitcase with a number lock. The lock can be opened if 4 specific digits are arranged in a particular sequence with no repetition. Some how, you have forgotten this specific sequence of digits."
+      "excerpt": "100 MATHEMATICS vEvery body of discovery is mathematical in form because there is no other guidance we can have – DARWINv 6.1 Introduction Suppose you have a suitcase with a number lock. The lock can be opened if 4 specific digits are arranged in a particular sequence with no repetition. Some how, you have forgotten this specific sequence of digits.",
+      "topics": [
+       {
+        "n": "6.2",
+        "t": "Fundamental Principle of Counting"
+       },
+       {
+        "n": "6.3",
+        "t": "Permutations"
+       },
+       {
+        "n": "6.4",
+        "t": "Combinations"
+       }
+      ]
      },
      {
       "n": 7,
@@ -1173,7 +2743,25 @@
       "file": "/ncert/ncert-class-11-maths-chapter-8-sequences-and-series.pdf",
       "pages": 16,
       "kb": 1166,
-      "excerpt": "– DEDEKIND v 8.1 Introduction In mathematics, the word, “sequence” is used in much the same way as it is in ordinary English. When we say that a collection of objects is listed in a sequence, we usually mean that the collection is ordered in such a way that it has an identified first member, second member, third member and so on. For example, population of human beings or bacteria at different times form a sequence."
+      "excerpt": "– DEDEKIND v 8.1 Introduction In mathematics, the word, “sequence” is used in much the same way as it is in ordinary English. When we say that a collection of objects is listed in a sequence, we usually mean that the collection is ordered in such a way that it has an identified first member, second member, third member and so on. For example, population of human beings or bacteria at different times form a sequence.",
+      "topics": [
+       {
+        "n": "8.2",
+        "t": "Sequences"
+       },
+       {
+        "n": "8.3",
+        "t": "Series"
+       },
+       {
+        "n": "8.4",
+        "t": "Geometric Progression (G. P.)"
+       },
+       {
+        "n": "8.5",
+        "t": "Relationship Between A.M. and G.M"
+       }
+      ]
      },
      {
       "n": 9,
@@ -1182,7 +2770,21 @@
       "file": "/ncert/ncert-class-11-maths-chapter-9-straight-lines.pdf",
       "pages": 25,
       "kb": 1896,
-      "excerpt": "vG eometry, as a logical system, is a means and even the most powerful means to make children feel the strength of the human spirit that is of their own spirit. FREUDENTHALv 9.1 Introduction We are familiar with two-dimensional coordinate geometry from earlier classes."
+      "excerpt": "vG eometry, as a logical system, is a means and even the most powerful means to make children feel the strength of the human spirit that is of their own spirit. FREUDENTHALv 9.1 Introduction We are familiar with two-dimensional coordinate geometry from earlier classes.",
+      "topics": [
+       {
+        "n": "9.2",
+        "t": "Slope of a Line"
+       },
+       {
+        "n": "9.3",
+        "t": "Various Forms of the Equation of a Line"
+       },
+       {
+        "n": "9.4",
+        "t": "Distance of a Point From a Line"
+       }
+      ]
      },
      {
       "n": 10,
@@ -1191,7 +2793,45 @@
       "file": "/ncert/ncert-class-11-maths-chapter-10-conic-sections.pdf",
       "pages": 32,
       "kb": 2460,
-      "excerpt": "176 MATHEMATICS vLet the relation of knowledge to real life be very visible to your pupils and let them understand how by knowledge the world could be transformed. – BERTRAND RUSSELL v 10.1 Introduction In the preceding Chapter 10, we have studied various forms of the equations of a line. In this Chapter, we shall study about some other curves, viz., circles, ellipses, parabolas and hyperbolas."
+      "excerpt": "176 MATHEMATICS vLet the relation of knowledge to real life be very visible to your pupils and let them understand how by knowledge the world could be transformed. – BERTRAND RUSSELL v 10.1 Introduction In the preceding Chapter 10, we have studied various forms of the equations of a line. In this Chapter, we shall study about some other curves, viz., circles, ellipses, parabolas and hyperbolas.",
+      "topics": [
+       {
+        "n": "10.2",
+        "t": "Sections of a Cone"
+       },
+       {
+        "n": "10.3",
+        "t": "Circle"
+       },
+       {
+        "n": "10.4",
+        "t": "Parabola"
+       },
+       {
+        "n": "10.4.1",
+        "t": "Standard equations of parabola"
+       },
+       {
+        "n": "10.4.2",
+        "t": "Latus rectum"
+       },
+       {
+        "n": "10.5",
+        "t": "Ellipse"
+       },
+       {
+        "n": "10.5.2",
+        "t": "Eccentricity"
+       },
+       {
+        "n": "10.5.4",
+        "t": "Latus rectum"
+       },
+       {
+        "n": "10.6.1",
+        "t": "Eccentricity"
+       }
+      ]
      },
      {
       "n": 11,
@@ -1200,7 +2840,21 @@
       "file": "/ncert/ncert-class-11-maths-chapter-11-introduction-to-three-dimensional-geometry.pdf",
       "pages": 9,
       "kb": 713,
-      "excerpt": "208 MATHEMATICS vMathematics is both the queen and the hand-maiden of all sciences – E.T. BELLv 11.1 Introduction You may recall that to locate the position of a point in a plane, we need two intersecting mutually perpendicular lines in the plane. These lines are called the coordinate axes and the two numbers are called the coordinates of the point with respect to the axes."
+      "excerpt": "208 MATHEMATICS vMathematics is both the queen and the hand-maiden of all sciences – E.T. BELLv 11.1 Introduction You may recall that to locate the position of a point in a plane, we need two intersecting mutually perpendicular lines in the plane. These lines are called the coordinate axes and the two numbers are called the coordinates of the point with respect to the axes.",
+      "topics": [
+       {
+        "n": "11.2",
+        "t": "Coordinate Axes and Coordinate Planes in Three Dimensional Space"
+       },
+       {
+        "n": "11.3",
+        "t": "Coordinates of a Point in Space"
+       },
+       {
+        "n": "11.4",
+        "t": "Distance between Two Points"
+       }
+      ]
      },
      {
       "n": 12,
@@ -1209,7 +2863,21 @@
       "file": "/ncert/ncert-class-11-maths-chapter-12-limits-and-derivatives.pdf",
       "pages": 40,
       "kb": 2831,
-      "excerpt": "vWith the Calculus as a key, Mathematics can be successfully applied to the explanation of the course of Nature – WHITEHEAD v 12.1 Introduction This chapter is an introduction to Calculus. Calculus is that branch of mathematics which mainly deals with the study of change in the value of a function as the points in the domain change. First, we give an intuitive idea of derivative (without actually defining it)."
+      "excerpt": "vWith the Calculus as a key, Mathematics can be successfully applied to the explanation of the course of Nature – WHITEHEAD v 12.1 Introduction This chapter is an introduction to Calculus. Calculus is that branch of mathematics which mainly deals with the study of change in the value of a function as the points in the domain change. First, we give an intuitive idea of derivative (without actually defining it).",
+      "topics": [
+       {
+        "n": "12.2",
+        "t": "Intuitive Idea of Derivatives"
+       },
+       {
+        "n": "12.3",
+        "t": "Limits"
+       },
+       {
+        "n": "12.5",
+        "t": "Derivatives"
+       }
+      ]
      },
      {
       "n": 13,
@@ -1218,7 +2886,25 @@
       "file": "/ncert/ncert-class-11-maths-chapter-13-statistics.pdf",
       "pages": 32,
       "kb": 2270,
-      "excerpt": "v“Statistics may be rightly called the science of averages and their estimates.” – A.L.BOWLEY & A.L. BODDINGTON v 13.1 Introduction We know that statistics deals with data collected for specific purposes. We can make decisions about the data by analysing and interpreting it. In earlier classes, we have studied methods of representing data graphically and in tabular form."
+      "excerpt": "v“Statistics may be rightly called the science of averages and their estimates.” – A.L.BOWLEY & A.L. BODDINGTON v 13.1 Introduction We know that statistics deals with data collected for specific purposes. We can make decisions about the data by analysing and interpreting it. In earlier classes, we have studied methods of representing data graphically and in tabular form.",
+      "topics": [
+       {
+        "n": "13.2",
+        "t": "Measures of Dispersion"
+       },
+       {
+        "n": "13.3",
+        "t": "Range"
+       },
+       {
+        "n": "13.4",
+        "t": "Mean Deviation"
+       },
+       {
+        "n": "13.5",
+        "t": "Variance and Standard Deviation"
+       }
+      ]
      },
      {
       "n": 14,
@@ -1242,7 +2928,37 @@
       "file": "/ncert/ncert-class-11-biology-chapter-1-the-living-world.pdf",
       "pages": 9,
       "kb": 2211,
-      "excerpt": "The living world comprises an amazing diversity of living organisms. Early man could easily perceive the difference between inanimate matter and living organisms. Early man deified some of the inanimate matter (wind, sea, fire etc.) and some among the animals and plants. A common feature of all such forms of inanimate and animate objects was the sense of awe or fear that they evoked."
+      "excerpt": "The living world comprises an amazing diversity of living organisms. Early man could easily perceive the difference between inanimate matter and living organisms. Early man deified some of the inanimate matter (wind, sea, fire etc.) and some among the animals and plants. A common feature of all such forms of inanimate and animate objects was the sense of awe or fear that they evoked.",
+      "topics": [
+       {
+        "n": "1.2.1",
+        "t": "Species"
+       },
+       {
+        "n": "1.2.2",
+        "t": "Genus"
+       },
+       {
+        "n": "1.2.3",
+        "t": "Family"
+       },
+       {
+        "n": "1.2.4",
+        "t": "Order"
+       },
+       {
+        "n": "1.2.5",
+        "t": "Class"
+       },
+       {
+        "n": "1.2.6",
+        "t": "Phylum"
+       },
+       {
+        "n": "1.2.7",
+        "t": "Kingdom"
+       }
+      ]
      },
      {
       "n": 2,
@@ -1251,7 +2967,53 @@
       "file": "/ncert/ncert-class-11-biology-chapter-2-biological-classification.pdf",
       "pages": 13,
       "kb": 3217,
-      "excerpt": "10 BIOLOGY Since the dawn of civilisation, there have been many attempts to classify living organisms. It was done instinctively not using criteria that were scientific but borne out of a need to use organisms for our own use – for food, shelter and clothing. Aristotle was the earliest to attempt a more scientific basis for classification."
+      "excerpt": "10 BIOLOGY Since the dawn of civilisation, there have been many attempts to classify living organisms. It was done instinctively not using criteria that were scientific but borne out of a need to use organisms for our own use – for food, shelter and clothing. Aristotle was the earliest to attempt a more scientific basis for classification.",
+      "topics": [
+       {
+        "n": "2.1.1",
+        "t": "Archaebacteria"
+       },
+       {
+        "n": "2.1.2",
+        "t": "Eubacteria"
+       },
+       {
+        "n": "2.2.1",
+        "t": "Chrysophytes"
+       },
+       {
+        "n": "2.2.2",
+        "t": "Dinoflagellates"
+       },
+       {
+        "n": "2.2.3",
+        "t": "Euglenoids"
+       },
+       {
+        "n": "2.2.4",
+        "t": "Slime Moulds"
+       },
+       {
+        "n": "2.2.5",
+        "t": "Protozoans"
+       },
+       {
+        "n": "2.3.1",
+        "t": "Phycomycetes"
+       },
+       {
+        "n": "2.3.2",
+        "t": "Ascomycetes"
+       },
+       {
+        "n": "2.3.3",
+        "t": "Basidiomycetes"
+       },
+       {
+        "n": "2.3.4",
+        "t": "Deuteromycetes"
+       }
+      ]
      },
      {
       "n": 3,
@@ -1260,7 +3022,29 @@
       "file": "/ncert/ncert-class-11-biology-chapter-3-plant-kingdom.pdf",
       "pages": 14,
       "kb": 5060,
-      "excerpt": "PLANT KINGDOM 23 In the previous chapter, we looked at the broad classification of living organisms under the system proposed by Whittaker (1969) wherein he suggested the Five Kingdom classification viz. In this chapter, we will deal in detail with further classification within Kingdom Plantae popularly known as the ‘plant kingdom’. We must stress here that our understanding of the plant kingdom has changed over time."
+      "excerpt": "PLANT KINGDOM 23 In the previous chapter, we looked at the broad classification of living organisms under the system proposed by Whittaker (1969) wherein he suggested the Five Kingdom classification viz. In this chapter, we will deal in detail with further classification within Kingdom Plantae popularly known as the ‘plant kingdom’. We must stress here that our understanding of the plant kingdom has changed over time.",
+      "topics": [
+       {
+        "n": "3.1.1",
+        "t": "Chlorophyceae"
+       },
+       {
+        "n": "3.1.2",
+        "t": "Phaeophyceae"
+       },
+       {
+        "n": "3.1.3",
+        "t": "Rhodophyceae"
+       },
+       {
+        "n": "3.2.1",
+        "t": "Liverworts"
+       },
+       {
+        "n": "3.2.2",
+        "t": "Mosses"
+       }
+      ]
      },
      {
       "n": 4,
@@ -1269,7 +3053,73 @@
       "file": "/ncert/ncert-class-11-biology-chapter-4-animal-kingdom.pdf",
       "pages": 18,
       "kb": 6073,
-      "excerpt": "ANIMAL KINGDOM 37 37 When you look around, you will observe different animals with different structures and forms. As over a million species of animals have been described till now, the need for classification becomes all the more important. The classification also helps in assigning a systematic position to newly described species."
+      "excerpt": "ANIMAL KINGDOM 37 37 When you look around, you will observe different animals with different structures and forms. As over a million species of animals have been described till now, the need for classification becomes all the more important. The classification also helps in assigning a systematic position to newly described species.",
+      "topics": [
+       {
+        "n": "4.1.1",
+        "t": "Levels of Organisation"
+       },
+       {
+        "n": "4.1.2",
+        "t": "Symmetry"
+       },
+       {
+        "n": "4.1.3",
+        "t": "Diploblastic and Triploblastic Organisation"
+       },
+       {
+        "n": "4.1.4",
+        "t": "Coelom"
+       },
+       {
+        "n": "4.1.5",
+        "t": "Segmentation"
+       },
+       {
+        "n": "4.1.6",
+        "t": "Notochord"
+       },
+       {
+        "n": "4.2.1",
+        "t": "Phylum – Porifera"
+       },
+       {
+        "n": "4.2.2",
+        "t": "Phylum – Coelenterata (Cnidaria)"
+       },
+       {
+        "n": "4.2.3",
+        "t": "Phylum – Ctenophora"
+       },
+       {
+        "n": "4.2.4",
+        "t": "Phylum – Platyhelminthes"
+       },
+       {
+        "n": "4.2.5",
+        "t": "Phylum – Aschelminthes"
+       },
+       {
+        "n": "4.2.6",
+        "t": "Phylum – Annelida"
+       },
+       {
+        "n": "4.2.7",
+        "t": "Phylum – Arthropoda"
+       },
+       {
+        "n": "4.2.8",
+        "t": "Phylum – Mollusca"
+       },
+       {
+        "n": "4.2.9",
+        "t": "Phylum – Echinodermata"
+       },
+       {
+        "n": "4.2.10",
+        "t": "Phylum – Hemichordata"
+       }
+      ]
      },
      {
       "n": 5,
@@ -1278,7 +3128,37 @@
       "file": "/ncert/ncert-class-11-biology-chapter-5-morphology-of-flowering-plants.pdf",
       "pages": 16,
       "kb": 3352,
-      "excerpt": "UNIT 2 The description of the diverse forms of life on earth was made only by observation – through naked eyes or later through magnifying lenses and microscopes. This description is mainly of gross structural features, both external and internal. In addition, observable and perceivable living phenomena were also recorded as part of this description."
+      "excerpt": "UNIT 2 The description of the diverse forms of life on earth was made only by observation – through naked eyes or later through magnifying lenses and microscopes. This description is mainly of gross structural features, both external and internal. In addition, observable and perceivable living phenomena were also recorded as part of this description.",
+      "topics": [
+       {
+        "n": "5.1.1",
+        "t": "Regions of the Root"
+       },
+       {
+        "n": "5.3.1",
+        "t": "Venation"
+       },
+       {
+        "n": "5.3.2",
+        "t": "Types of Leaves"
+       },
+       {
+        "n": "5.3.3",
+        "t": "Phyllotaxy"
+       },
+       {
+        "n": "5.5.1",
+        "t": "Parts of a Flower"
+       },
+       {
+        "n": "5.7.1",
+        "t": "Structure of a Dicotyledonous Seed"
+       },
+       {
+        "n": "5.7.2",
+        "t": "Structure of Monocotyledonous Seed"
+       }
+      ]
      },
      {
       "n": 6,
@@ -1287,7 +3167,45 @@
       "file": "/ncert/ncert-class-11-biology-chapter-6-anatomy-of-flowering-plants.pdf",
       "pages": 8,
       "kb": 1856,
-      "excerpt": "ANATOMY OF FLOWERING PLANTS 71 You can very easily see the structural similarities and variations in the external morphology of the larger living organism, both plants and animals. Similarly, if we were to study the internal structure, one also finds several similarities as well as differences. This chapter introduces you to the internal structure and functional organisation of higher plants."
+      "excerpt": "ANATOMY OF FLOWERING PLANTS 71 You can very easily see the structural similarities and variations in the external morphology of the larger living organism, both plants and animals. Similarly, if we were to study the internal structure, one also finds several similarities as well as differences. This chapter introduces you to the internal structure and functional organisation of higher plants.",
+      "topics": [
+       {
+        "n": "6.1.1",
+        "t": "Epidermal Tissue System"
+       },
+       {
+        "n": "6.1.2",
+        "t": "The Ground Tissue System"
+       },
+       {
+        "n": "6.1.3",
+        "t": "The Vascular Tissue System"
+       },
+       {
+        "n": "6.2.1",
+        "t": "Dicotyledonous Root"
+       },
+       {
+        "n": "6.2.2",
+        "t": "Monocotyledonous Root"
+       },
+       {
+        "n": "6.2.3",
+        "t": "Dicotyledonous Stem"
+       },
+       {
+        "n": "6.2.4",
+        "t": "Monocotyledonous Stem"
+       },
+       {
+        "n": "6.2.5",
+        "t": "Dorsiventral (Dicotyledonous) Leaf"
+       },
+       {
+        "n": "6.2.6",
+        "t": "Isobilateral (Monocotyledonous) Leaf"
+       }
+      ]
      },
      {
       "n": 7,
@@ -1305,7 +3223,61 @@
       "file": "/ncert/ncert-class-11-biology-chapter-8-cell-the-unit-of-life.pdf",
       "pages": 19,
       "kb": 6822,
-      "excerpt": "The detailed description of their form and appearance only brought out their diversity. It is the cell theory that emphasised the unity underlying this diversity of forms, i.e., the cellular organisation of all life forms. A description of cell structure and cell growth by division is given in the chapters comprising this unit."
+      "excerpt": "The detailed description of their form and appearance only brought out their diversity. It is the cell theory that emphasised the unity underlying this diversity of forms, i.e., the cellular organisation of all life forms. A description of cell structure and cell growth by division is given in the chapters comprising this unit.",
+      "topics": [
+       {
+        "n": "8.4.1",
+        "t": "Cell Envelope and its Modifications"
+       },
+       {
+        "n": "8.4.2",
+        "t": "Ribosomes and Inclusion Bodies"
+       },
+       {
+        "n": "8.5.1",
+        "t": "Cell Membrane"
+       },
+       {
+        "n": "8.5.2",
+        "t": "Cell Wall"
+       },
+       {
+        "n": "8.5.3",
+        "t": "Endomembrane System"
+       },
+       {
+        "n": "8.5.4",
+        "t": "Mitochondria"
+       },
+       {
+        "n": "8.5.5",
+        "t": "Plastids"
+       },
+       {
+        "n": "8.5.6",
+        "t": "Ribosomes"
+       },
+       {
+        "n": "8.5.7",
+        "t": "Cytoskeleton"
+       },
+       {
+        "n": "8.5.8",
+        "t": "Cilia and Flagella"
+       },
+       {
+        "n": "8.5.9",
+        "t": "Centrosome and Centrioles"
+       },
+       {
+        "n": "8.5.10",
+        "t": "Nucleus"
+       },
+       {
+        "n": "8.5.11",
+        "t": "Microbodies"
+       }
+      ]
      },
      {
       "n": 9,
@@ -1314,7 +3286,29 @@
       "file": "/ncert/ncert-class-11-biology-chapter-9-biomolecules.pdf",
       "pages": 16,
       "kb": 1809,
-      "excerpt": "104 BIOLOGY There is a wide diversity in living organisms in our biosphere. Now a question that arises in our minds is: Are all living organisms made of the same chemicals, i.e., elements and compounds? You have learnt in chemistry how elemental analysis is performed."
+      "excerpt": "104 BIOLOGY There is a wide diversity in living organisms in our biosphere. Now a question that arises in our minds is: Are all living organisms made of the same chemicals, i.e., elements and compounds? You have learnt in chemistry how elemental analysis is performed.",
+      "topics": [
+       {
+        "n": "9.8.1",
+        "t": "Chemical Reactions"
+       },
+       {
+        "n": "9.8.2",
+        "t": "How do Enzymes bring about such High Rates of Chemical Conversions?"
+       },
+       {
+        "n": "9.8.3",
+        "t": "Nature of Enzyme Action"
+       },
+       {
+        "n": "9.8.5",
+        "t": "Classification and Nomenclature of Enzymes"
+       },
+       {
+        "n": "9.8.6",
+        "t": "Co-factors"
+       }
+      ]
      },
      {
       "n": 10,
@@ -1323,7 +3317,45 @@
       "file": "/ncert/ncert-class-11-biology-chapter-10-cell-cycle-and-cell-division.pdf",
       "pages": 11,
       "kb": 2431,
-      "excerpt": "120 BIOLOGY Are you aware that all organisms, even the largest, start their life from a single cell? You may wonder how a single cell then goes on to form such large organisms. Growth and reproduction are characteristics of cells, indeed of all living organisms. All cells reproduce by dividing into two, with each parental cell giving rise to two daughter cells each time they divide."
+      "excerpt": "120 BIOLOGY Are you aware that all organisms, even the largest, start their life from a single cell? You may wonder how a single cell then goes on to form such large organisms. Growth and reproduction are characteristics of cells, indeed of all living organisms. All cells reproduce by dividing into two, with each parental cell giving rise to two daughter cells each time they divide.",
+      "topics": [
+       {
+        "n": "10.1.1",
+        "t": "Phases of Cell Cycle"
+       },
+       {
+        "n": "10.2.1",
+        "t": "Prophase"
+       },
+       {
+        "n": "10.2.2",
+        "t": "Metaphase"
+       },
+       {
+        "n": "10.2.3",
+        "t": "Anaphase"
+       },
+       {
+        "n": "10.2.4",
+        "t": "Telophase"
+       },
+       {
+        "n": "10.2.5",
+        "t": "Cytokinesis"
+       },
+       {
+        "n": "10.3",
+        "t": "Significance of Mitosis"
+       },
+       {
+        "n": "10.4.1",
+        "t": "Meiosis I"
+       },
+       {
+        "n": "10.4.2",
+        "t": "Meiosis II"
+       }
+      ]
      },
      {
       "n": 11,
@@ -1332,7 +3364,45 @@
       "file": "/ncert/ncert-class-11-biology-chapter-11-photosynthesis-in-higher-plants.pdf",
       "pages": 22,
       "kb": 2615,
-      "excerpt": "UNIT 4 The description of structure and variation of living organisms over a period of time, ended up as two, apparently irreconcilable perspectives on biology. The two perspectives essentially rested on two levels of organisation of life forms and phenomena. One described at organismic and above level of organisation while the second described at cellular and molecular level of organisation."
+      "excerpt": "UNIT 4 The description of structure and variation of living organisms over a period of time, ended up as two, apparently irreconcilable perspectives on biology. The two perspectives essentially rested on two levels of organisation of life forms and phenomena. One described at organismic and above level of organisation while the second described at cellular and molecular level of organisation.",
+      "topics": [
+       {
+        "n": "11.6.1",
+        "t": "Splitting of Water"
+       },
+       {
+        "n": "11.6.2",
+        "t": "Cyclic and Non-cyclic Photo-phosphorylation"
+       },
+       {
+        "n": "11.6.3",
+        "t": "Chemiosmotic Hypothesis"
+       },
+       {
+        "n": "11.7.1",
+        "t": "The Primary Acceptor of CO"
+       },
+       {
+        "n": "11.7.2",
+        "t": "The Calvin Cycle"
+       },
+       {
+        "n": "11.10.1",
+        "t": "Light"
+       },
+       {
+        "n": "11.10.2",
+        "t": "Carbon dioxide Concentration"
+       },
+       {
+        "n": "11.10.3",
+        "t": "Temperature"
+       },
+       {
+        "n": "11.10.4",
+        "t": "Water"
+       }
+      ]
      },
      {
       "n": 12,
@@ -1350,7 +3420,41 @@
       "file": "/ncert/ncert-class-11-biology-chapter-13-plant-growth-and-development.pdf",
       "pages": 15,
       "kb": 1877,
-      "excerpt": "166 BIOLOGY You have already studied the organisation of a flowering plant in Chapter 5. Have you ever thought about where and how the structures like roots, stems, leaves, flowers, fruits and seeds arise and that too in an orderly sequence? You are, by now, aware of the terms seed, seedling, plantlet, mature plant. You have also seen that trees continue to increase in height or girth over a period of time."
+      "excerpt": "166 BIOLOGY You have already studied the organisation of a flowering plant in Chapter 5. Have you ever thought about where and how the structures like roots, stems, leaves, flowers, fruits and seeds arise and that too in an orderly sequence? You are, by now, aware of the terms seed, seedling, plantlet, mature plant. You have also seen that trees continue to increase in height or girth over a period of time.",
+      "topics": [
+       {
+        "n": "13.1.1",
+        "t": "Plant Growth Generally is Indeterminate"
+       },
+       {
+        "n": "13.1.2",
+        "t": "Growth is Measurable"
+       },
+       {
+        "n": "13.1.3",
+        "t": "Phases of Growth"
+       },
+       {
+        "n": "13.1.4",
+        "t": "Growth Rates"
+       },
+       {
+        "n": "13.1.5",
+        "t": "Conditions for Growth"
+       },
+       {
+        "n": "13.4.1",
+        "t": "Characteristics"
+       },
+       {
+        "n": "13.4.2",
+        "t": "The Discovery of Plant Growth Regulators"
+       },
+       {
+        "n": "13.4.3",
+        "t": "Physiological Effects of Plant Growth Regulators"
+       }
+      ]
      },
      {
       "n": 14,
@@ -1359,7 +3463,25 @@
       "file": "/ncert/ncert-class-11-biology-chapter-14-breathing-and-exchange-of-gases.pdf",
       "pages": 12,
       "kb": 2004,
-      "excerpt": "UNIT 5 The reductionist approach to study of life forms resulted in increasing use of physico-chemical concepts and techniques. Majority of these studies employed either surviving tissue model or straightaway cell- free systems. Molecular physiology became almost synonymous with biochemistry and biophysics."
+      "excerpt": "UNIT 5 The reductionist approach to study of life forms resulted in increasing use of physico-chemical concepts and techniques. Majority of these studies employed either surviving tissue model or straightaway cell- free systems. Molecular physiology became almost synonymous with biochemistry and biophysics.",
+      "topics": [
+       {
+        "n": "14.1.1",
+        "t": "Human Respiratory System"
+       },
+       {
+        "n": "14.2.1",
+        "t": "Respiratory V Respiratory Volumes and olumes and Capacities"
+       },
+       {
+        "n": "14.4.1",
+        "t": "Transport of Oxygen"
+       },
+       {
+        "n": "14.4.2",
+        "t": "Transport of Carbon dioxide"
+       }
+      ]
      },
      {
       "n": 15,
@@ -1368,7 +3490,37 @@
       "file": "/ncert/ncert-class-11-biology-chapter-15-body-fluids-and-circulation.pdf",
       "pages": 12,
       "kb": 3033,
-      "excerpt": "BODY FLUIDS AND CIRCULATION 193 You have learnt that all living cells have to be provided with nutrients, O2 and other essential substances. Also, the waste or harmful substances produced, have to be removed continuously for healthy functioning of tissues. It is therefore, essential to have efficient mechanisms for the movement of these substances to the cells and from the cells."
+      "excerpt": "BODY FLUIDS AND CIRCULATION 193 You have learnt that all living cells have to be provided with nutrients, O2 and other essential substances. Also, the waste or harmful substances produced, have to be removed continuously for healthy functioning of tissues. It is therefore, essential to have efficient mechanisms for the movement of these substances to the cells and from the cells.",
+      "topics": [
+       {
+        "n": "15.1.1",
+        "t": "Plasma"
+       },
+       {
+        "n": "15.1.2",
+        "t": "Formed Elements"
+       },
+       {
+        "n": "15.1.3",
+        "t": "Blood Groups"
+       },
+       {
+        "n": "15.1.4",
+        "t": "Coagulation of Blood"
+       },
+       {
+        "n": "15.3.1",
+        "t": "Human Circulatory System"
+       },
+       {
+        "n": "15.3.2",
+        "t": "Cardiac Cycle"
+       },
+       {
+        "n": "15.3.3",
+        "t": "Electrocardiogram (ECG)"
+       }
+      ]
      },
      {
       "n": 16,
@@ -1404,7 +3556,49 @@
       "file": "/ncert/ncert-class-11-biology-chapter-19-chemical-coordination-and-integration.pdf",
       "pages": 14,
       "kb": 2081,
-      "excerpt": "239 239 CHEMICAL COORDINATION AND INTEGRATION You have already learnt that the neural system provides a point-to-point rapid coordination among organs. As the nerve fibres do not innervate all cells of the body and the cellular functions need to be continuously regulated; a special kind of coordination and integration has to be provided."
+      "excerpt": "239 239 CHEMICAL COORDINATION AND INTEGRATION You have already learnt that the neural system provides a point-to-point rapid coordination among organs. As the nerve fibres do not innervate all cells of the body and the cellular functions need to be continuously regulated; a special kind of coordination and integration has to be provided.",
+      "topics": [
+       {
+        "n": "19.2.1",
+        "t": "The Hypothalamus"
+       },
+       {
+        "n": "19.2.2",
+        "t": "The Pituitary Gland"
+       },
+       {
+        "n": "19.2.3",
+        "t": "The Pineal Gland"
+       },
+       {
+        "n": "19.2.4",
+        "t": "Thyroid Gland"
+       },
+       {
+        "n": "19.2.5",
+        "t": "Parathyroid Gland"
+       },
+       {
+        "n": "19.2.6",
+        "t": "Thymus"
+       },
+       {
+        "n": "19.2.7",
+        "t": "Adrenal Gland"
+       },
+       {
+        "n": "19.2.8",
+        "t": "Pancreas"
+       },
+       {
+        "n": "19.2.9",
+        "t": "Testis"
+       },
+       {
+        "n": "19.2.10",
+        "t": "Ovary"
+       }
+      ]
      }
     ]
    }
@@ -1424,7 +3618,49 @@
       "file": "/ncert/ncert-class-12-physics-chapter-1-electric-charges-and-fields.pdf",
       "pages": 44,
       "kb": 3755,
-      "excerpt": "Chapter One ELECTRIC CHARGES AND FIELDS 1.1 INTRODUCTION All of us have the experience of seeing a spark or hearing a crackle when we take off our synthetic clothes or sweater, particularly in dry weather. Have you ever tried to find any explanation for this phenomenon? Another common example of electric discharge is the lightning that we see in the sky during thunderstorms."
+      "excerpt": "Chapter One ELECTRIC CHARGES AND FIELDS 1.1 INTRODUCTION All of us have the experience of seeing a spark or hearing a crackle when we take off our synthetic clothes or sweater, particularly in dry weather. Have you ever tried to find any explanation for this phenomenon? Another common example of electric discharge is the lightning that we see in the sky during thunderstorms.",
+      "topics": [
+       {
+        "n": "1.4.1",
+        "t": "Additivity of charges"
+       },
+       {
+        "n": "1.4.2",
+        "t": "Charge is conserved"
+       },
+       {
+        "n": "1.4.3",
+        "t": "Quantisation of charge"
+       },
+       {
+        "n": "1.7.1",
+        "t": "Electric field due to a system of charges"
+       },
+       {
+        "n": "1.7.2",
+        "t": "Physical significance of electric field"
+       },
+       {
+        "n": "1.10.1",
+        "t": "The field of an electric dipole"
+       },
+       {
+        "n": "1.10.2",
+        "t": "Physical significance of dipoles"
+       },
+       {
+        "n": "1.14.1",
+        "t": "Field due to an infinitely long straight uniformly charged wire"
+       },
+       {
+        "n": "1.14.2",
+        "t": "Field due to a uniformly charged infinite plane sheet"
+       },
+       {
+        "n": "1.14.3",
+        "t": "Field due to a uniformly charged thin spherical shell"
+       }
+      ]
      },
      {
       "n": 2,
@@ -1433,7 +3669,33 @@
       "file": "/ncert/ncert-class-12-physics-chapter-2-electrostatic-potential-and-capacitance.pdf",
       "pages": 36,
       "kb": 3681,
-      "excerpt": "When an external force does work in taking a body from a point to another against a force like spring force or gravitational force, that work gets stored as potential energy of the body. When the external force is removed, the body moves, gaining kinetic energy and losing an equal amount of potential energy. Spring force and gravitational force are examples of conservative forces."
+      "excerpt": "When an external force does work in taking a body from a point to another against a force like spring force or gravitational force, that work gets stored as potential energy of the body. When the external force is removed, the body moves, gaining kinetic energy and losing an equal amount of potential energy. Spring force and gravitational force are examples of conservative forces.",
+      "topics": [
+       {
+        "n": "2.6.1",
+        "t": "Relation between field and potential"
+       },
+       {
+        "n": "2.8.1",
+        "t": "Potential energy of a single charge"
+       },
+       {
+        "n": "2.8.2",
+        "t": "Potential energy of a system of two charges in an external field"
+       },
+       {
+        "n": "2.8.3",
+        "t": "Potential energy of a dipole in an external field"
+       },
+       {
+        "n": "2.14.1",
+        "t": "Capacitors in series"
+       },
+       {
+        "n": "2.14.2",
+        "t": "Capacitors in parallel"
+       }
+      ]
      },
      {
       "n": 3,
@@ -1451,7 +3713,29 @@
       "file": "/ncert/ncert-class-12-physics-chapter-4-moving-charges-and-magnetism.pdf",
       "pages": 29,
       "kb": 3468,
-      "excerpt": "4.1 INTRODUCTION Both Electricity and Magnetism have been known for more than 2000 years. During a lecture demonstration in the summer of 1820, Danish physicist Hans Christian Oersted noticed that a current in a straight wire caused a noticeable deflection in a nearby magnetic compass needle."
+      "excerpt": "4.1 INTRODUCTION Both Electricity and Magnetism have been known for more than 2000 years. During a lecture demonstration in the summer of 1820, Danish physicist Hans Christian Oersted noticed that a current in a straight wire caused a noticeable deflection in a nearby magnetic compass needle.",
+      "topics": [
+       {
+        "n": "4.2.1",
+        "t": "Sources and fields"
+       },
+       {
+        "n": "4.2.2",
+        "t": "Magnetic Field, Lorentz Force"
+       },
+       {
+        "n": "4.2.3",
+        "t": "Magnetic force on a current-carrying conductor"
+       },
+       {
+        "n": "4.9.1",
+        "t": "Torque on a rectangular current loop in a uniform magnetic field"
+       },
+       {
+        "n": "4.9.2",
+        "t": "Circular current loop as a magnetic dipole"
+       }
+      ]
      },
      {
       "n": 5,
@@ -1460,7 +3744,21 @@
       "file": "/ncert/ncert-class-12-physics-chapter-5-magnetism-and-matter.pdf",
       "pages": 18,
       "kb": 1783,
-      "excerpt": "Physics 136 5.1 INTRODUCTION Magnetic phenomena are universal in nature. Vast, distant galaxies, the tiny invisible atoms, humans and beasts all are permeated through and through with a host of magnetic fields from a variety of sources. The word magnet is derived from the name of an island in Greece called magnesia where magnetic ore deposits were found, as early as 600 BC."
+      "excerpt": "Physics 136 5.1 INTRODUCTION Magnetic phenomena are universal in nature. Vast, distant galaxies, the tiny invisible atoms, humans and beasts all are permeated through and through with a host of magnetic fields from a variety of sources. The word magnet is derived from the name of an island in Greece called magnesia where magnetic ore deposits were found, as early as 600 BC.",
+      "topics": [
+       {
+        "n": "5.2.1",
+        "t": "The magnetic field lines"
+       },
+       {
+        "n": "5.2.3",
+        "t": "The dipole in a uniform magnetic field"
+       },
+       {
+        "n": "5.2.4",
+        "t": "The electrostatic analog"
+       }
+      ]
      },
      {
       "n": 6,
@@ -1487,7 +3785,45 @@
       "file": "/ncert/ncert-class-12-physics-chapter-8-electromagnetic-waves.pdf",
       "pages": 14,
       "kb": 1277,
-      "excerpt": "Chapter Eight ELECTROMAGNETIC WAVES 8.1 INTRODUCTION In Chapter 4, we learnt that an electric current produces magnetic field and that two current-carrying wires exert a magnetic force on each other. Further, in Chapter 6, we have seen that a magnetic field changing with time gives rise to an electric field. Does an electric field changing with time give rise to a magnetic field?"
+      "excerpt": "Chapter Eight ELECTROMAGNETIC WAVES 8.1 INTRODUCTION In Chapter 4, we learnt that an electric current produces magnetic field and that two current-carrying wires exert a magnetic force on each other. Further, in Chapter 6, we have seen that a magnetic field changing with time gives rise to an electric field. Does an electric field changing with time give rise to a magnetic field?",
+      "topics": [
+       {
+        "n": "8.3.1",
+        "t": "Sources of electromagnetic waves"
+       },
+       {
+        "n": "8.3.2",
+        "t": "Nature of electromagnetic waves"
+       },
+       {
+        "n": "8.4.1",
+        "t": "Radio waves"
+       },
+       {
+        "n": "8.4.2",
+        "t": "Microwaves"
+       },
+       {
+        "n": "8.4.3",
+        "t": "Infrared waves"
+       },
+       {
+        "n": "8.4.4",
+        "t": "Visible rays"
+       },
+       {
+        "n": "8.4.5",
+        "t": "Ultraviolet rays"
+       },
+       {
+        "n": "8.4.6",
+        "t": "X-rays"
+       },
+       {
+        "n": "8.4.7",
+        "t": "Gamma rays"
+       }
+      ]
      },
      {
       "n": 9,
@@ -1496,7 +3832,49 @@
       "file": "/ncert/ncert-class-12-physics-chapter-9-ray-optics-and-optical-instruments.pdf",
       "pages": 34,
       "kb": 2708,
-      "excerpt": "Chapter Nine RAY OPTICS AND OPTICAL INSTRUMENTS 9.1 INTRODUCTION Nature has endowed the human eye (retina) with the sensitivity to detect electromagnetic waves within a small range of the electromagnetic spectrum. Electromagnetic radiation belonging to this region of the spectrum (wavelength of about 400 nm to 750 nm) is called light."
+      "excerpt": "Chapter Nine RAY OPTICS AND OPTICAL INSTRUMENTS 9.1 INTRODUCTION Nature has endowed the human eye (retina) with the sensitivity to detect electromagnetic waves within a small range of the electromagnetic spectrum. Electromagnetic radiation belonging to this region of the spectrum (wavelength of about 400 nm to 750 nm) is called light.",
+      "topics": [
+       {
+        "n": "9.2.1",
+        "t": "Sign convention"
+       },
+       {
+        "n": "9.2.2",
+        "t": "Focal length of spherical mirrors"
+       },
+       {
+        "n": "9.2.3",
+        "t": "The mirror equation"
+       },
+       {
+        "n": "9.4.1",
+        "t": "Total internal reflection in nature and its technological applications"
+       },
+       {
+        "n": "9.5.1",
+        "t": "Refraction at a spherical surface"
+       },
+       {
+        "n": "9.5.2",
+        "t": "Refraction by a lens"
+       },
+       {
+        "n": "9.5.3",
+        "t": "Power of a lens"
+       },
+       {
+        "n": "9.5.4",
+        "t": "Combination of thin lenses in contact"
+       },
+       {
+        "n": "9.7.1",
+        "t": "The microscope"
+       },
+       {
+        "n": "9.7.2",
+        "t": "Telescope"
+       }
+      ]
      },
      {
       "n": 10,
@@ -1505,7 +3883,29 @@
       "file": "/ncert/ncert-class-12-physics-chapter-10-wave-optics.pdf",
       "pages": 19,
       "kb": 2031,
-      "excerpt": "It explained the laws of reflection and refraction of light at an interface. The corpuscular model predicted that if the ray of light (on refraction) bends towards the normal then the speed of light would be greater in the second medium."
+      "excerpt": "It explained the laws of reflection and refraction of light at an interface. The corpuscular model predicted that if the ray of light (on refraction) bends towards the normal then the speed of light would be greater in the second medium.",
+      "topics": [
+       {
+        "n": "10.3.1",
+        "t": "Refraction of a plane wave"
+       },
+       {
+        "n": "10.3.2",
+        "t": "Refraction at a rarer medium"
+       },
+       {
+        "n": "10.3.3",
+        "t": "Reflection of a plane wave by a plane surface"
+       },
+       {
+        "n": "10.6.1",
+        "t": "The single slit"
+       },
+       {
+        "n": "10.6.2",
+        "t": "Seeing the single slit diffraction pattern"
+       }
+      ]
      },
      {
       "n": 11,
@@ -1514,7 +3914,29 @@
       "file": "/ncert/ncert-class-12-physics-chapter-11-dual-nature-of-radiation-and-matter.pdf",
       "pages": 16,
       "kb": 1165,
-      "excerpt": "Physics 274 11.1 INTRODUCTION The Maxwell’s equations of electromagnetism and Hertz experiments on the generation and detection of electromagnetic waves in 1887 strongly established the wave nature of light. Towards the same period at the end of 19th century, experimental investigations on conduction of electricity (electric discharge) through gases at low pressure in a discharge tube led to many historic discoveries."
+      "excerpt": "Physics 274 11.1 INTRODUCTION The Maxwell’s equations of electromagnetism and Hertz experiments on the generation and detection of electromagnetic waves in 1887 strongly established the wave nature of light. Towards the same period at the end of 19th century, experimental investigations on conduction of electricity (electric discharge) through gases at low pressure in a discharge tube led to many historic discoveries.",
+      "topics": [
+       {
+        "n": "11.3.1",
+        "t": "Hertz’s observations"
+       },
+       {
+        "n": "11.3.2",
+        "t": "Hallwachs’ and Lenard’s observations"
+       },
+       {
+        "n": "11.4.1",
+        "t": "Effect of intensity of light on photocurrent"
+       },
+       {
+        "n": "11.4.2",
+        "t": "Effect of potential on photoelectric current"
+       },
+       {
+        "n": "11.4.3",
+        "t": "Effect of frequency of incident radiation on stopping potential"
+       }
+      ]
      },
      {
       "n": 12,
@@ -1523,7 +3945,21 @@
       "file": "/ncert/ncert-class-12-physics-chapter-12-atoms.pdf",
       "pages": 16,
       "kb": 1423,
-      "excerpt": "Physics 290 12.1 INTRODUCTION By the nineteenth century, enough evidence had accumulated in favour of atomic hypothesis of matter. In 1897, the experiments on electric discharge through gases carried out by the English physicist J. Thomson (1856 – 1940) revealed that atoms of different elements contain negatively charged constituents (electrons) that are identical for all atoms."
+      "excerpt": "Physics 290 12.1 INTRODUCTION By the nineteenth century, enough evidence had accumulated in favour of atomic hypothesis of matter. In 1897, the experiments on electric discharge through gases carried out by the English physicist J. Thomson (1856 – 1940) revealed that atoms of different elements contain negatively charged constituents (electrons) that are identical for all atoms.",
+      "topics": [
+       {
+        "n": "12.2.1",
+        "t": "Alpha-particle trajectory"
+       },
+       {
+        "n": "12.2.2",
+        "t": "Electron orbits"
+       },
+       {
+        "n": "12.4.1",
+        "t": "Energy levels"
+       }
+      ]
      },
      {
       "n": 13,
@@ -1532,7 +3968,29 @@
       "file": "/ncert/ncert-class-12-physics-chapter-13-nuclei.pdf",
       "pages": 17,
       "kb": 1202,
-      "excerpt": "Physics 306 13.1 INTRODUCTION In the previous chapter, we have learnt that in every atom, the positive charge and mass are densely concentrated at the centre of the atom forming its nucleus. The overall dimensions of a nucleus are much smaller than those of an atom. Experiments on scattering of a-particles demonstrated that the radius of a nucleus was smaller than the radius of an atom by a factor of about 104."
+      "excerpt": "Physics 306 13.1 INTRODUCTION In the previous chapter, we have learnt that in every atom, the positive charge and mass are densely concentrated at the centre of the atom forming its nucleus. The overall dimensions of a nucleus are much smaller than those of an atom. Experiments on scattering of a-particles demonstrated that the radius of a nucleus was smaller than the radius of an atom by a factor of about 104.",
+      "topics": [
+       {
+        "n": "13.4.1",
+        "t": "Mass – Energy"
+       },
+       {
+        "n": "13.4.2",
+        "t": "Nuclear binding energy"
+       },
+       {
+        "n": "13.7.1",
+        "t": "Fission"
+       },
+       {
+        "n": "13.7.2",
+        "t": "Nuclear fusion – energy generation in stars"
+       },
+       {
+        "n": "13.7.3",
+        "t": "Controlled thermonuclear fusion"
+       }
+      ]
      },
      {
       "n": 14,
@@ -1565,7 +4023,41 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-2-electrochemistry.pdf",
       "pages": 30,
       "kb": 3680,
-      "excerpt": "Electrochemistry is the study of production of electricity from energy released during spontaneous chemical reactions and the use of electrical energy to bring about non-spontaneous chemical transformations. The subject is of importance both for theoretical and practical considerations. A large number of metals, sodium hydroxide, chlorine, fluorine and many other chemicals are produced by electrochemical methods."
+      "excerpt": "Electrochemistry is the study of production of electricity from energy released during spontaneous chemical reactions and the use of electrical energy to bring about non-spontaneous chemical transformations. The subject is of importance both for theoretical and practical considerations. A large number of metals, sodium hydroxide, chlorine, fluorine and many other chemicals are produced by electrochemical methods.",
+      "topics": [
+       {
+        "n": "2.1",
+        "t": "Electrochemical Cells"
+       },
+       {
+        "n": "2.2",
+        "t": "Galvanic Cells"
+       },
+       {
+        "n": "2.3",
+        "t": "Nernst Equation"
+       },
+       {
+        "n": "2.4",
+        "t": "Conductance of Electrolytic"
+       },
+       {
+        "n": "2.5",
+        "t": "Electrolytic Cells and Electrolysis"
+       },
+       {
+        "n": "2.6",
+        "t": "Batteries"
+       },
+       {
+        "n": "2.7",
+        "t": "Fuel Cells"
+       },
+       {
+        "n": "2.8",
+        "t": "Corrosion"
+       }
+      ]
      },
      {
       "n": 3,
@@ -1574,7 +4066,21 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-3-chemical-kinetics.pdf",
       "pages": 28,
       "kb": 3293,
-      "excerpt": "Substances with well defined properties are converted by chemical reactions into other substances with different properties. Along with feasibility and extent, it is equally important to know the rate and the factors controlling the rate of a chemical reaction for its complete understanding. For example, which parameters determine as to how rapidly food gets spoiled?"
+      "excerpt": "Substances with well defined properties are converted by chemical reactions into other substances with different properties. Along with feasibility and extent, it is equally important to know the rate and the factors controlling the rate of a chemical reaction for its complete understanding. For example, which parameters determine as to how rapidly food gets spoiled?",
+      "topics": [
+       {
+        "n": "3.2",
+        "t": "Factors Influencing Rate of a Reaction"
+       },
+       {
+        "n": "3.4",
+        "t": "Temperature Dependence of the Rate of a Reaction"
+       },
+       {
+        "n": "3.5",
+        "t": "Collision Theory of Chemical Reactions"
+       }
+      ]
      },
      {
       "n": 4,
@@ -1583,7 +4089,29 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-4-the-d-and-f-block-elements.pdf",
       "pages": 29,
       "kb": 3489,
-      "excerpt": "The d-block of the periodic table contains the elements of the groups 3-12 in which the d orbitals are progressively filled in each of the four long periods. The f-block consists of elements in which 4 f and 5 f orbitals are progressively filled. They are placed in a separate panel at the bottom of the periodic table."
+      "excerpt": "The d-block of the periodic table contains the elements of the groups 3-12 in which the d orbitals are progressively filled in each of the four long periods. The f-block consists of elements in which 4 f and 5 f orbitals are progressively filled. They are placed in a separate panel at the bottom of the periodic table.",
+      "topics": [
+       {
+        "n": "4.2",
+        "t": "Electronic Configurations of the d-Block Elements"
+       },
+       {
+        "n": "4.3",
+        "t": "General Properties of the Transition Elements (d-Block)"
+       },
+       {
+        "n": "4.4",
+        "t": "Some Important Compounds of Transition Elements"
+       },
+       {
+        "n": "4.5",
+        "t": "The Lanthanoids"
+       },
+       {
+        "n": "4.6",
+        "t": "The Actinoids"
+       }
+      ]
      },
      {
       "n": 5,
@@ -1592,7 +4120,37 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-5-coordination-compounds.pdf",
       "pages": 23,
       "kb": 3019,
-      "excerpt": "118 Chemistry In the previous Unit we learnt that the transition metals form a large number of complex compounds in which the metal atoms are bound to a number of anions or neutral molecules by sharing of electrons. In modern terminology such compounds are called coordination compounds. The chemistry of coordination compounds is an important and challenging area of modern inorganic chemistry."
+      "excerpt": "118 Chemistry In the previous Unit we learnt that the transition metals form a large number of complex compounds in which the metal atoms are bound to a number of anions or neutral molecules by sharing of electrons. In modern terminology such compounds are called coordination compounds. The chemistry of coordination compounds is an important and challenging area of modern inorganic chemistry.",
+      "topics": [
+       {
+        "n": "5.1",
+        "t": "Werner’s Theory of Coordination Compounds"
+       },
+       {
+        "n": "5.2",
+        "t": "Definitions of Some Important Terms Pertaining to Coordination Compounds"
+       },
+       {
+        "n": "5.3",
+        "t": "Nomenclature of Coordination Compounds"
+       },
+       {
+        "n": "5.4",
+        "t": "Isomerism in Coordination Compounds"
+       },
+       {
+        "n": "5.5",
+        "t": "Bonding in Coordination Compounds"
+       },
+       {
+        "n": "5.6",
+        "t": "Bonding in Metal Carbonyls"
+       },
+       {
+        "n": "5.7",
+        "t": "Importance and Applications of Coordination Compounds"
+       }
+      ]
      },
      {
       "n": 6,
@@ -1601,7 +4159,41 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-6-haloalkanes-and-haloarenes.pdf",
       "pages": 34,
       "kb": 3640,
-      "excerpt": "The replacement of hydrogen atom(s) in an aliphatic or aromatic hydrocarbon by halogen atom(s) results in the formation of alkyl halide (haloalkane) and aryl halide (haloarene), respectively. Haloalkanes contain halogen atom(s) attached to the sp3 hybridised carbon atom of an alkyl group whereas haloarenes contain halogen atom(s) attached to sp2 hybridised carbon atom(s) of an aryl group."
+      "excerpt": "The replacement of hydrogen atom(s) in an aliphatic or aromatic hydrocarbon by halogen atom(s) results in the formation of alkyl halide (haloalkane) and aryl halide (haloarene), respectively. Haloalkanes contain halogen atom(s) attached to the sp3 hybridised carbon atom of an alkyl group whereas haloarenes contain halogen atom(s) attached to sp2 hybridised carbon atom(s) of an aryl group.",
+      "topics": [
+       {
+        "n": "6.1",
+        "t": "Classification"
+       },
+       {
+        "n": "6.2",
+        "t": "Nomenclature"
+       },
+       {
+        "n": "6.3",
+        "t": "Nature of C-X Bond"
+       },
+       {
+        "n": "6.4",
+        "t": "Methods of Preparation of Haloalkanes"
+       },
+       {
+        "n": "6.5",
+        "t": "Preparation of Haloarenes"
+       },
+       {
+        "n": "6.6",
+        "t": "Physical Properties"
+       },
+       {
+        "n": "6.7",
+        "t": "Chemical Reactions"
+       },
+       {
+        "n": "6.8",
+        "t": "Polyhalogen Compounds"
+       }
+      ]
      },
      {
       "n": 7,
@@ -1610,7 +4202,33 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-7-alcohols-phenols-and-ethers.pdf",
       "pages": 34,
       "kb": 3882,
-      "excerpt": "Objectives Alcohols, phenols and ethers are the basic compounds for the formation of detergents, antiseptics and fragrances, respectively. Alcohols and phenols are formed when a hydrogen atom in a hydrocarbon, aliphatic and aromatic respectively, is replaced by –OH group. These classes of compounds find wide applications in industry as well as in day-to-day life."
+      "excerpt": "Objectives Alcohols, phenols and ethers are the basic compounds for the formation of detergents, antiseptics and fragrances, respectively. Alcohols and phenols are formed when a hydrogen atom in a hydrocarbon, aliphatic and aromatic respectively, is replaced by –OH group. These classes of compounds find wide applications in industry as well as in day-to-day life.",
+      "topics": [
+       {
+        "n": "7.1",
+        "t": "Classification"
+       },
+       {
+        "n": "7.2",
+        "t": "Nomenclature"
+       },
+       {
+        "n": "7.3",
+        "t": "Structures of Functional Groups"
+       },
+       {
+        "n": "7.4",
+        "t": "Alcohols and Phenols"
+       },
+       {
+        "n": "7.5",
+        "t": "Some Commercially Important Alcohols"
+       },
+       {
+        "n": "7.6",
+        "t": "Ethers"
+       }
+      ]
      },
      {
       "n": 8,
@@ -1619,7 +4237,45 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-8-aldehydes-ketones-and-carboxylic-acids.pdf",
       "pages": 32,
       "kb": 3681,
-      "excerpt": "Objectives Carbonyl compounds are of utmost importance to organic chemistry. They are constituents of fabrics, flavourings, plastics and drugs. In this Unit, we will study about the organic compounds containing carbon-oxygen double bond (>C=O) called carbonyl group, which is one of the most important functional groups in organic chemistry."
+      "excerpt": "Objectives Carbonyl compounds are of utmost importance to organic chemistry. They are constituents of fabrics, flavourings, plastics and drugs. In this Unit, we will study about the organic compounds containing carbon-oxygen double bond (>C=O) called carbonyl group, which is one of the most important functional groups in organic chemistry.",
+      "topics": [
+       {
+        "n": "8.1",
+        "t": "Nomenclature and Structure of Carbonyl Group"
+       },
+       {
+        "n": "8.2",
+        "t": "Preparation of Aldehydes"
+       },
+       {
+        "n": "8.3",
+        "t": "Physical Properties"
+       },
+       {
+        "n": "8.4",
+        "t": "Chemical Reactions"
+       },
+       {
+        "n": "8.5",
+        "t": "Uses of Aldehydes and Ketones"
+       },
+       {
+        "n": "8.6",
+        "t": "Nomenclature and Structure of Carboxyl Group"
+       },
+       {
+        "n": "8.7",
+        "t": "Methods of Preparation of Carboxylic Acids"
+       },
+       {
+        "n": "8.8",
+        "t": "Physical Properties"
+       },
+       {
+        "n": "8.9",
+        "t": "Chemical Reactions"
+       }
+      ]
      },
      {
       "n": 9,
@@ -1628,7 +4284,33 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-9-amines.pdf",
       "pages": 22,
       "kb": 2260,
-      "excerpt": "Amines constitute an important class of organic compounds derived by replacing one or more hydrogen atoms of ammonia molecule by alkyl/aryl group(s). In nature, they occur among proteins, vitamins, alkaloids and hormones. Two biologically active compounds, namely adrenaline and ephedrine, both containing secondary amino group, are used to increase blood pressure."
+      "excerpt": "Amines constitute an important class of organic compounds derived by replacing one or more hydrogen atoms of ammonia molecule by alkyl/aryl group(s). In nature, they occur among proteins, vitamins, alkaloids and hormones. Two biologically active compounds, namely adrenaline and ephedrine, both containing secondary amino group, are used to increase blood pressure.",
+      "topics": [
+       {
+        "n": "9.1",
+        "t": "Structure of Amines"
+       },
+       {
+        "n": "9.5",
+        "t": "Physical Properties"
+       },
+       {
+        "n": "9.6",
+        "t": "Chemical Reactions"
+       },
+       {
+        "n": "9.8",
+        "t": "Physical Properties"
+       },
+       {
+        "n": "9.9",
+        "t": "Chemical Reactions"
+       },
+       {
+        "n": "9.10.10",
+        "t": "Importance of Diazonium Salts in Synthesis of Aromatic Compounds"
+       }
+      ]
      },
      {
       "n": 10,
@@ -1637,7 +4319,29 @@
       "file": "/ncert/ncert-class-12-chemistry-chapter-10-biomolecules.pdf",
       "pages": 22,
       "kb": 2460,
-      "excerpt": "The most amazing thing about a living system is that it is composed of non-living atoms and molecules. The pursuit of knowledge of what goes on chemically within a living system falls in the domain of biochemistry. Living systems are made up of various complex biomolecules like carbohydrates, proteins, nucleic acids, lipids, etc. Proteins and carbohydrates are essential constituents of our food."
+      "excerpt": "The most amazing thing about a living system is that it is composed of non-living atoms and molecules. The pursuit of knowledge of what goes on chemically within a living system falls in the domain of biochemistry. Living systems are made up of various complex biomolecules like carbohydrates, proteins, nucleic acids, lipids, etc. Proteins and carbohydrates are essential constituents of our food.",
+      "topics": [
+       {
+        "n": "10.1",
+        "t": "Carbohydrates"
+       },
+       {
+        "n": "10.2",
+        "t": "Proteins"
+       },
+       {
+        "n": "10.3",
+        "t": "Enzymes"
+       },
+       {
+        "n": "10.4",
+        "t": "Vitamins"
+       },
+       {
+        "n": "10.6",
+        "t": "Hormones"
+       }
+      ]
      }
     ]
    },
@@ -1652,7 +4356,21 @@
       "file": "/ncert/ncert-class-12-maths-chapter-1-relations-and-functions.pdf",
       "pages": 17,
       "kb": 1340,
-      "excerpt": "vThere is no permanent place in the world for ugly mathematics ... It may be very hard to define mathematical beauty but that is just as true of beauty of any kind, we may not know quite what we mean by a beautiful poem, but that does not prevent us from recognising one when we read it."
+      "excerpt": "vThere is no permanent place in the world for ugly mathematics ... It may be very hard to define mathematical beauty but that is just as true of beauty of any kind, we may not know quite what we mean by a beautiful poem, but that does not prevent us from recognising one when we read it.",
+      "topics": [
+       {
+        "n": "1.2",
+        "t": "Types of Relations"
+       },
+       {
+        "n": "1.3",
+        "t": "Types of Functions"
+       },
+       {
+        "n": "1.4",
+        "t": "Composition of Functions and Invertible Function"
+       }
+      ]
      },
      {
       "n": 2,
@@ -1670,7 +4388,29 @@
       "file": "/ncert/ncert-class-12-maths-chapter-3-matrices.pdf",
       "pages": 42,
       "kb": 3309,
-      "excerpt": "34 MATHEMATICS vThe essence of Mathematics lies in its freedom. — CANTOR v 3.1 Introduction The knowledge of matrices is necessary in various branches of mathematics. This mathematical tool simplifies our work to a great extent when compared with other straight forward methods. The evolution of concept of matrices is the result of an attempt to obtain compact and simple methods of solving system of linear equations."
+      "excerpt": "34 MATHEMATICS vThe essence of Mathematics lies in its freedom. — CANTOR v 3.1 Introduction The knowledge of matrices is necessary in various branches of mathematics. This mathematical tool simplifies our work to a great extent when compared with other straight forward methods. The evolution of concept of matrices is the result of an attempt to obtain compact and simple methods of solving system of linear equations.",
+      "topics": [
+       {
+        "n": "3.2",
+        "t": "Matrix"
+       },
+       {
+        "n": "3.3",
+        "t": "Types of Matrices"
+       },
+       {
+        "n": "3.4",
+        "t": "Operations on Matrices"
+       },
+       {
+        "n": "3.6",
+        "t": "Symmetric and Skew Symmetric Matrices"
+       },
+       {
+        "n": "3.7",
+        "t": "Invertible Matrices"
+       }
+      ]
      },
      {
       "n": 4,
@@ -1679,7 +4419,29 @@
       "file": "/ncert/ncert-class-12-maths-chapter-4-determinants.pdf",
       "pages": 28,
       "kb": 1965,
-      "excerpt": "76 MATHEMATICS v All Mathematical truths are relative and conditional. STEINMETZ v 4.1 Introduction In the previous chapter, we have studied about matrices and algebra of matrices. We have also learnt that a system of algebraic equations can be expressed in the form of matrices. Determinants have wide applications in Engineering, Science, Economics, Social Science, etc."
+      "excerpt": "76 MATHEMATICS v All Mathematical truths are relative and conditional. STEINMETZ v 4.1 Introduction In the previous chapter, we have studied about matrices and algebra of matrices. We have also learnt that a system of algebraic equations can be expressed in the form of matrices. Determinants have wide applications in Engineering, Science, Economics, Social Science, etc.",
+      "topics": [
+       {
+        "n": "4.2",
+        "t": "Determinant"
+       },
+       {
+        "n": "4.3",
+        "t": "Area of a Triangle"
+       },
+       {
+        "n": "4.4",
+        "t": "Minors and Cofactors"
+       },
+       {
+        "n": "4.5",
+        "t": "Adjoint and Inverse of a Matrix"
+       },
+       {
+        "n": "4.6",
+        "t": "Applications of Determinants and Matrices"
+       }
+      ]
      },
      {
       "n": 5,
@@ -1688,7 +4450,25 @@
       "file": "/ncert/ncert-class-12-maths-chapter-5-continuity-and-differentiability.pdf",
       "pages": 43,
       "kb": 3094,
-      "excerpt": "MATHEMATICS 104 vThe whole of science is nothing more than a refinement of everyday thinking.” — ALBERT EINSTEIN v 5.1 Introduction This chapter is essentially a continuation of our study of differentiation of functions in Class XI. We had learnt to differentiate certain functions like polynomial functions and trigonometric functions."
+      "excerpt": "MATHEMATICS 104 vThe whole of science is nothing more than a refinement of everyday thinking.” — ALBERT EINSTEIN v 5.1 Introduction This chapter is essentially a continuation of our study of differentiation of functions in Class XI. We had learnt to differentiate certain functions like polynomial functions and trigonometric functions.",
+      "topics": [
+       {
+        "n": "5.2",
+        "t": "Continuity"
+       },
+       {
+        "n": "5.4",
+        "t": "Exponential and Logarithmic Functions"
+       },
+       {
+        "n": "5.6",
+        "t": "Derivatives of Functions in Parametric Forms"
+       },
+       {
+        "n": "5.7",
+        "t": "Second Order Derivative"
+       }
+      ]
      },
      {
       "n": 6,
@@ -1697,7 +4477,21 @@
       "file": "/ncert/ncert-class-12-maths-chapter-6-applications-of-derivatives.pdf",
       "pages": 40,
       "kb": 3155,
-      "excerpt": "In this chapter, we will study applications of the derivative in various disciplines, e.g., in engineering, science, social science, and many other fields. We will also use derivative to find intervals on which a function is increasing or decreasing. Finally, we use the derivative to find approximate value of certain quantities."
+      "excerpt": "In this chapter, we will study applications of the derivative in various disciplines, e.g., in engineering, science, social science, and many other fields. We will also use derivative to find intervals on which a function is increasing or decreasing. Finally, we use the derivative to find approximate value of certain quantities.",
+      "topics": [
+       {
+        "n": "6.2",
+        "t": "Rate of Change of Quantities"
+       },
+       {
+        "n": "6.3",
+        "t": "Increasing and Decreasing Functions"
+       },
+       {
+        "n": "6.4",
+        "t": "Maxima and Minima"
+       }
+      ]
      },
      {
       "n": 7,
@@ -1706,7 +4500,45 @@
       "file": "/ncert/ncert-class-12-maths-chapter-7-integrals.pdf",
       "pages": 67,
       "kb": 4882,
-      "excerpt": "INTEGRALS 225 v Just as a mountaineer climbs a mountain – because it is there, so a good mathematics student studies new material because it is there. BRISTOL v 7.1 Introduction Differential Calculus is centred on the concept of the derivative. The original motivation for the derivative was the problem of defining tangent lines to the graphs of functions and calculating the slope of such lines."
+      "excerpt": "INTEGRALS 225 v Just as a mountaineer climbs a mountain – because it is there, so a good mathematics student studies new material because it is there. BRISTOL v 7.1 Introduction Differential Calculus is centred on the concept of the derivative. The original motivation for the derivative was the problem of defining tangent lines to the graphs of functions and calculating the slope of such lines.",
+      "topics": [
+       {
+        "n": "7.2",
+        "t": "Integration as an Inverse Process of Differentiation"
+       },
+       {
+        "n": "7.3",
+        "t": "Methods of Integration"
+       },
+       {
+        "n": "7.4",
+        "t": "Integrals of Some Particular Functions"
+       },
+       {
+        "n": "7.5",
+        "t": "Integration by Partial Fractions"
+       },
+       {
+        "n": "7.6",
+        "t": "Integration by Parts"
+       },
+       {
+        "n": "7.7",
+        "t": "Definite Integral"
+       },
+       {
+        "n": "7.8",
+        "t": "Fundamental Theorem of Calculus"
+       },
+       {
+        "n": "7.9",
+        "t": "Evaluation of Definite Integrals by Substitution"
+       },
+       {
+        "n": "7.10",
+        "t": "Some Properties of Definite Integrals"
+       }
+      ]
      },
      {
       "n": 8,
@@ -1733,7 +4565,29 @@
       "file": "/ncert/ncert-class-12-maths-chapter-10-vector-algebra.pdf",
       "pages": 39,
       "kb": 4278,
-      "excerpt": "MATHEMATICS 338 vIn most sciences one generation tears down what another has built and what one has established another undoes. In Mathematics alone each generation builds a new story to the old structure. How should a football player hit the ball to give a pass to another player of his team?"
+      "excerpt": "MATHEMATICS 338 vIn most sciences one generation tears down what another has built and what one has established another undoes. In Mathematics alone each generation builds a new story to the old structure. How should a football player hit the ball to give a pass to another player of his team?",
+      "topics": [
+       {
+        "n": "10.2",
+        "t": "Some Basic Concepts"
+       },
+       {
+        "n": "10.3",
+        "t": "Types of Vectors"
+       },
+       {
+        "n": "10.4",
+        "t": "Addition of Vectors"
+       },
+       {
+        "n": "10.5",
+        "t": "Multiplication of a Vector by a Scalar"
+       },
+       {
+        "n": "10.6",
+        "t": "Product of Two Vectors"
+       }
+      ]
      },
      {
       "n": 11,
@@ -1742,7 +4596,25 @@
       "file": "/ncert/ncert-class-12-maths-chapter-11-three-dimensional-geometry.pdf",
       "pages": 17,
       "kb": 1428,
-      "excerpt": "THREE DIMENSIONAL GEOMETRY 377 v The moving power of mathematical invention is not reasoning but imagination. – A.DEMORGAN v 11.1 Introduction In Class XI, while studying Analytical Geometry in two dimensions, and the introduction to three dimensional geometry, we confined to the Cartesian methods only. In the previous chapter of this book, we have studied some basic concepts of vectors."
+      "excerpt": "THREE DIMENSIONAL GEOMETRY 377 v The moving power of mathematical invention is not reasoning but imagination. – A.DEMORGAN v 11.1 Introduction In Class XI, while studying Analytical Geometry in two dimensions, and the introduction to three dimensional geometry, we confined to the Cartesian methods only. In the previous chapter of this book, we have studied some basic concepts of vectors.",
+      "topics": [
+       {
+        "n": "11.2",
+        "t": "Direction Cosines and Direction Ratios of a Line"
+       },
+       {
+        "n": "11.3",
+        "t": "Equation of a Line in Space"
+       },
+       {
+        "n": "11.4",
+        "t": "Angle between Two Lines"
+       },
+       {
+        "n": "11.5",
+        "t": "Shortest Distance between Two Lines"
+       }
+      ]
      },
      {
       "n": 12,
@@ -1760,7 +4632,25 @@
       "file": "/ncert/ncert-class-12-maths-chapter-13-probability.pdf",
       "pages": 33,
       "kb": 2248,
-      "excerpt": "406 MATHEMATICS vThe theory of probabilities is simply the Science of logic quantitatively treated. We discussed the axiomatic approach formulated by Russian Mathematician, A.N. We have also established equivalence between the axiomatic theory and the classical theory of probability in case of equally likely outcomes."
+      "excerpt": "406 MATHEMATICS vThe theory of probabilities is simply the Science of logic quantitatively treated. We discussed the axiomatic approach formulated by Russian Mathematician, A.N. We have also established equivalence between the axiomatic theory and the classical theory of probability in case of equally likely outcomes.",
+      "topics": [
+       {
+        "n": "13.2",
+        "t": "Conditional Probability"
+       },
+       {
+        "n": "13.3",
+        "t": "Multiplication Theorem on Probability"
+       },
+       {
+        "n": "13.4",
+        "t": "Independent Events"
+       },
+       {
+        "n": "13.5",
+        "t": "Bayes' Theorem"
+       }
+      ]
      }
     ]
    },
@@ -1775,7 +4665,33 @@
       "file": "/ncert/ncert-class-12-biology-chapter-1-sexual-reproduction-in-flowering-plants.pdf",
       "pages": 25,
       "kb": 35941,
-      "excerpt": "While individual organisms die without fail, species continue to live through millions of years unless threatened by natural or anthropogenic extinction. Reproduction becomes a vital process without which species cannot survive for long. Each individual leaves its progeny by asexual or sexual means. Sexual mode of reproduction enables creation of new variants, so that survival advantage is enhanced."
+      "excerpt": "While individual organisms die without fail, species continue to live through millions of years unless threatened by natural or anthropogenic extinction. Reproduction becomes a vital process without which species cannot survive for long. Each individual leaves its progeny by asexual or sexual means. Sexual mode of reproduction enables creation of new variants, so that survival advantage is enhanced.",
+      "topics": [
+       {
+        "n": "1.2.1",
+        "t": "Stamen, Microsporangium and Pollen Grain"
+       },
+       {
+        "n": "1.2.2",
+        "t": "The Pistil, Megasporangium (ovule) and Embryo sac"
+       },
+       {
+        "n": "1.2.3",
+        "t": "Pollination"
+       },
+       {
+        "n": "1.4.1",
+        "t": "Endosperm"
+       },
+       {
+        "n": "1.4.2",
+        "t": "Embryo"
+       },
+       {
+        "n": "1.4.3",
+        "t": "Seed"
+       }
+      ]
      },
      {
       "n": 2,
@@ -1802,7 +4718,49 @@
       "file": "/ncert/ncert-class-12-biology-chapter-4-principles-of-inheritance-and-variation.pdf",
       "pages": 28,
       "kb": 18760,
-      "excerpt": "The work of Mendel and others who followed him gave us an idea of inheritance patterns. However the nature of those ‘factors’ which determine the phenotype was not very clear. As these ‘factors’ represent the genetic basis of inheritance, understanding the structure of genetic material and the structural basis of genotype and phenotype conversion became the focus of attention in biology for the next century."
+      "excerpt": "The work of Mendel and others who followed him gave us an idea of inheritance patterns. However the nature of those ‘factors’ which determine the phenotype was not very clear. As these ‘factors’ represent the genetic basis of inheritance, understanding the structure of genetic material and the structural basis of genotype and phenotype conversion became the focus of attention in biology for the next century.",
+      "topics": [
+       {
+        "n": "4.2.1",
+        "t": "Law of Dominance"
+       },
+       {
+        "n": "4.2.2",
+        "t": "Law of Segregation"
+       },
+       {
+        "n": "4.3.1",
+        "t": "Law of Independent Assortment"
+       },
+       {
+        "n": "4.3.2",
+        "t": "Chromosomal Theory of Inheritance"
+       },
+       {
+        "n": "4.3.3",
+        "t": "Linkage and Recombination"
+       },
+       {
+        "n": "4.6.1",
+        "t": "Sex Determination in Humans"
+       },
+       {
+        "n": "4.6.2",
+        "t": "Sex Determination in Honey Bee"
+       },
+       {
+        "n": "4.8.1",
+        "t": "Pedigree Analysis"
+       },
+       {
+        "n": "4.8.2",
+        "t": "Mendelian Disorders"
+       },
+       {
+        "n": "4.8.3",
+        "t": "Chromosomal Disorders"
+       }
+      ]
      },
      {
       "n": 5,
@@ -1811,7 +4769,61 @@
       "file": "/ncert/ncert-class-12-biology-chapter-5-molecular-basis-of-inheritance.pdf",
       "pages": 31,
       "kb": 4038,
-      "excerpt": "At the time of Mendel, the nature of those ‘factors’ regulating the pattern of inheritance was not clear. Over the next hundred years, the nature of the putative genetic material was investigated culminating in the realisation that DNA – deoxyribonucleic acid – is the genetic material, at least for the majority of organisms. In class XI you have learnt that nucleic acids are polymers of nucleotides."
+      "excerpt": "At the time of Mendel, the nature of those ‘factors’ regulating the pattern of inheritance was not clear. Over the next hundred years, the nature of the putative genetic material was investigated culminating in the realisation that DNA – deoxyribonucleic acid – is the genetic material, at least for the majority of organisms. In class XI you have learnt that nucleic acids are polymers of nucleotides.",
+      "topics": [
+       {
+        "n": "5.1.1",
+        "t": "Structure of Polynucleotide Chain"
+       },
+       {
+        "n": "5.1.2",
+        "t": "Packaging of DNA Helix"
+       },
+       {
+        "n": "5.2.1",
+        "t": "The Genetic Material is DNA"
+       },
+       {
+        "n": "5.2.2",
+        "t": "Properties of Genetic Material (DNA versus RNA)"
+       },
+       {
+        "n": "5.4.1",
+        "t": "The Experimental Proof"
+       },
+       {
+        "n": "5.4.2",
+        "t": "The Machinery and the Enzymes"
+       },
+       {
+        "n": "5.5.1",
+        "t": "Transcription Unit"
+       },
+       {
+        "n": "5.5.2",
+        "t": "Transcription Unit and the Gene"
+       },
+       {
+        "n": "5.5.3",
+        "t": "Types of RNA and the process of Transcription"
+       },
+       {
+        "n": "5.6.1",
+        "t": "Mutations and Genetic Code"
+       },
+       {
+        "n": "5.8.1",
+        "t": "The Lac operon"
+       },
+       {
+        "n": "5.9.1",
+        "t": "Salient Features of Human Genome"
+       },
+       {
+        "n": "5.9.2",
+        "t": "Applications and Future Challenges"
+       }
+      ]
      },
      {
       "n": 6,
@@ -1829,7 +4841,53 @@
       "file": "/ncert/ncert-class-12-biology-chapter-7-human-health-and-disease.pdf",
       "pages": 22,
       "kb": 4398,
-      "excerpt": "Chapter 7 Human Health and Disease Chapter 8 Microbes in Human Welfare Biology is the youngest of the formalised disciplines of natural science. Progress in physics and chemistry proceeded much faster than in Biology. Applications of physics and chemistry in our daily life also have a higher visibility than those of biology."
+      "excerpt": "Chapter 7 Human Health and Disease Chapter 8 Microbes in Human Welfare Biology is the youngest of the formalised disciplines of natural science. Progress in physics and chemistry proceeded much faster than in Biology. Applications of physics and chemistry in our daily life also have a higher visibility than those of biology.",
+      "topics": [
+       {
+        "n": "7.2.1",
+        "t": "Innate Immunity"
+       },
+       {
+        "n": "7.2.2",
+        "t": "Acquired Immunity"
+       },
+       {
+        "n": "7.2.3",
+        "t": "Active and Passive Immunity"
+       },
+       {
+        "n": "7.2.4",
+        "t": "Vaccination and Immunisation"
+       },
+       {
+        "n": "7.2.5",
+        "t": "Allergies"
+       },
+       {
+        "n": "7.2.6",
+        "t": "Auto Immunity"
+       },
+       {
+        "n": "7.2.7",
+        "t": "Immune System in the Body"
+       },
+       {
+        "n": "7.5.1",
+        "t": "Adolescence and Drug/Alcohol Abuse"
+       },
+       {
+        "n": "7.5.2",
+        "t": "Addiction and Dependence"
+       },
+       {
+        "n": "7.5.3",
+        "t": "Effects of Drug/Alcohol Abuse"
+       },
+       {
+        "n": "7.5.4",
+        "t": "Prevention and Control"
+       }
+      ]
      },
      {
       "n": 8,
@@ -1838,7 +4896,21 @@
       "file": "/ncert/ncert-class-12-biology-chapter-8-microbes-in-human-welfare.pdf",
       "pages": 12,
       "kb": 12637,
-      "excerpt": "Besides macroscopic plants and animals, microbes are the major components of biological systems on this earth. You have studied about the diversity of living organisms in Class XI. Do you remember which Kingdoms among the living organisms contain micro-organisms? Microbes are present everywhere – in soil, water, air, inside our bodies and that of other animals and plants."
+      "excerpt": "Besides macroscopic plants and animals, microbes are the major components of biological systems on this earth. You have studied about the diversity of living organisms in Class XI. Do you remember which Kingdoms among the living organisms contain micro-organisms? Microbes are present everywhere – in soil, water, air, inside our bodies and that of other animals and plants.",
+      "topics": [
+       {
+        "n": "8.2.1",
+        "t": "Fermented Beverages"
+       },
+       {
+        "n": "8.2.2",
+        "t": "Antibiotics"
+       },
+       {
+        "n": "8.2.3",
+        "t": "Chemicals, Enzymes and other Bioactive Molecules"
+       }
+      ]
      },
      {
       "n": 9,
@@ -1847,7 +4919,45 @@
       "file": "/ncert/ncert-class-12-biology-chapter-9-biotechnology-principles-and-processes.pdf",
       "pages": 16,
       "kb": 3064,
-      "excerpt": "Ever since the days of Rene Descartes, the French philosopher, mathematician and biologist of seventeenth century, all human knowledge especially natural sciences were directed to develop technologies which add to the creature comforts of human lives, as also value to human life. The whole approach to understanding natural phenomena became anthropocentric."
+      "excerpt": "Ever since the days of Rene Descartes, the French philosopher, mathematician and biologist of seventeenth century, all human knowledge especially natural sciences were directed to develop technologies which add to the creature comforts of human lives, as also value to human life. The whole approach to understanding natural phenomena became anthropocentric.",
+      "topics": [
+       {
+        "n": "9.2.1",
+        "t": "Restriction Enzymes"
+       },
+       {
+        "n": "9.2.2",
+        "t": "Cloning Vectors"
+       },
+       {
+        "n": "9.2.3",
+        "t": "Competent Host (For Transformation with Recombinant DNA)"
+       },
+       {
+        "n": "9.3.1",
+        "t": "Isolation of the Genetic Material (DNA)"
+       },
+       {
+        "n": "9.3.2",
+        "t": "Cutting of DNA at Specific Locations"
+       },
+       {
+        "n": "9.3.3",
+        "t": "Amplification of Gene of Interest using PCR"
+       },
+       {
+        "n": "9.3.4",
+        "t": "Insertion of Recombinant DNA into the Host Cell/Organism"
+       },
+       {
+        "n": "9.3.5",
+        "t": "Obtaining the Foreign Gene Product"
+       },
+       {
+        "n": "9.3.6",
+        "t": "Downstream Processing"
+       }
+      ]
      },
      {
       "n": 10,
@@ -1856,7 +4966,21 @@
       "file": "/ncert/ncert-class-12-biology-chapter-10-biotechnology-and-its-applications.pdf",
       "pages": 11,
       "kb": 1459,
-      "excerpt": "Biotechnology, as you would have learnt from the previous chapter, essentially deals with industrial scale production of biopharmaceuticals and biologicals using genetically modified microbes, fungi, plants and animals. The applications of biotechnology include therapeutics, diagnostics, genetically modified crops for agriculture, processed food, bioremediation, waste treatment, and energy production."
+      "excerpt": "Biotechnology, as you would have learnt from the previous chapter, essentially deals with industrial scale production of biopharmaceuticals and biologicals using genetically modified microbes, fungi, plants and animals. The applications of biotechnology include therapeutics, diagnostics, genetically modified crops for agriculture, processed food, bioremediation, waste treatment, and energy production.",
+      "topics": [
+       {
+        "n": "10.2.1",
+        "t": "Genetically Engineered Insulin"
+       },
+       {
+        "n": "10.2.2",
+        "t": "Gene Therapy"
+       },
+       {
+        "n": "10.2.3",
+        "t": "Molecular Diagnosis"
+       }
+      ]
      },
      {
       "n": 11,
@@ -1865,7 +4989,25 @@
       "file": "/ncert/ncert-class-12-biology-chapter-11-organisms-and-populations.pdf",
       "pages": 17,
       "kb": 1520,
-      "excerpt": "Diversity is not only a characteristic of living organisms but also of content in biology textbooks. Biology is presented either as botany, zoology and microbiology or as classical and modern. Luckily we have many threads which weave the different areas of biological information into a unifying principle. Ecology is one such thread which gives us a holistic perspective to biology."
+      "excerpt": "Diversity is not only a characteristic of living organisms but also of content in biology textbooks. Biology is presented either as botany, zoology and microbiology or as classical and modern. Luckily we have many threads which weave the different areas of biological information into a unifying principle. Ecology is one such thread which gives us a holistic perspective to biology.",
+      "topics": [
+       {
+        "n": "11.1.1",
+        "t": "Population Attributes"
+       },
+       {
+        "n": "11.1.2",
+        "t": "Population Growth"
+       },
+       {
+        "n": "11.1.3",
+        "t": "Life History Variation"
+       },
+       {
+        "n": "11.1.4",
+        "t": "Population Interactions"
+       }
+      ]
      },
      {
       "n": 12,
@@ -1883,7 +5025,33 @@
       "file": "/ncert/ncert-class-12-biology-chapter-13-biodiversity-and-conservation.pdf",
       "pages": 13,
       "kb": 2290,
-      "excerpt": "If an alien from a distant galaxy were to visit our planet Earth, the first thing that would amaze and baffle him would most probably be the enormous diversity of life that he would encounter. Even for humans, the rich variety of living organisms with which they share this planet never ceases to astonish and fascinate us."
+      "excerpt": "If an alien from a distant galaxy were to visit our planet Earth, the first thing that would amaze and baffle him would most probably be the enormous diversity of life that he would encounter. Even for humans, the rich variety of living organisms with which they share this planet never ceases to astonish and fascinate us.",
+      "topics": [
+       {
+        "n": "13.1.1",
+        "t": "How Many Species are there on Earth and in India?"
+       },
+       {
+        "n": "13.1.2",
+        "t": "Patterns of Biodiversity"
+       },
+       {
+        "n": "13.1.3",
+        "t": "The importance of Species Diversity to the Ecosystem"
+       },
+       {
+        "n": "13.1.4",
+        "t": "Loss of Biodiversity"
+       },
+       {
+        "n": "13.2.1",
+        "t": "Why Should We Conserve Biodiversity?"
+       },
+       {
+        "n": "13.2.2",
+        "t": "How do we conserve Biodiversity?"
+       }
+      ]
      }
     ]
    }

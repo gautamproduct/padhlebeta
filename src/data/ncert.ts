@@ -15,6 +15,8 @@ export interface NcertChapter {
   book?: string;
   /** Opening lines of the chapter, extracted from the PDF (may be empty). */
   excerpt?: string;
+  /** Numbered section headings, from scripts/extract-ncert-topics.mjs (absent when unreadable). */
+  topics?: { n: string; t: string }[];
 }
 export interface NcertSubject {
   slug: string;
@@ -41,7 +43,32 @@ export const subjectMeta: Record<string, { hue: string; blurb: string; exams: st
   english: { hue: '#EA580C', blurb: 'Prose, stories and supplementary reader', exams: 'Boards' },
 };
 
-export const allChapters = ncertClasses.flatMap((c) =>
+/**
+ * Subjects printed as two textbooks (Part I / Part II), keyed `${cls}-${slug}`.
+ * Students search for these ("class 12 chemistry part 2 pdf"), so pages name them.
+ */
+const textbookParts: Record<string, [number, number][]> = {
+  '11-physics': [[1, 7], [8, 14]],
+  '11-chemistry': [[1, 6], [7, 9]],
+  '12-physics': [[1, 8], [9, 14]],
+  '12-chemistry': [[1, 5], [6, 10]],
+  '12-maths': [[1, 6], [7, 13]],
+};
+
+export function partsOf(cls: number, s: NcertSubject) {
+  return (textbookParts[`${cls}-${s.slug}`] ?? []).map(([from, to], i) => ({
+    label: `Part ${i + 1}`,
+    from,
+    to,
+    chapters: s.chapters.filter((c) => c.n >= from && c.n <= to),
+  }));
+}
+
+export function partOf(cls: number, s: NcertSubject, ch: NcertChapter) {
+  return partsOf(cls, s).find((p) => ch.n >= p.from && ch.n <= p.to)?.label;
+}
+
+export const allChapters =ncertClasses.flatMap((c) =>
   c.subjects.flatMap((s) => s.chapters.map((ch) => ({ cls: c.cls, subject: s, chapter: ch }))),
 );
 

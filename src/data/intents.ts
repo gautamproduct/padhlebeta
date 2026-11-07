@@ -153,8 +153,19 @@ export const intents: readonly Intent[] = [
           'A pure-white background, dark text and handwriting, and diagrams that stay readable. The page is fitted onto A4 so nothing is cut off when you print.',
         ],
       },
+      {
+        h2: 'Remove a black background from a PDF online, free',
+        body: [
+          'Choose the PDF above and download the cleaned version — that is all. Grey haze and smudges left after inverting are cleaned to pure white automatically, so the pages do not print grey. You can also erase header and footer strips (like coaching logos) in the editor before downloading.',
+          'There is no page limit, no watermark and no signup, and the PDF never leaves your device.',
+        ],
+      },
     ],
     faq: [
+      {
+        q: 'How do I remove the black background from a PDF for free?',
+        a: 'Open the PDF on this page. The black background is turned white and the writing dark, then you download the print-ready PDF. It is free, with no watermark.',
+      },
       {
         q: 'Does removing the background delete any content?',
         a: 'No. Only the colours change — nothing on the page is removed.',
@@ -169,15 +180,28 @@ export const intents: readonly Intent[] = [
   {
     slug: 'change-pdf-background-color',
     lang: 'en-IN',
-    title: 'Change PDF Background Color to White – Free Online',
+    title: 'Change PDF Background Color to White Online – Free',
     h1: 'Change a PDF’s background colour to white',
     description:
-      'Change a dark or coloured PDF background to white for printing. Works on notes, slides and scans. A4 output, free, no signup, files stay on your device.',
+      'Change PDF background colour to white online for printing — black, navy, green or grey pages. Works on phone, A4 output, free, no signup, no upload.',
     eyebrow: 'Any dark background → white',
     linkText: 'Change PDF background colour',
     intro:
       'Navy, charcoal, deep green or pure black — if the background is dark, this converter turns it white and makes the writing dark, so the page prints like normal notes.',
     sections: [
+      {
+        h2: 'How to change the PDF background colour (3 steps)',
+        body: [
+          '1. Choose your PDF above — it opens on your device, nothing is uploaded. 2. Leave the mode on Auto: every dark page is detected and turned white, and pages that are already white are left alone. 3. Download the new PDF and print it at 100% scale.',
+          'On a phone the steps are the same in Chrome or Safari. The whole PDF is processed in one go, so a 200-page module does not have to be done page by page.',
+        ],
+      },
+      {
+        h2: 'Which background colours it handles',
+        body: [
+          'Black, charcoal, dark grey, navy, dark blue, dark green and dark purple backgrounds all become white, and the text turns dark so it stays readable. Highlighted words and coloured diagrams keep a matching (lighter) colour unless you choose black & white output.',
+        ],
+      },
       {
         h2: 'Coloured but light backgrounds',
         body: [
@@ -189,6 +213,18 @@ export const intents: readonly Intent[] = [
       {
         q: 'Can I change the background to a colour other than white?',
         a: 'This tool is built for printing, so it always produces white. White is also the cheapest background to print.',
+      },
+      {
+        q: 'How do I change a PDF background to white for printing?',
+        a: 'Open the PDF in the converter on this page and download the result. Dark pages become white with dark text, fitted to A4, so the printer only uses ink for the writing.',
+      },
+      {
+        q: 'Can I change the background colour of only some pages?',
+        a: 'Yes. Auto mode only converts dark pages, and in the editor you can untick or invert individual pages before downloading.',
+      },
+      {
+        q: 'Does it work on scanned or photographed PDFs?',
+        a: 'Yes. Scans and phone photos are images, and the converter works on images — it turns the dark background white and keeps the writing.',
       },
     ],
   },

@@ -16,9 +16,11 @@ export const getStaticPaths: GetStaticPaths = () =>
 const { platform: p } = Astro.props as { platform: Platform };
 const tool = getTool('dark-to-light')!;
 const label = p.slug.endsWith('-notes') ? `${p.name} Notes` : p.name;
-const longTitle = `Print ${label} Without Wasting Ink – Free Dark to Light`;
-const title = longTitle.length <= 60 ? longTitle : `Print ${label} Without Wasting Ink`;
-const longDesc = `Convert ${p.fullName} dark PDFs to white, print-ready pages in seconds. For ${p.exams.slice(0, 2).join(' & ')} students. Free, no signup, nothing uploaded.`;
+// Searchers type the brand + "notes pdf", so the title leads with that.
+const pdfLabel = `${label} PDF`;
+const longTitle = `${pdfLabel} – Print in White A4, Save Ink (Free)`;
+const title = longTitle.length <= 62 ? longTitle : `${pdfLabel} – Print in White, Save Ink`;
+const longDesc = `Got ${p.fullName} notes as a black PDF? Turn them white and A4 print-ready in seconds, 2 per sheet. For ${p.exams.slice(0, 2).join(' & ')} students. Free, no signup.`;
 const description = longDesc.length <= 158 ? longDesc : `Convert ${p.name} dark PDFs to white, A4 print-ready pages in seconds. Free, no signup, nothing uploaded.`;
 
 const steps = [
@@ -53,6 +55,10 @@ const webPageJsonLd = {
 
 const faq = [
   ...p.faq,
+  {
+    q: `How do I download ${p.name} notes as a PDF?`,
+    a: `Download the class notes from the official ${p.fullName} app or website (usually under the lecture’s notes or attachments). If the PDF has a black background, open it on this page to turn it white before printing. Padhle Beta is not affiliated with ${p.fullName} and does not host their notes.`,
+  },
   {
     q: `How much ink does converting ${p.name} notes save?`,
     a: 'A dark page covers most of the sheet in toner; the converted page only prints the writing. For typical board-style notes that is roughly 50–70% less ink per page, and printing 2 or 4 per sheet cuts paper by half or more on top of that.',

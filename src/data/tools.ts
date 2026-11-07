@@ -502,9 +502,9 @@ export const tools: readonly Tool[] = [
     slug: 'add-page-numbers',
     name: 'Add Page Numbers to PDF',
     shortName: 'Page Numbers',
-    seoTitle: 'Add Page Numbers to PDF Online Free – Custom Position',
+    seoTitle: 'Add Page Numbers to PDF Online Free – No Watermark',
     metaDescription:
-      'Number every page of your PDF: choose position, format (1, Page 1, 1 / N) and starting number. Free, instant, no watermark, no upload.',
+      'Add page numbers to any PDF online: pick position, format (1, Page 1, 1 of N) and start number. Works on phone, free, no watermark, no upload.',
     category: 'organize',
     description: 'Stamp page numbers on every page so printed notes stay in order.',
     longDescription:
@@ -547,8 +547,24 @@ export const tools: readonly Tool[] = [
         q: 'Can I start numbering from a number other than 1?',
         a: 'Yes — set “Start at”. Handy when a PDF is part two of a larger module.',
       },
+      {
+        q: 'How do I add page numbers to a PDF on my phone?',
+        a: 'Open this page in Chrome (Android) or Safari (iPhone), choose the PDF from your files, pick a position and tap “Run tool”. The numbered PDF downloads straight to your phone — no app needed.',
+      },
+      {
+        q: 'Can I add page numbers to a PDF without Adobe Acrobat?',
+        a: 'Yes. This tool numbers pages right in your browser, for free. No Acrobat, no signup and no watermark on the output.',
+      },
+      {
+        q: 'How do I add “Page 1 of 20” style numbering?',
+        a: 'Choose the “Page 1 of 24” format. The total updates to your PDF’s real page count automatically. “1 / 24” is a shorter option.',
+      },
+      {
+        q: 'Is my PDF uploaded anywhere?',
+        a: 'No. The numbers are added on your own device, so private files like answer sheets or assignments never leave it.',
+      },
     ],
-    keywords: ['add page numbers to pdf', 'pdf page numbering online', 'number pdf pages free'],
+    keywords: ['add page numbers to pdf', 'pdf page numbering online', 'number pdf pages free', 'add page no in pdf', 'page number to pdf online', 'add page numbers to pdf free'],
   },
   {
     slug: 'compress',

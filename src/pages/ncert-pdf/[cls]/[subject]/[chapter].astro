@@ -3,7 +3,7 @@ import BaseLayout from '~/layouts/BaseLayout.astro';
 import Breadcrumbs from '~/components/Breadcrumbs.astro';
 import FAQ from '~/components/FAQ.astro';
 import { url, absUrl } from '~/lib/url';
-import { ncertClasses, subjectMeta, ncertPath, downloadName, formatKb, chapterLabel, SESSION, type NcertSubject, type NcertChapter } from '~/data/ncert';
+import { ncertClasses, subjectMeta, ncertPath, downloadName, formatKb, chapterLabel, partOf, SESSION, type NcertSubject, type NcertChapter } from '~/data/ncert';
 
 export function getStaticPaths() {
   return ncertClasses.flatMap((c) =>
@@ -24,11 +24,25 @@ const where = `NCERT Class ${cls} ${s.name}${bookShort ? ` (${bookShort})` : ''}
 const fullName = `${where} Chapter ${ch.n}: ${ch.title}`;
 const fileUrl = url(ch.file);
 const dlName = downloadName(cls, s, ch);
+const part = partOf(cls, s, ch);
+const topics = ch.topics ?? [];
+// Top-level sections ("5.4") read best in prose; fall back to all headings.
+const mainTopics = topics.filter((x) => x.n.split('.').length === 2);
+const topicNames = (mainTopics.length >= 3 ? mainTopics : topics).map((x) => x.t);
+// As many topic names as fit in a ~160-char meta description.
+const descFor = (list: string[]) => `${fullName} PDF free (${SESSION}): ${list.join(', ')} & more. Read online or download.`;
+let teaser: string[] = [];
+for (const t of topicNames) {
+  if (descFor([...teaser, t]).length > 165) break;
+  teaser.push(t);
+}
 
 const faq = [
   { q: `How do I download ${where} Chapter ${ch.n} PDF?`, a: `Tap "Download PDF" on this page. "${ch.title}" (${ch.pages} pages, ${formatKb(ch.kb)}) saves to your device instantly — free, no login.` },
   { q: `How many pages is NCERT Class ${cls} ${s.name} Chapter ${ch.n} "${ch.title}"?`, a: `${ch.pages} pages in the ${SESSION} NCERT textbook.` },
   { q: `Can I read "${ch.title}" online without downloading?`, a: `Yes — the full chapter is shown in the reader on this page. Scroll to read; it works on phones without any app.` },
+  ...(topicNames.length ? [{ q: `What topics are in ${where} Chapter ${ch.n} ${ch.title}?`, a: `The chapter covers ${topicNames.join('; ')}. Important for ${m?.exams ?? 'boards'}.` }] : []),
+  ...(part ? [{ q: `Is ${ch.title} in Part 1 or Part 2 of the Class ${cls} ${s.name} book?`, a: `It is Chapter ${ch.n}, in ${part} of the NCERT Class ${cls} ${s.name} textbook.` }] : []),
 ];
 
 const jsonLd = {
@@ -47,13 +61,16 @@ const jsonLd = {
   author: { '@type': 'Organization', name: 'NCERT' },
   isPartOf: { '@type': 'Book', name: `NCERT Class ${cls} ${s.name}${ch.book ? ` – ${ch.book}` : ''}`, url: absUrl(ncertPath.subject(cls, s.slug)) },
   ...(ch.excerpt ? { abstract: ch.excerpt } : {}),
+  ...(topicNames.length ? { teaches: topicNames } : {}),
 };
 ---
 
 <BaseLayout
   title={`${where} Chapter ${ch.n} ${ch.title} PDF (${SESSION})`}
   rawTitle
-  description={`Read or download ${fullName} PDF free — ${ch.pages} pages, latest ${SESSION} edition. Opens right in your browser; no login.`}
+  description={teaser.length
+    ? descFor(teaser)
+    :`Read or download ${fullName} PDF free — ${ch.pages} pages, latest ${SESSION} edition. Opens right in your browser; no login.`}
   ogImage={`/og/ncert-${cls}-${s.slug}.png`}
   jsonLd={jsonLd}
 >
@@ -98,6 +115,17 @@ const jsonLd = {
             </div>
           </div>
 
+          {topics.length > 0 && (
+            <section class="topics">
+              <h2>Topics in {ch.title} (Class {cls} {s.name} Ch {ch.n})</h2>
+              <ol role="list">
+                {topics.map((x) => (
+                  <li class={x.n.split('.').length > 2 ? 'sub' : undefined}><span>{x.n}</span>{x.t}</li>
+                ))}
+              </ol>
+            </section>
+          )}
+
           {ch.excerpt && (
             <section class="excerpt">
               <h2>What “{ch.title}” begins with</h2>
@@ -124,6 +152,7 @@ const jsonLd = {
             <div><dt>Class</dt><dd><a href={url(ncertPath.cls(cls))}>{cls}</a></dd></div>
             <div><dt>Subject</dt><dd><a href={url(ncertPath.subject(cls, s.slug))}>{s.name}</a></dd></div>
             {ch.book && <div><dt>Book</dt><dd>{ch.book}</dd></div>}
+            {part && <div><dt>Textbook</dt><dd>{part}</dd></div>}
             <div><dt>Chapter</dt><dd>{ch.n}</dd></div>
             <div><dt>Pages</dt><dd>{ch.pages}</dd></div>
             <div><dt>Size</dt><dd>{formatKb(ch.kb)}</dd></div>
@@ -295,6 +324,12 @@ const jsonLd = {
   .viewer__pages :global(.viewer__loading) { padding: var(--space-9) 0; color: var(--fg-muted); text-align: center; }
   @media (max-width: 560px) { .viewer__pages { padding: var(--space-2); gap: var(--space-2); } }
 
+  .topics { margin-top: var(--space-7); }
+  .topics h2 { font-size: 1.125rem; margin-bottom: var(--space-3); }
+  .topics ol { display: grid; gap: var(--space-2); }
+  .topics li { display: flex; gap: var(--space-3); align-items: baseline; }
+  .topics li span { flex: none; min-width: 3.25rem; font-variant-numeric: tabular-nums; font-weight: 700; color: var(--hue); }
+  .topics li.sub { padding-left: var(--space-4); font-size: 0.9375rem; }
   .excerpt { margin-top: var(--space-7); }
   .excerpt h2 { font-size: 1.125rem; margin-bottom: var(--space-3); }
   .excerpt blockquote {
